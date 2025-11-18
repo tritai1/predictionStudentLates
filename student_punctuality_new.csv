@@ -1,0 +1,1001 @@
+student_id, weekday  , class_start_time, distance_km, weather, transport_mode, avg_speed_kmh, habitual_punctuality, sleep_hours, alarm_used, expected_time, check_in_time, late_minutes
+N22DCIT613, Wednesday, 07:00           ,         2.6, rainy  , bike          ,          19.3,                 0.62,        6.4 , yes       , 06:51        , 07:02        ,            3
+N22DCIT601, Tuesday  , 07:00           ,         1.0, sunny  , walk          ,           5.9,                 0.69,        7.64, yes       , 06:49        , 06:55        ,            0
+N22DCVT495, Sunday   , 07:00           ,         8.0, cloudy , bus           ,          24.7,                 0.97,        5.5 , yes       , 06:40        , 06:54        ,            0
+N22DCME878, Monday   , 07:00           ,         9.0, sunny  , bus           ,          39.2,                 0.97,        6.29, yes       , 06:46        , 06:50        ,            0
+N22DCVT244, Friday   , 07:00           ,         8.5, sunny  , bus           ,          28.8,                 0.99,        8.07, yes       , 06:42        , 06:49        ,            0
+N22DCME045, Wednesday, 07:00           ,         3.4, sunny  , bike          ,          20.1,                 0.76,        6.81, no        , 06:49        , 06:52        ,            0
+N22DCME679, Tuesday  , 07:00           ,         4.3, windy  , bike          ,          20.6,                 0.61,        7.72, no        , 06:47        , 06:51        ,            0
+N22DCDK779, Monday   , 07:00           ,         8.1, sunny  , bus           ,          33.0,                 0.59,        7.11, no        , 06:45        , 06:57        ,            0
+N22DCCN755, Tuesday  , 07:00           ,         6.5, sunny  , bus           ,          25.7,                 0.82,        7.4 , yes       , 06:44        , 06:46        ,            0
+N22DCVT206, Monday   , 07:00           ,         5.0, sunny  , bike          ,          21.7,                 0.76,        6.49, yes       , 06:46        , 06:59        ,            0
+N22DCME802, Wednesday, 07:00           ,         0.6, sunny  , walk          ,           4.2,                 0.53,        6.87, yes       , 06:51        , 06:59        ,            0
+N22DCVT875, Sunday   , 07:00           ,         4.8, rainy  , bike          ,          24.1,                 0.83,        6.85, yes       , 06:48        , 07:02        ,            2
+N22DCCN516, Thursday , 07:00           ,         2.6, sunny  , bike          ,          23.9,                 0.77,        8.11, yes       , 06:53        , 06:59        ,            0
+N22DCCN725, Friday   , 07:00           ,         5.8, sunny  , bus           ,          25.1,                 0.89,        5.52, yes       , 06:46        , 07:00        ,            1
+N22DCCN553, Thursday , 07:00           ,         3.5, rainy  , bike          ,          19.0,                 0.7 ,        6.27, yes       , 06:48        , 07:02        ,            2
+N22DCVT072, Monday   , 07:00           ,         9.5, sunny  , bus           ,          34.8,                 0.62,        7.92, no        , 06:43        , 06:44        ,            0
+N22DCME498, Sunday   , 07:00           ,         6.6, cloudy , bus           ,          31.0,                 0.96,        8.61, no        , 06:47        , 06:47        ,            0
+N22DCIT630, Tuesday  , 07:00           ,         2.5, rainy  , bike          ,          22.6,                 0.76,        7.97, yes       , 06:53        , 06:58        ,            0
+N22DCCN944, Tuesday  , 07:00           ,         2.8, windy  , bike          ,          22.5,                 0.53,        5.49, yes       , 06:52        , 07:04        ,            5
+N22DCIT739, Tuesday  , 07:00           ,         3.5, sunny  , bike          ,          16.0,                 0.75,        8.87, yes       , 06:46        , 06:56        ,            0
+N22DCVT502, Wednesday, 07:00           ,         4.9, sunny  , bike          ,          16.0,                 0.76,        6.0 , yes       , 06:41        , 06:43        ,            0
+N22DCIT696, Friday   , 07:00           ,         7.6, sunny  , bus           ,          27.9,                 0.86,        6.88, yes       , 06:43        , 06:53        ,            0
+N22DCDK662, Sunday   , 07:00           ,         7.2, sunny  , bus           ,          26.3,                 0.9 ,        5.58, yes       , 06:43        , 06:45        ,            0
+N22DCVT341, Thursday , 07:00           ,         5.9, windy  , bus           ,          22.4,                 0.65,        8.75, yes       , 06:44        , 06:54        ,            0
+N22DCDK646, Tuesday  , 07:00           ,         3.6, sunny  , bike          ,          20.1,                 0.87,        8.04, no        , 06:49        , 07:00        ,            0
+N22DCME044, Tuesday  , 07:00           ,         2.4, cloudy , bike          ,          24.2,                 0.9 ,        8.71, no        , 06:54        , 07:01        ,            1
+N22DCDK939, Monday   , 07:00           ,         1.3, cloudy , walk          ,           6.0,                 0.6 ,        5.25, yes       , 06:47        , 06:53        ,            0
+N22DCIT235, Monday   , 07:00           ,         5.0, rainy  , bike          ,          23.1,                 0.55,        8.65, yes       , 06:47        , 06:51        ,            0
+N22DCVT110, Tuesday  , 07:00           ,         3.2, cloudy , bike          ,          20.1,                 0.75,        6.48, no        , 06:50        , 06:54        ,            0
+N22DCDK332, Thursday , 07:00           ,         8.2, rainy  , bus           ,          37.5,                 0.5 ,        8.45, yes       , 06:46        , 06:59        ,            0
+N22DCDK788, Tuesday  , 07:00           ,         8.3, sunny  , bus           ,          36.6,                 0.71,        6.91, no        , 06:46        , 06:51        ,            0
+N22DCIT253, Wednesday, 07:00           ,         3.4, cloudy , bike          ,          20.4,                 0.82,        5.32, yes       , 06:50        , 06:58        ,            0
+N22DCVT306, Tuesday  , 07:00           ,         5.1, sunny  , bus           ,          22.9,                 0.71,        5.99, no        , 06:46        , 06:54        ,            0
+N22DCME079, Sunday   , 07:00           ,         4.2, cloudy , bike          ,          15.4,                 0.79,        7.92, yes       , 06:43        , 06:45        ,            0
+N22DCME563, Saturday , 07:00           ,         9.6, sunny  , bus           ,          29.7,                 0.79,        7.7 , yes       , 06:40        , 06:52        ,            0
+N22DCVT609, Thursday , 07:00           ,         9.7, sunny  , bus           ,          32.7,                 0.85,        8.29, yes       , 06:42        , 06:52        ,            0
+N22DCVT603, Friday   , 07:00           ,         6.6, rainy  , bus           ,          27.6,                 0.54,        6.9 , yes       , 06:45        , 06:49        ,            0
+N22DCME281, Thursday , 07:00           ,         2.2, rainy  , bike          ,          15.1,                 0.74,        5.8 , yes       , 06:51        , 06:57        ,            0
+N22DCME511, Monday   , 07:00           ,         4.7, cloudy , bike          ,          19.3,                 0.68,        9.0 , yes       , 06:45        , 06:59        ,            0
+N22DCIT491, Wednesday, 07:00           ,         0.8, sunny  , walk          ,           5.5,                 0.71,        6.78, yes       , 06:51        , 06:55        ,            0
+N22DCME773, Saturday , 07:00           ,         4.3, sunny  , bike          ,          22.7,                 0.67,        5.88, yes       , 06:48        , 06:55        ,            0
+N22DCDK248, Sunday   , 07:00           ,         8.0, sunny  , bus           ,          23.2,                 0.82,        5.19, yes       , 06:39        , 06:44        ,            0
+N22DCDK958, Thursday , 07:00           ,         7.0, windy  , bus           ,          34.3,                 0.76,        8.66, no        , 06:47        , 06:49        ,            0
+N22DCME809, Tuesday  , 07:00           ,         9.5, sunny  , bus           ,          24.4,                 0.8 ,        8.61, yes       , 06:36        , 06:50        ,            0
+N22DCIT815, Wednesday, 07:00           ,         4.5, cloudy , bike          ,          18.8,                 0.79,        7.62, yes       , 06:45        , 06:56        ,            0
+N22DCDK783, Monday   , 07:00           ,         6.7, cloudy , bus           ,          36.1,                 0.68,        5.31, yes       , 06:48        , 06:58        ,            0
+N22DCME885, Monday   , 07:00           ,         7.3, sunny  , bus           ,          34.4,                 0.92,        6.38, no        , 06:47        , 06:56        ,            0
+N22DCDK282, Saturday , 07:00           ,         0.5, cloudy , walk          ,           4.3,                 0.7 ,        6.12, yes       , 06:53        , 06:53        ,            0
+N22DCCN910, Monday   , 07:00           ,         6.0, cloudy , bus           ,          34.4,                 0.56,        8.02, yes       , 06:49        , 07:00        ,            0
+N22DCME840, Thursday , 07:00           ,         2.3, rainy  , bike          ,          16.8,                 1.0 ,        6.54, yes       , 06:51        , 07:03        ,            3
+N22DCIT136, Friday   , 07:00           ,         9.6, sunny  , bus           ,          27.0,                 0.75,        6.78, yes       , 06:38        , 06:53        ,            0
+N22DCME719, Sunday   , 07:00           ,         2.5, sunny  , bike          ,          24.5,                 0.7 ,        6.33, yes       , 06:53        , 06:59        ,            0
+N22DCIT638, Monday   , 07:00           ,         6.8, sunny  , bus           ,          38.6,                 0.66,        7.06, yes       , 06:49        , 07:03        ,            4
+N22DCCN437, Sunday   , 07:00           ,         8.9, rainy  , bus           ,          35.5,                 0.77,        5.18, yes       , 06:44        , 06:57        ,            0
+N22DCME778, Tuesday  , 07:00           ,         9.7, sunny  , bus           ,          20.4,                 0.74,        8.9 , yes       , 06:31        , 06:40        ,            0
+N22DCCN250, Sunday   , 07:00           ,         0.7, sunny  , walk          ,           4.4,                 0.83,        8.49, yes       , 06:50        , 06:56        ,            0
+N22DCDK356, Sunday   , 07:00           ,         9.8, sunny  , bus           ,          39.0,                 0.56,        5.78, yes       , 06:44        , 06:48        ,            0
+N22DCIT677, Wednesday, 07:00           ,         5.0, sunny  , bike          ,          19.4,                 0.86,        8.23, yes       , 06:44        , 06:54        ,            0
+N22DCME748, Sunday   , 07:00           ,         2.1, cloudy , bike          ,          22.1,                 0.65,        5.21, yes       , 06:54        , 06:59        ,            0
+N22DCDK619, Tuesday  , 07:00           ,         9.2, sunny  , bus           ,          23.1,                 0.9 ,        7.12, yes       , 06:36        , 06:39        ,            0
+N22DCVT916, Saturday , 07:00           ,         6.7, rainy  , bus           ,          21.8,                 0.55,        8.64, yes       , 06:41        , 06:54        ,            0
+N22DCVT738, Friday   , 07:00           ,         2.3, sunny  , bike          ,          18.4,                 0.96,        5.06, yes       , 06:52        , 06:59        ,            0
+N22DCIT282, Monday   , 07:00           ,         4.4, cloudy , bike          ,          21.1,                 0.98,        7.74, yes       , 06:47        , 06:53        ,            0
+N22DCVT121, Monday   , 07:00           ,         4.5, cloudy , bike          ,          24.3,                 0.81,        5.31, yes       , 06:48        , 07:03        ,            3
+N22DCCN830, Tuesday  , 07:00           ,         9.3, sunny  , bus           ,          26.9,                 0.94,        7.35, yes       , 06:39        , 06:42        ,            0
+N22DCME679, Sunday   , 07:00           ,         5.0, rainy  , bike          ,          16.0,                 0.7 ,        8.97, yes       , 06:41        , 06:46        ,            0
+N22DCDK476, Tuesday  , 07:00           ,         6.4, cloudy , bus           ,          27.4,                 0.58,        8.06, yes       , 06:45        , 06:55        ,            0
+N22DCDK171, Sunday   , 07:00           ,         1.4, rainy  , walk          ,           4.2,                 0.72,        5.32, yes       , 06:40        , 06:49        ,            0
+N22DCDK854, Thursday , 07:00           ,         5.1, sunny  , bus           ,          39.2,                 0.78,        8.95, yes       , 06:52        , 07:02        ,            2
+N22DCCN538, Wednesday, 07:00           ,         9.6, rainy  , bus           ,          27.7,                 0.76,        6.06, yes       , 06:39        , 06:42        ,            0
+N22DCCN896, Thursday , 07:00           ,         4.3, rainy  , bike          ,          19.4,                 0.97,        8.87, no        , 06:46        , 06:55        ,            0
+N22DCIT139, Saturday , 07:00           ,         7.8, rainy  , bus           ,          36.5,                 0.53,        5.39, yes       , 06:47        , 06:51        ,            0
+N22DCCN909, Saturday , 07:00           ,         7.2, sunny  , bus           ,          23.2,                 0.85,        7.54, yes       , 06:41        , 06:48        ,            0
+N22DCVT625, Tuesday  , 07:00           ,         3.5, windy  , bike          ,          19.0,                 0.55,        7.71, no        , 06:48        , 06:54        ,            0
+N22DCIT655, Monday   , 07:00           ,         2.3, sunny  , bike          ,          25.0,                 0.93,        8.95, no        , 06:54        , 07:03        ,            3
+N22DCIT285, Thursday , 07:00           ,         9.3, sunny  , bus           ,          22.3,                 0.66,        5.38, yes       , 06:34        , 06:37        ,            0
+N22DCCN486, Sunday   , 07:00           ,         8.1, sunny  , bus           ,          37.2,                 0.75,        6.68, yes       , 06:46        , 06:47        ,            0
+N22DCCN400, Sunday   , 07:00           ,         2.6, windy  , bike          ,          20.0,                 0.96,        6.59, yes       , 06:52        , 07:01        ,            1
+N22DCIT341, Friday   , 07:00           ,        10.0, rainy  , bus           ,          36.2,                 0.61,        6.36, yes       , 06:43        , 06:46        ,            0
+N22DCVT066, Friday   , 07:00           ,         4.7, sunny  , bike          ,          18.7,                 0.73,        6.99, yes       , 06:44        , 06:54        ,            0
+N22DCDK010, Saturday , 07:00           ,         3.1, sunny  , bike          ,          22.1,                 0.65,        7.63, yes       , 06:51        , 06:55        ,            0
+N22DCDK066, Tuesday  , 07:00           ,         4.7, cloudy , bike          ,          20.1,                 0.85,        5.01, yes       , 06:45        , 06:47        ,            0
+N22DCME464, Tuesday  , 07:00           ,         7.8, rainy  , bus           ,          39.7,                 0.6 ,        6.54, no        , 06:48        , 07:00        ,            0
+N22DCME514, Sunday   , 07:00           ,         8.6, cloudy , bus           ,          28.0,                 0.61,        8.66, yes       , 06:41        , 06:44        ,            0
+N22DCIT973, Wednesday, 07:00           ,         8.7, cloudy , bus           ,          31.7,                 0.74,        7.91, no        , 06:43        , 06:45        ,            0
+N22DCDK166, Thursday , 07:00           ,         2.2, rainy  , bike          ,          24.8,                 0.64,        8.07, yes       , 06:54        , 07:02        ,            2
+N22DCCN913, Thursday , 07:00           ,         1.1, windy  , walk          ,           4.3,                 0.61,        6.77, no        , 06:44        , 06:49        ,            0
+N22DCIT704, Sunday   , 07:00           ,         7.9, cloudy , bus           ,          35.2,                 0.74,        5.45, yes       , 06:46        , 06:47        ,            0
+N22DCVT859, Sunday   , 07:00           ,         8.2, rainy  , bus           ,          33.9,                 0.84,        5.45, yes       , 06:45        , 06:53        ,            0
+N22DCCN333, Sunday   , 07:00           ,         3.5, sunny  , bike          ,          24.3,                 0.74,        5.37, yes       , 06:51        , 07:02        ,            3
+N22DCDK844, Sunday   , 07:00           ,         2.4, sunny  , bike          ,          23.0,                 0.78,        8.7 , yes       , 06:53        , 06:54        ,            0
+N22DCDK207, Friday   , 07:00           ,         6.5, sunny  , bus           ,          25.9,                 0.9 ,        8.94, yes       , 06:44        , 06:50        ,            0
+N22DCIT049, Friday   , 07:00           ,         8.0, sunny  , bus           ,          24.3,                 0.65,        8.61, yes       , 06:40        , 06:47        ,            0
+N22DCVT639, Friday   , 07:00           ,         8.4, sunny  , bus           ,          30.3,                 0.69,        8.59, yes       , 06:43        , 06:53        ,            0
+N22DCIT708, Sunday   , 07:00           ,         5.8, cloudy , bus           ,          28.9,                 0.85,        5.62, no        , 06:47        , 06:56        ,            0
+N22DCME048, Monday   , 07:00           ,         5.9, sunny  , bus           ,          35.2,                 0.96,        8.17, yes       , 06:49        , 06:55        ,            0
+N22DCDK069, Thursday , 07:00           ,         9.8, rainy  , bus           ,          27.1,                 0.88,        5.51, yes       , 06:38        , 06:50        ,            0
+N22DCME983, Sunday   , 07:00           ,         2.9, windy  , bike          ,          23.9,                 0.61,        6.85, yes       , 06:52        , 07:06        ,            7
+N22DCCN646, Tuesday  , 07:00           ,         4.3, sunny  , bike          ,          15.0,                 0.74,        5.47, yes       , 06:42        , 06:45        ,            0
+N22DCIT009, Saturday , 07:00           ,         4.7, windy  , bike          ,          18.3,                 0.61,        6.99, yes       , 06:44        , 06:59        ,            0
+N22DCIT057, Saturday , 07:00           ,         1.8, sunny  , walk          ,           4.5,                 0.64,        5.06, yes       , 06:36        , 06:37        ,            0
+N22DCME205, Friday   , 07:00           ,         8.3, sunny  , bus           ,          28.4,                 0.68,        7.23, yes       , 06:42        , 06:44        ,            0
+N22DCDK620, Thursday , 07:00           ,         9.1, windy  , bus           ,          28.9,                 0.7 ,        6.5 , yes       , 06:41        , 06:46        ,            0
+N22DCDK364, Thursday , 07:00           ,         4.3, sunny  , bike          ,          24.0,                 0.75,        7.76, yes       , 06:49        , 07:02        ,            3
+N22DCME349, Tuesday  , 07:00           ,         3.2, sunny  , bike          ,          18.4,                 0.93,        6.32, yes       , 06:49        , 06:58        ,            0
+N22DCIT946, Friday   , 07:00           ,         8.2, sunny  , bus           ,          31.7,                 0.53,        6.87, yes       , 06:44        , 06:44        ,            0
+N22DCCN980, Sunday   , 07:00           ,         7.8, rainy  , bus           ,          22.0,                 0.88,        8.27, yes       , 06:38        , 06:53        ,            0
+N22DCVT238, Friday   , 07:00           ,         4.8, cloudy , bike          ,          19.3,                 0.68,        5.05, yes       , 06:45        , 06:57        ,            0
+N22DCME523, Wednesday, 07:00           ,         1.5, windy  , walk          ,           5.3,                 0.97,        5.26, yes       , 06:43        , 06:44        ,            0
+N22DCCN158, Sunday   , 07:00           ,         6.7, windy  , bus           ,          21.3,                 0.53,        8.77, yes       , 06:41        , 06:52        ,            0
+N22DCCN792, Sunday   , 07:00           ,         3.5, rainy  , bike          ,          15.2,                 0.51,        7.91, yes       , 06:46        , 06:52        ,            0
+N22DCME649, Wednesday, 07:00           ,         9.0, sunny  , bus           ,          25.4,                 0.73,        8.97, yes       , 06:38        , 06:52        ,            0
+N22DCCN370, Monday   , 07:00           ,         9.5, sunny  , bus           ,          26.5,                 0.82,        8.37, no        , 06:38        , 06:53        ,            0
+N22DCIT961, Wednesday, 07:00           ,         8.1, rainy  , bus           ,          34.8,                 0.87,        5.51, no        , 06:46        , 06:48        ,            0
+N22DCCN755, Wednesday, 07:00           ,         4.3, windy  , bike          ,          16.8,                 0.79,        6.32, yes       , 06:44        , 06:45        ,            0
+N22DCVT543, Thursday , 07:00           ,         9.0, sunny  , bus           ,          39.4,                 0.55,        6.5 , yes       , 06:46        , 07:00        ,            0
+N22DCVT067, Saturday , 07:00           ,         9.4, rainy  , bus           ,          31.6,                 0.9 ,        6.68, yes       , 06:42        , 06:52        ,            0
+N22DCME973, Saturday , 07:00           ,         8.2, rainy  , bus           ,          34.6,                 0.91,        8.8 , yes       , 06:45        , 07:00        ,            0
+N22DCIT429, Saturday , 07:00           ,         2.4, rainy  , bike          ,          16.2,                 0.65,        8.13, yes       , 06:51        , 06:53        ,            0
+N22DCME399, Wednesday, 07:00           ,         9.3, sunny  , bus           ,          23.4,                 0.89,        7.45, yes       , 06:36        , 06:45        ,            0
+N22DCIT955, Monday   , 07:00           ,         7.7, sunny  , bus           ,          34.6,                 0.89,        6.87, no        , 06:46        , 06:56        ,            0
+N22DCDK142, Saturday , 07:00           ,         3.0, sunny  , bike          ,          17.3,                 0.5 ,        8.2 , yes       , 06:49        , 06:50        ,            0
+N22DCVT545, Tuesday  , 07:00           ,         4.5, sunny  , bike          ,          16.5,                 0.52,        5.43, yes       , 06:43        , 06:50        ,            0
+N22DCCN514, Wednesday, 07:00           ,         4.4, rainy  , bike          ,          15.7,                 0.79,        7.24, yes       , 06:43        , 06:53        ,            0
+N22DCCN709, Wednesday, 07:00           ,         8.0, sunny  , bus           ,          20.4,                 0.97,        6.76, no        , 06:36        , 06:48        ,            0
+N22DCCN102, Saturday , 07:00           ,         7.4, cloudy , bus           ,          23.2,                 0.94,        7.4 , yes       , 06:40        , 06:50        ,            0
+N22DCME425, Wednesday, 07:00           ,         1.4, rainy  , walk          ,           5.7,                 0.9 ,        6.63, no        , 06:45        , 06:46        ,            0
+N22DCVT809, Monday   , 07:00           ,         5.9, windy  , bus           ,          37.1,                 0.8 ,        6.08, yes       , 06:50        , 07:03        ,            3
+N22DCME250, Sunday   , 07:00           ,         3.5, cloudy , bike          ,          16.5,                 0.77,        7.37, yes       , 06:47        , 06:55        ,            0
+N22DCIT575, Sunday   , 07:00           ,         1.8, sunny  , walk          ,           4.2,                 0.99,        6.83, yes       , 06:34        , 06:43        ,            0
+N22DCDK388, Friday   , 07:00           ,         5.3, windy  , bus           ,          22.4,                 0.52,        7.35, yes       , 06:45        , 06:45        ,            0
+N22DCVT890, Friday   , 07:00           ,         0.5, sunny  , walk          ,           4.3,                 0.52,        8.17, no        , 06:53        , 07:00        ,            1
+N22DCVT988, Thursday , 07:00           ,         1.3, sunny  , walk          ,           5.5,                 0.82,        7.47, yes       , 06:45        , 06:53        ,            0
+N22DCDK942, Monday   , 07:00           ,         1.4, sunny  , walk          ,           6.0,                 0.97,        7.46, yes       , 06:46        , 06:47        ,            0
+N22DCCN506, Tuesday  , 07:00           ,         9.7, rainy  , bus           ,          21.8,                 0.95,        5.99, yes       , 06:33        , 06:38        ,            0
+N22DCDK923, Sunday   , 07:00           ,         2.5, sunny  , bike          ,          15.1,                 0.75,        6.21, yes       , 06:50        , 06:52        ,            0
+N22DCVT658, Saturday , 07:00           ,         5.8, sunny  , bus           ,          35.2,                 0.8 ,        7.28, yes       , 06:50        , 06:58        ,            0
+N22DCVT669, Saturday , 07:00           ,         6.8, cloudy , bus           ,          36.1,                 0.6 ,        5.93, yes       , 06:48        , 06:59        ,            0
+N22DCME621, Friday   , 07:00           ,         6.0, rainy  , bus           ,          29.1,                 0.72,        5.43, no        , 06:47        , 06:56        ,            0
+N22DCCN661, Friday   , 07:00           ,         3.1, windy  , bike          ,          20.5,                 0.52,        5.32, yes       , 06:50        , 07:00        ,            1
+N22DCVT709, Monday   , 07:00           ,         5.1, cloudy , bus           ,          39.4,                 0.54,        7.89, yes       , 06:52        , 06:57        ,            0
+N22DCIT362, Saturday , 07:00           ,         9.6, cloudy , bus           ,          35.2,                 0.59,        5.7 , yes       , 06:43        , 06:48        ,            0
+N22DCDK955, Monday   , 07:00           ,         0.8, sunny  , walk          ,           5.7,                 0.93,        7.2 , yes       , 06:51        , 06:56        ,            0
+N22DCVT525, Tuesday  , 07:00           ,         7.2, windy  , bus           ,          20.4,                 0.56,        8.38, yes       , 06:38        , 06:46        ,            0
+N22DCVT813, Thursday , 07:00           ,         7.9, sunny  , bus           ,          38.5,                 0.97,        7.04, yes       , 06:47        , 06:49        ,            0
+N22DCME677, Friday   , 07:00           ,         8.2, cloudy , bus           ,          32.8,                 0.98,        5.31, yes       , 06:45        , 06:46        ,            0
+N22DCIT493, Friday   , 07:00           ,         1.4, rainy  , walk          ,           4.1,                 0.89,        5.65, no        , 06:39        , 06:45        ,            0
+N22DCME793, Friday   , 07:00           ,         3.6, rainy  , bike          ,          24.2,                 0.52,        5.97, yes       , 06:51        , 06:51        ,            0
+N22DCME666, Monday   , 07:00           ,         3.5, cloudy , bike          ,          22.4,                 0.96,        7.53, no        , 06:50        , 07:00        ,            0
+N22DCVT897, Monday   , 07:00           ,         1.0, sunny  , walk          ,           5.3,                 0.91,        6.09, yes       , 06:48        , 06:58        ,            0
+N22DCME801, Monday   , 07:00           ,         5.7, cloudy , bus           ,          22.2,                 0.73,        6.31, yes       , 06:44        , 06:55        ,            0
+N22DCDK343, Thursday , 07:00           ,         2.1, sunny  , bike          ,          15.5,                 0.97,        7.36, no        , 06:51        , 07:00        ,            0
+N22DCIT807, Saturday , 07:00           ,         6.6, rainy  , bus           ,          28.3,                 0.99,        5.67, yes       , 06:46        , 06:51        ,            0
+N22DCIT380, Thursday , 07:00           ,         9.3, sunny  , bus           ,          24.6,                 0.72,        6.51, yes       , 06:37        , 06:41        ,            0
+N22DCVT090, Friday   , 07:00           ,         2.6, windy  , bike          ,          22.2,                 0.65,        6.18, yes       , 06:52        , 06:53        ,            0
+N22DCVT465, Friday   , 07:00           ,         7.4, rainy  , bus           ,          20.7,                 0.7 ,        5.3 , yes       , 06:38        , 06:50        ,            0
+N22DCIT093, Friday   , 07:00           ,         8.2, sunny  , bus           ,          27.8,                 0.78,        8.11, yes       , 06:42        , 06:53        ,            0
+N22DCDK682, Sunday   , 07:00           ,         3.5, sunny  , bike          ,          24.7,                 0.51,        5.91, yes       , 06:51        , 07:04        ,            5
+N22DCCN988, Wednesday, 07:00           ,         1.1, sunny  , walk          ,           4.4,                 0.97,        6.99, yes       , 06:45        , 06:59        ,            0
+N22DCCN279, Wednesday, 07:00           ,         1.0, sunny  , walk          ,           4.8,                 0.51,        8.28, yes       , 06:47        , 06:55        ,            0
+N22DCCN158, Wednesday, 07:00           ,         0.7, cloudy , walk          ,           4.7,                 0.63,        6.14, yes       , 06:51        , 07:04        ,            4
+N22DCCN670, Sunday   , 07:00           ,         3.5, sunny  , bike          ,          20.3,                 0.55,        5.92, no        , 06:49        , 06:51        ,            0
+N22DCIT433, Friday   , 07:00           ,         1.5, rainy  , walk          ,           5.2,                 0.81,        6.91, yes       , 06:42        , 06:52        ,            0
+N22DCME813, Tuesday  , 07:00           ,         0.5, cloudy , walk          ,           5.6,                 0.75,        6.53, yes       , 06:54        , 06:59        ,            0
+N22DCVT876, Thursday , 07:00           ,         8.7, sunny  , bus           ,          21.2,                 0.68,        5.14, yes       , 06:35        , 06:46        ,            0
+N22DCVT226, Sunday   , 07:00           ,         9.0, sunny  , bus           ,          33.3,                 0.89,        8.85, yes       , 06:43        , 06:57        ,            0
+N22DCCN531, Tuesday  , 07:00           ,         7.2, cloudy , bus           ,          30.9,                 0.69,        8.61, no        , 06:46        , 06:49        ,            0
+N22DCDK967, Thursday , 07:00           ,         9.3, windy  , bus           ,          21.1,                 0.87,        6.64, yes       , 06:33        , 06:47        ,            0
+N22DCDK802, Sunday   , 07:00           ,         9.5, sunny  , bus           ,          39.3,                 0.63,        8.87, yes       , 06:45        , 06:58        ,            0
+N22DCDK746, Saturday , 07:00           ,         6.3, windy  , bus           ,          38.4,                 0.96,        6.48, yes       , 06:50        , 06:57        ,            0
+N22DCME977, Friday   , 07:00           ,         7.5, rainy  , bus           ,          35.3,                 0.88,        8.98, yes       , 06:47        , 06:55        ,            0
+N22DCVT617, Thursday , 07:00           ,         7.6, cloudy , bus           ,          30.7,                 0.63,        7.65, yes       , 06:45        , 06:59        ,            0
+N22DCCN974, Thursday , 07:00           ,         1.0, cloudy , walk          ,           4.4,                 0.74,        8.69, yes       , 06:46        , 06:48        ,            0
+N22DCIT694, Friday   , 07:00           ,         0.7, cloudy , walk          ,           4.7,                 0.8 ,        7.95, yes       , 06:51        , 06:53        ,            0
+N22DCME118, Friday   , 07:00           ,         2.7, cloudy , bike          ,          17.6,                 0.97,        6.79, yes       , 06:50        , 07:04        ,            4
+N22DCVT002, Thursday , 07:00           ,         7.5, windy  , bus           ,          34.8,                 0.67,        5.52, yes       , 06:47        , 06:53        ,            0
+N22DCCN799, Friday   , 07:00           ,         1.9, cloudy , walk          ,           5.5,                 0.78,        7.4 , no        , 06:39        , 06:45        ,            0
+N22DCIT261, Saturday , 07:00           ,         2.9, sunny  , bike          ,          24.8,                 0.53,        7.55, no        , 06:52        , 06:54        ,            0
+N22DCVT429, Tuesday  , 07:00           ,         2.6, rainy  , bike          ,          24.1,                 0.92,        8.16, yes       , 06:53        , 07:05        ,            6
+N22DCDK849, Tuesday  , 07:00           ,         1.7, sunny  , walk          ,           5.8,                 0.71,        5.85, yes       , 06:42        , 06:54        ,            0
+N22DCME560, Monday   , 07:00           ,         8.6, rainy  , bus           ,          20.5,                 0.53,        7.85, yes       , 06:34        , 06:37        ,            0
+N22DCVT040, Thursday , 07:00           ,         7.6, sunny  , bus           ,          37.6,                 0.93,        8.86, yes       , 06:47        , 07:01        ,            2
+N22DCDK801, Thursday , 07:00           ,         2.6, sunny  , bike          ,          16.4,                 0.56,        7.77, yes       , 06:50        , 06:53        ,            0
+N22DCME103, Saturday , 07:00           ,         9.4, cloudy , bus           ,          22.0,                 0.6 ,        5.71, yes       , 06:34        , 06:39        ,            0
+N22DCME401, Tuesday  , 07:00           ,         7.7, sunny  , bus           ,          28.0,                 0.55,        8.28, no        , 06:43        , 06:54        ,            0
+N22DCIT034, Friday   , 07:00           ,         9.7, rainy  , bus           ,          31.2,                 0.53,        8.65, yes       , 06:41        , 06:47        ,            0
+N22DCME416, Monday   , 07:00           ,         4.4, sunny  , bike          ,          19.0,                 0.84,        5.54, no        , 06:46        , 06:55        ,            0
+N22DCVT436, Sunday   , 07:00           ,         4.5, sunny  , bike          ,          22.4,                 0.81,        7.65, yes       , 06:47        , 06:57        ,            0
+N22DCVT110, Monday   , 07:00           ,         6.5, sunny  , bus           ,          27.8,                 0.98,        7.37, no        , 06:45        , 06:56        ,            0
+N22DCVT371, Sunday   , 07:00           ,         8.0, windy  , bus           ,          24.6,                 0.53,        7.5 , yes       , 06:40        , 06:45        ,            0
+N22DCIT437, Monday   , 07:00           ,         0.6, rainy  , walk          ,           5.3,                 0.63,        7.9 , yes       , 06:53        , 07:06        ,            6
+N22DCCN135, Sunday   , 07:00           ,         1.4, sunny  , walk          ,           5.1,                 0.84,        8.32, yes       , 06:43        , 06:45        ,            0
+N22DCVT585, Thursday , 07:00           ,         6.3, sunny  , bus           ,          38.2,                 0.94,        7.07, yes       , 06:50        , 07:01        ,            2
+N22DCCN601, Sunday   , 07:00           ,         3.2, cloudy , bike          ,          17.5,                 0.78,        8.39, yes       , 06:49        , 07:02        ,            2
+N22DCCN225, Monday   , 07:00           ,         1.9, sunny  , walk          ,           5.6,                 0.55,        7.78, yes       , 06:39        , 06:40        ,            0
+N22DCVT833, Wednesday, 07:00           ,         4.3, rainy  , bike          ,          18.3,                 0.77,        6.98, no        , 06:45        , 06:54        ,            0
+N22DCDK777, Thursday , 07:00           ,        10.0, cloudy , bus           ,          33.2,                 0.9 ,        7.25, no        , 06:41        , 06:48        ,            0
+N22DCIT680, Tuesday  , 07:00           ,         1.2, windy  , walk          ,           5.3,                 0.61,        8.22, yes       , 06:46        , 06:54        ,            0
+N22DCME336, Tuesday  , 07:00           ,         1.1, sunny  , walk          ,           4.9,                 0.58,        7.59, yes       , 06:46        , 06:50        ,            0
+N22DCIT501, Monday   , 07:00           ,         5.5, sunny  , bus           ,          39.6,                 0.59,        5.68, yes       , 06:51        , 07:04        ,            5
+N22DCCN529, Friday   , 07:00           ,         0.7, sunny  , walk          ,           5.8,                 0.8 ,        6.41, yes       , 06:52        , 07:01        ,            2
+N22DCDK949, Sunday   , 07:00           ,         7.6, sunny  , bus           ,          26.2,                 0.62,        8.24, yes       , 06:42        , 06:51        ,            0
+N22DCME771, Thursday , 07:00           ,         5.4, sunny  , bus           ,          37.9,                 0.89,        8.68, yes       , 06:51        , 07:00        ,            1
+N22DCIT741, Wednesday, 07:00           ,         1.4, sunny  , walk          ,           5.4,                 0.73,        5.35, yes       , 06:44        , 06:49        ,            0
+N22DCIT175, Thursday , 07:00           ,         5.7, rainy  , bus           ,          31.8,                 0.99,        8.06, no        , 06:49        , 06:59        ,            0
+N22DCME480, Saturday , 07:00           ,         6.5, cloudy , bus           ,          32.0,                 0.63,        5.8 , no        , 06:47        , 06:52        ,            0
+N22DCVT594, Monday   , 07:00           ,         4.8, sunny  , bike          ,          19.5,                 0.53,        5.22, yes       , 06:45        , 06:51        ,            0
+N22DCCN231, Friday   , 07:00           ,         2.6, sunny  , bike          ,          21.4,                 0.69,        8.29, no        , 06:52        , 06:55        ,            0
+N22DCIT498, Thursday , 07:00           ,         7.8, cloudy , bus           ,          23.2,                 0.66,        5.51, yes       , 06:39        , 06:47        ,            0
+N22DCIT227, Tuesday  , 07:00           ,         1.5, sunny  , walk          ,           5.4,                 0.58,        7.98, yes       , 06:43        , 06:57        ,            0
+N22DCIT876, Friday   , 07:00           ,         0.8, cloudy , walk          ,           4.4,                 0.68,        7.76, yes       , 06:49        , 06:53        ,            0
+N22DCCN206, Tuesday  , 07:00           ,         4.2, sunny  , bike          ,          24.4,                 0.72,        5.87, yes       , 06:49        , 06:49        ,            0
+N22DCME316, Wednesday, 07:00           ,         7.8, rainy  , bus           ,          37.2,                 0.55,        8.63, yes       , 06:47        , 06:59        ,            0
+N22DCVT715, Sunday   , 07:00           ,         6.6, cloudy , bus           ,          39.3,                 0.86,        6.29, no        , 06:49        , 07:02        ,            3
+N22DCCN803, Wednesday, 07:00           ,         7.0, sunny  , bus           ,          37.9,                 0.94,        8.3 , yes       , 06:48        , 06:49        ,            0
+N22DCVT513, Tuesday  , 07:00           ,         5.5, windy  , bus           ,          36.0,                 0.88,        7.62, yes       , 06:50        , 06:55        ,            0
+N22DCDK674, Wednesday, 07:00           ,         2.7, sunny  , bike          ,          16.0,                 0.51,        6.79, no        , 06:49        , 07:00        ,            0
+N22DCIT398, Monday   , 07:00           ,         1.2, sunny  , walk          ,           4.5,                 0.7 ,        8.5 , yes       , 06:44        , 06:47        ,            0
+N22DCCN233, Sunday   , 07:00           ,         8.8, rainy  , bus           ,          26.3,                 0.87,        8.09, yes       , 06:39        , 06:45        ,            0
+N22DCDK380, Tuesday  , 07:00           ,         5.5, sunny  , bus           ,          22.3,                 0.51,        8.73, no        , 06:45        , 06:51        ,            0
+N22DCDK933, Monday   , 07:00           ,         1.7, sunny  , walk          ,           4.2,                 0.85,        5.21, yes       , 06:35        , 06:40        ,            0
+N22DCCN227, Saturday , 07:00           ,         5.3, sunny  , bus           ,          22.5,                 0.95,        8.77, yes       , 06:45        , 06:58        ,            0
+N22DCDK867, Tuesday  , 07:00           ,         2.3, cloudy , bike          ,          22.8,                 0.56,        7.38, yes       , 06:53        , 06:57        ,            0
+N22DCDK619, Thursday , 07:00           ,         6.9, windy  , bus           ,          28.5,                 0.86,        5.75, yes       , 06:45        , 06:59        ,            0
+N22DCCN371, Thursday , 07:00           ,         5.9, sunny  , bus           ,          25.1,                 0.94,        6.72, yes       , 06:45        , 06:49        ,            0
+N22DCCN787, Saturday , 07:00           ,         5.5, sunny  , bus           ,          35.4,                 0.82,        7.6 , yes       , 06:50        , 07:04        ,            4
+N22DCIT803, Monday   , 07:00           ,         7.2, sunny  , bus           ,          39.3,                 0.66,        6.5 , no        , 06:49        , 06:53        ,            0
+N22DCVT133, Sunday   , 07:00           ,         3.5, sunny  , bike          ,          18.2,                 0.56,        8.17, yes       , 06:48        , 06:50        ,            0
+N22DCME859, Tuesday  , 07:00           ,         4.2, sunny  , bike          ,          20.2,                 0.93,        5.77, no        , 06:47        , 06:55        ,            0
+N22DCCN445, Thursday , 07:00           ,         7.0, sunny  , bus           ,          35.4,                 0.92,        5.82, yes       , 06:48        , 06:56        ,            0
+N22DCVT748, Sunday   , 07:00           ,         2.3, windy  , bike          ,          22.5,                 0.61,        5.39, yes       , 06:53        , 06:55        ,            0
+N22DCME167, Friday   , 07:00           ,         2.4, sunny  , bike          ,          15.6,                 0.7 ,        5.86, no        , 06:50        , 07:05        ,            6
+N22DCVT377, Wednesday, 07:00           ,         9.4, sunny  , bus           ,          26.8,                 0.5 ,        6.72, yes       , 06:38        , 06:53        ,            0
+N22DCCN117, Wednesday, 07:00           ,         9.6, rainy  , bus           ,          36.9,                 0.61,        7.38, yes       , 06:44        , 06:56        ,            0
+N22DCME267, Monday   , 07:00           ,         9.8, windy  , bus           ,          36.9,                 0.9 ,        7.52, yes       , 06:44        , 06:58        ,            0
+N22DCIT597, Tuesday  , 07:00           ,         0.9, rainy  , walk          ,           4.9,                 0.96,        6.06, yes       , 06:48        , 07:00        ,            0
+N22DCME004, Tuesday  , 07:00           ,         4.5, rainy  , bike          ,          18.9,                 0.85,        6.34, yes       , 06:45        , 06:50        ,            0
+N22DCCN927, Tuesday  , 07:00           ,         0.9, sunny  , walk          ,           4.5,                 0.67,        8.53, yes       , 06:48        , 06:49        ,            0
+N22DCCN929, Friday   , 07:00           ,         6.7, sunny  , bus           ,          27.6,                 0.66,        8.56, yes       , 06:45        , 06:57        ,            0
+N22DCCN310, Sunday   , 07:00           ,         5.8, sunny  , bus           ,          29.1,                 0.69,        8.66, yes       , 06:48        , 06:59        ,            0
+N22DCIT155, Wednesday, 07:00           ,         0.8, rainy  , walk          ,           4.7,                 0.75,        8.61, yes       , 06:49        , 06:57        ,            0
+N22DCME496, Tuesday  , 07:00           ,         4.0, sunny  , bike          ,          21.8,                 0.69,        8.42, yes       , 06:48        , 06:55        ,            0
+N22DCVT133, Wednesday, 07:00           ,         9.8, sunny  , bus           ,          31.1,                 0.88,        5.64, yes       , 06:41        , 06:43        ,            0
+N22DCVT872, Friday   , 07:00           ,         7.7, cloudy , bus           ,          29.3,                 0.74,        8.59, yes       , 06:44        , 06:57        ,            0
+N22DCIT022, Saturday , 07:00           ,         7.3, sunny  , bus           ,          29.0,                 0.64,        8.6 , yes       , 06:44        , 06:48        ,            0
+N22DCME603, Monday   , 07:00           ,         1.2, rainy  , walk          ,           5.2,                 0.93,        6.51, yes       , 06:46        , 06:52        ,            0
+N22DCME413, Tuesday  , 07:00           ,         3.2, windy  , bike          ,          22.7,                 0.82,        8.49, yes       , 06:51        , 07:05        ,            6
+N22DCIT629, Sunday   , 07:00           ,         1.6, sunny  , walk          ,           4.2,                 0.5 ,        5.33, yes       , 06:37        , 06:41        ,            0
+N22DCVT700, Monday   , 07:00           ,         5.0, rainy  , bike          ,          19.5,                 0.72,        8.96, no        , 06:44        , 06:58        ,            0
+N22DCME549, Wednesday, 07:00           ,         7.2, sunny  , bus           ,          27.4,                 0.53,        7.49, yes       , 06:44        , 06:45        ,            0
+N22DCCN787, Tuesday  , 07:00           ,         0.8, sunny  , walk          ,           5.5,                 0.96,        5.36, no        , 06:51        , 07:03        ,            4
+N22DCCN111, Saturday , 07:00           ,         6.1, sunny  , bus           ,          37.9,                 0.86,        7.33, yes       , 06:50        , 06:50        ,            0
+N22DCVT138, Wednesday, 07:00           ,         2.6, sunny  , bike          ,          15.6,                 0.68,        7.09, yes       , 06:50        , 06:56        ,            0
+N22DCME536, Tuesday  , 07:00           ,         6.7, sunny  , bus           ,          23.9,                 0.71,        7.46, yes       , 06:43        , 06:45        ,            0
+N22DCVT792, Monday   , 07:00           ,         3.9, sunny  , bike          ,          24.1,                 0.72,        6.0 , no        , 06:50        , 07:03        ,            3
+N22DCME553, Thursday , 07:00           ,         3.1, rainy  , bike          ,          19.2,                 0.83,        7.6 , yes       , 06:50        , 07:01        ,            2
+N22DCVT864, Sunday   , 07:00           ,         5.8, rainy  , bus           ,          21.0,                 0.5 ,        8.26, yes       , 06:43        , 06:46        ,            0
+N22DCDK558, Thursday , 07:00           ,         8.7, rainy  , bus           ,          36.5,                 0.94,        8.89, yes       , 06:45        , 06:59        ,            0
+N22DCIT739, Thursday , 07:00           ,         6.5, sunny  , bus           ,          22.9,                 0.75,        8.92, yes       , 06:42        , 06:50        ,            0
+N22DCCN543, Tuesday  , 07:00           ,         7.0, windy  , bus           ,          28.9,                 0.74,        8.77, yes       , 06:45        , 06:47        ,            0
+N22DCME621, Sunday   , 07:00           ,         7.9, rainy  , bus           ,          35.6,                 0.63,        8.93, yes       , 06:46        , 06:49        ,            0
+N22DCDK251, Wednesday, 07:00           ,         2.6, sunny  , bike          ,          18.8,                 0.84,        8.51, yes       , 06:51        , 07:05        ,            5
+N22DCCN796, Monday   , 07:00           ,         2.4, rainy  , bike          ,          22.9,                 0.83,        8.56, yes       , 06:53        , 07:06        ,            6
+N22DCCN760, Friday   , 07:00           ,         8.4, rainy  , bus           ,          32.1,                 0.77,        5.3 , no        , 06:44        , 06:54        ,            0
+N22DCIT440, Saturday , 07:00           ,         0.7, sunny  , walk          ,           4.1,                 0.69,        8.13, yes       , 06:49        , 06:55        ,            0
+N22DCCN199, Saturday , 07:00           ,         3.7, sunny  , bike          ,          23.5,                 0.99,        7.86, yes       , 06:50        , 06:56        ,            0
+N22DCDK420, Monday   , 07:00           ,         9.8, cloudy , bus           ,          39.7,                 0.94,        6.31, no        , 06:45        , 07:00        ,            0
+N22DCIT076, Sunday   , 07:00           ,         5.1, sunny  , bus           ,          25.2,                 0.76,        6.46, yes       , 06:47        , 06:59        ,            0
+N22DCVT489, Sunday   , 07:00           ,         1.6, cloudy , walk          ,           4.5,                 0.52,        8.55, yes       , 06:38        , 06:41        ,            0
+N22DCIT430, Saturday , 07:00           ,         2.3, sunny  , bike          ,          22.0,                 0.59,        6.17, yes       , 06:53        , 07:08        ,            9
+N22DCIT062, Monday   , 07:00           ,         8.7, sunny  , bus           ,          22.4,                 0.84,        6.69, yes       , 06:36        , 06:40        ,            0
+N22DCDK797, Thursday , 07:00           ,         8.2, sunny  , bus           ,          27.7,                 0.9 ,        7.66, no        , 06:42        , 06:45        ,            0
+N22DCVT491, Tuesday  , 07:00           ,         8.9, sunny  , bus           ,          25.5,                 0.57,        5.68, yes       , 06:39        , 06:47        ,            0
+N22DCIT060, Tuesday  , 07:00           ,         7.9, sunny  , bus           ,          28.0,                 0.79,        5.76, yes       , 06:43        , 06:48        ,            0
+N22DCDK115, Tuesday  , 07:00           ,         5.9, cloudy , bus           ,          37.5,                 0.99,        5.62, yes       , 06:50        , 07:00        ,            1
+N22DCCN587, Thursday , 07:00           ,         6.8, rainy  , bus           ,          37.2,                 0.78,        6.1 , yes       , 06:49        , 06:58        ,            0
+N22DCIT822, Monday   , 07:00           ,         1.2, sunny  , walk          ,           5.7,                 0.75,        6.99, yes       , 06:47        , 07:01        ,            1
+N22DCME197, Saturday , 07:00           ,         2.0, rainy  , bike          ,          23.4,                 0.77,        5.95, no        , 06:54        , 07:01        ,            1
+N22DCME263, Thursday , 07:00           ,         4.2, sunny  , bike          ,          19.7,                 0.65,        8.34, no        , 06:47        , 06:48        ,            0
+N22DCCN584, Tuesday  , 07:00           ,         6.1, sunny  , bus           ,          36.1,                 0.78,        5.86, yes       , 06:49        , 07:04        ,            4
+N22DCME883, Monday   , 07:00           ,         5.8, windy  , bus           ,          28.1,                 0.76,        8.64, yes       , 06:47        , 06:59        ,            0
+N22DCIT959, Thursday , 07:00           ,         2.7, sunny  , bike          ,          19.0,                 0.89,        6.45, yes       , 06:51        , 07:02        ,            2
+N22DCVT637, Friday   , 07:00           ,         4.9, sunny  , bike          ,          19.2,                 0.66,        6.3 , yes       , 06:44        , 06:47        ,            0
+N22DCME708, Thursday , 07:00           ,         7.4, sunny  , bus           ,          37.6,                 0.95,        6.67, yes       , 06:48        , 06:54        ,            0
+N22DCVT126, Monday   , 07:00           ,         5.0, rainy  , bike          ,          22.5,                 0.57,        8.94, yes       , 06:46        , 07:01        ,            1
+N22DCCN611, Sunday   , 07:00           ,         4.1, sunny  , bike          ,          23.6,                 0.57,        7.46, yes       , 06:49        , 06:58        ,            0
+N22DCCN238, Thursday , 07:00           ,         4.0, sunny  , bike          ,          17.0,                 0.89,        5.8 , yes       , 06:45        , 06:48        ,            0
+N22DCCN804, Saturday , 07:00           ,         8.4, rainy  , bus           ,          22.3,                 0.77,        7.46, yes       , 06:37        , 06:47        ,            0
+N22DCDK262, Tuesday  , 07:00           ,         8.1, sunny  , bus           ,          24.5,                 0.75,        5.59, yes       , 06:40        , 06:45        ,            0
+N22DCME542, Tuesday  , 07:00           ,         7.9, sunny  , bus           ,          25.5,                 0.71,        7.96, yes       , 06:41        , 06:43        ,            0
+N22DCCN201, Monday   , 07:00           ,         5.4, sunny  , bus           ,          20.1,                 0.8 ,        6.01, yes       , 06:43        , 06:48        ,            0
+N22DCVT253, Tuesday  , 07:00           ,         2.8, sunny  , bike          ,          23.2,                 0.83,        6.92, yes       , 06:52        , 07:01        ,            2
+N22DCVT475, Thursday , 07:00           ,         3.2, windy  , bike          ,          17.7,                 0.75,        8.61, yes       , 06:49        , 07:04        ,            4
+N22DCDK014, Friday   , 07:00           ,         3.1, cloudy , bike          ,          15.1,                 0.68,        8.62, yes       , 06:47        , 06:52        ,            0
+N22DCDK440, Friday   , 07:00           ,         0.7, rainy  , walk          ,           4.0,                 0.99,        5.23, no        , 06:49        , 06:57        ,            0
+N22DCDK803, Sunday   , 07:00           ,         1.8, cloudy , walk          ,           4.1,                 0.65,        7.97, yes       , 06:33        , 06:33        ,            0
+N22DCDK744, Wednesday, 07:00           ,         7.9, sunny  , bus           ,          25.9,                 0.94,        5.6 , yes       , 06:41        , 06:43        ,            0
+N22DCDK323, Thursday , 07:00           ,         3.3, sunny  , bike          ,          20.5,                 0.62,        7.67, yes       , 06:50        , 06:51        ,            0
+N22DCVT664, Saturday , 07:00           ,         5.6, sunny  , bus           ,          20.1,                 0.87,        7.05, yes       , 06:43        , 06:46        ,            0
+N22DCCN281, Tuesday  , 07:00           ,         2.7, rainy  , bike          ,          18.0,                 0.92,        7.95, yes       , 06:51        , 06:59        ,            0
+N22DCCN172, Sunday   , 07:00           ,         3.5, sunny  , bike          ,          24.3,                 0.6 ,        5.59, yes       , 06:51        , 07:00        ,            0
+N22DCME277, Sunday   , 07:00           ,         1.3, cloudy , walk          ,           4.7,                 0.76,        6.42, yes       , 06:43        , 06:57        ,            0
+N22DCVT928, Monday   , 07:00           ,         6.4, sunny  , bus           ,          33.6,                 0.59,        7.47, no        , 06:48        , 06:49        ,            0
+N22DCCN767, Sunday   , 07:00           ,         5.8, sunny  , bus           ,          21.4,                 0.88,        5.38, yes       , 06:43        , 06:57        ,            0
+N22DCIT625, Saturday , 07:00           ,        10.0, sunny  , bus           ,          31.7,                 0.52,        7.95, no        , 06:41        , 06:50        ,            0
+N22DCCN894, Tuesday  , 07:00           ,         7.8, cloudy , bus           ,          21.8,                 0.57,        7.85, yes       , 06:38        , 06:49        ,            0
+N22DCVT702, Thursday , 07:00           ,         3.2, sunny  , bike          ,          15.1,                 0.95,        8.2 , yes       , 06:47        , 06:58        ,            0
+N22DCIT219, Friday   , 07:00           ,         8.3, sunny  , bus           ,          25.5,                 0.88,        6.02, yes       , 06:40        , 06:48        ,            0
+N22DCDK190, Friday   , 07:00           ,         0.6, sunny  , walk          ,           4.2,                 0.66,        6.97, no        , 06:51        , 06:57        ,            0
+N22DCCN237, Thursday , 07:00           ,         6.7, sunny  , bus           ,          21.8,                 0.68,        8.11, yes       , 06:41        , 06:42        ,            0
+N22DCME657, Sunday   , 07:00           ,         2.6, cloudy , bike          ,          23.4,                 0.98,        6.5 , yes       , 06:53        , 06:56        ,            0
+N22DCDK716, Monday   , 07:00           ,         1.7, cloudy , walk          ,           4.3,                 0.85,        7.29, yes       , 06:36        , 06:36        ,            0
+N22DCME603, Thursday , 07:00           ,         8.4, rainy  , bus           ,          29.8,                 0.6 ,        8.68, yes       , 06:43        , 06:56        ,            0
+N22DCIT863, Sunday   , 07:00           ,         3.8, sunny  , bike          ,          15.2,                 0.62,        5.73, yes       , 06:45        , 06:50        ,            0
+N22DCVT607, Friday   , 07:00           ,         5.9, windy  , bus           ,          27.9,                 0.99,        7.31, yes       , 06:47        , 06:55        ,            0
+N22DCVT638, Thursday , 07:00           ,         0.8, sunny  , walk          ,           5.0,                 0.86,        5.5 , yes       , 06:50        , 07:04        ,            4
+N22DCVT858, Tuesday  , 07:00           ,         3.4, rainy  , bike          ,          17.7,                 0.52,        7.08, yes       , 06:48        , 07:01        ,            2
+N22DCME463, Monday   , 07:00           ,         4.0, windy  , bike          ,          18.4,                 0.65,        8.44, yes       , 06:46        , 06:57        ,            0
+N22DCCN609, Thursday , 07:00           ,         9.8, sunny  , bus           ,          23.1,                 0.97,        8.81, yes       , 06:34        , 06:36        ,            0
+N22DCVT796, Tuesday  , 07:00           ,         9.0, sunny  , bus           ,          29.6,                 0.64,        7.58, yes       , 06:41        , 06:43        ,            0
+N22DCDK884, Sunday   , 07:00           ,         2.2, rainy  , bike          ,          23.3,                 0.81,        5.07, yes       , 06:54        , 07:09        ,            9
+N22DCME489, Thursday , 07:00           ,         7.4, rainy  , bus           ,          20.1,                 0.66,        8.92, yes       , 06:37        , 06:42        ,            0
+N22DCVT704, Sunday   , 07:00           ,         7.7, rainy  , bus           ,          30.0,                 0.72,        5.28, yes       , 06:44        , 06:58        ,            0
+N22DCME925, Monday   , 07:00           ,         6.6, windy  , bus           ,          28.1,                 0.92,        6.83, yes       , 06:45        , 06:53        ,            0
+N22DCME877, Sunday   , 07:00           ,         1.2, windy  , walk          ,           5.6,                 0.52,        5.68, yes       , 06:47        , 06:56        ,            0
+N22DCIT551, Monday   , 07:00           ,         5.1, sunny  , bus           ,          23.8,                 0.96,        8.41, yes       , 06:47        , 06:59        ,            0
+N22DCIT326, Wednesday, 07:00           ,         4.8, cloudy , bike          ,          19.9,                 0.55,        6.6 , yes       , 06:45        , 06:47        ,            0
+N22DCME193, Monday   , 07:00           ,         3.6, rainy  , bike          ,          23.8,                 0.71,        8.88, yes       , 06:50        , 06:55        ,            0
+N22DCCN745, Tuesday  , 07:00           ,         8.5, sunny  , bus           ,          21.6,                 0.92,        8.22, yes       , 06:36        , 06:50        ,            0
+N22DCDK579, Thursday , 07:00           ,         8.6, cloudy , bus           ,          32.5,                 0.84,        8.88, yes       , 06:44        , 06:52        ,            0
+N22DCVT294, Monday   , 07:00           ,         5.6, sunny  , bus           ,          39.9,                 0.91,        8.91, yes       , 06:51        , 06:55        ,            0
+N22DCDK151, Tuesday  , 07:00           ,         9.5, sunny  , bus           ,          25.5,                 0.79,        7.28, yes       , 06:37        , 06:47        ,            0
+N22DCCN070, Saturday , 07:00           ,         6.0, sunny  , bus           ,          32.6,                 0.52,        7.5 , no        , 06:48        , 06:59        ,            0
+N22DCIT118, Tuesday  , 07:00           ,         2.7, sunny  , bike          ,          21.2,                 0.63,        7.0 , yes       , 06:52        , 06:53        ,            0
+N22DCCN723, Friday   , 07:00           ,         6.1, sunny  , bus           ,          25.1,                 0.74,        6.88, no        , 06:45        , 06:48        ,            0
+N22DCVT987, Sunday   , 07:00           ,         7.2, rainy  , bus           ,          25.7,                 1.0 ,        7.39, yes       , 06:43        , 06:51        ,            0
+N22DCCN166, Sunday   , 07:00           ,         6.3, cloudy , bus           ,          23.0,                 0.66,        6.83, yes       , 06:43        , 06:50        ,            0
+N22DCVT234, Thursday , 07:00           ,         0.7, sunny  , walk          ,           4.0,                 0.52,        6.11, yes       , 06:49        , 06:49        ,            0
+N22DCVT349, Monday   , 07:00           ,         0.9, rainy  , walk          ,           4.8,                 0.7 ,        5.42, no        , 06:48        , 06:53        ,            0
+N22DCIT606, Sunday   , 07:00           ,         1.4, rainy  , walk          ,           4.0,                 0.66,        5.5 , yes       , 06:39        , 06:50        ,            0
+N22DCME341, Monday   , 07:00           ,         1.3, sunny  , walk          ,           5.1,                 0.84,        6.61, yes       , 06:44        , 06:56        ,            0
+N22DCDK509, Wednesday, 07:00           ,         3.8, sunny  , bike          ,          20.2,                 0.72,        7.99, yes       , 06:48        , 06:50        ,            0
+N22DCVT334, Thursday , 07:00           ,         6.2, sunny  , bus           ,          33.4,                 0.85,        5.15, yes       , 06:48        , 06:52        ,            0
+N22DCCN858, Sunday   , 07:00           ,         7.4, sunny  , bus           ,          25.3,                 0.78,        7.25, no        , 06:42        , 06:45        ,            0
+N22DCDK752, Thursday , 07:00           ,         8.0, rainy  , bus           ,          36.9,                 0.88,        5.28, yes       , 06:46        , 06:53        ,            0
+N22DCME990, Sunday   , 07:00           ,         1.9, cloudy , walk          ,           4.9,                 0.59,        7.76, yes       , 06:36        , 06:47        ,            0
+N22DCDK328, Tuesday  , 07:00           ,         1.5, sunny  , walk          ,           4.4,                 0.97,        8.6 , yes       , 06:39        , 06:47        ,            0
+N22DCVT449, Tuesday  , 07:00           ,         0.9, rainy  , walk          ,           4.3,                 0.9 ,        8.22, yes       , 06:47        , 06:54        ,            0
+N22DCCN292, Sunday   , 07:00           ,         7.9, rainy  , bus           ,          35.8,                 0.89,        6.51, yes       , 06:46        , 06:53        ,            0
+N22DCCN088, Thursday , 07:00           ,         7.2, rainy  , bus           ,          25.3,                 0.83,        6.45, no        , 06:42        , 06:55        ,            0
+N22DCIT682, Saturday , 07:00           ,         5.5, windy  , bus           ,          33.0,                 0.73,        7.26, no        , 06:50        , 07:02        ,            3
+N22DCVT619, Tuesday  , 07:00           ,         5.1, rainy  , bus           ,          23.1,                 0.91,        8.59, yes       , 06:46        , 06:57        ,            0
+N22DCVT110, Sunday   , 07:00           ,         8.6, sunny  , bus           ,          39.8,                 0.92,        7.98, yes       , 06:47        , 06:52        ,            0
+N22DCCN238, Tuesday  , 07:00           ,         5.5, windy  , bus           ,          33.2,                 0.82,        7.74, yes       , 06:50        , 07:01        ,            1
+N22DCVT234, Tuesday  , 07:00           ,        10.0, sunny  , bus           ,          35.6,                 0.67,        6.18, yes       , 06:43        , 06:44        ,            0
+N22DCDK472, Friday   , 07:00           ,         4.3, cloudy , bike          ,          20.4,                 0.71,        7.11, yes       , 06:47        , 06:59        ,            0
+N22DCCN071, Thursday , 07:00           ,         9.3, sunny  , bus           ,          39.1,                 0.88,        6.66, yes       , 06:45        , 06:52        ,            0
+N22DCCN229, Thursday , 07:00           ,         2.2, windy  , bike          ,          15.8,                 0.58,        7.41, yes       , 06:51        , 06:58        ,            0
+N22DCDK362, Sunday   , 07:00           ,         3.7, rainy  , bike          ,          22.6,                 0.79,        6.37, yes       , 06:50        , 07:00        ,            1
+N22DCME363, Friday   , 07:00           ,         5.7, cloudy , bus           ,          21.1,                 0.96,        5.35, no        , 06:43        , 06:49        ,            0
+N22DCDK681, Tuesday  , 07:00           ,         4.0, cloudy , bike          ,          17.1,                 0.88,        6.27, no        , 06:45        , 06:52        ,            0
+N22DCDK497, Sunday   , 07:00           ,         1.0, windy  , walk          ,           6.0,                 0.8 ,        6.57, yes       , 06:50        , 07:04        ,            4
+N22DCVT208, Sunday   , 07:00           ,         3.4, rainy  , bike          ,          19.9,                 0.69,        7.92, no        , 06:49        , 06:50        ,            0
+N22DCCN442, Wednesday, 07:00           ,         9.0, windy  , bus           ,          20.1,                 0.75,        8.73, yes       , 06:33        , 06:41        ,            0
+N22DCVT003, Thursday , 07:00           ,         3.0, rainy  , bike          ,          20.7,                 0.81,        7.13, yes       , 06:51        , 07:03        ,            3
+N22DCVT054, Sunday   , 07:00           ,         7.3, rainy  , bus           ,          28.1,                 0.89,        6.94, yes       , 06:44        , 06:54        ,            0
+N22DCCN859, Sunday   , 07:00           ,         7.2, rainy  , bus           ,          23.8,                 0.59,        5.01, yes       , 06:41        , 06:43        ,            0
+N22DCCN413, Thursday , 07:00           ,         6.7, cloudy , bus           ,          34.5,                 0.59,        6.71, no        , 06:48        , 06:55        ,            0
+N22DCDK067, Friday   , 07:00           ,         6.6, sunny  , bus           ,          39.0,                 0.66,        7.39, yes       , 06:49        , 07:00        ,            0
+N22DCDK297, Monday   , 07:00           ,         1.3, sunny  , walk          ,           4.0,                 0.56,        6.51, yes       , 06:40        , 06:45        ,            0
+N22DCDK114, Friday   , 07:00           ,         6.2, cloudy , bus           ,          20.3,                 0.83,        7.57, no        , 06:41        , 06:50        ,            0
+N22DCCN679, Wednesday, 07:00           ,         4.7, cloudy , bike          ,          23.8,                 0.9 ,        5.62, yes       , 06:48        , 06:52        ,            0
+N22DCME865, Wednesday, 07:00           ,         7.6, cloudy , bus           ,          27.8,                 0.78,        6.31, yes       , 06:43        , 06:47        ,            0
+N22DCVT179, Sunday   , 07:00           ,         6.5, sunny  , bus           ,          37.9,                 0.91,        5.88, no        , 06:49        , 06:57        ,            0
+N22DCDK742, Monday   , 07:00           ,         8.7, sunny  , bus           ,          21.1,                 0.58,        6.4 , yes       , 06:35        , 06:45        ,            0
+N22DCCN411, Monday   , 07:00           ,         7.6, cloudy , bus           ,          30.5,                 0.97,        5.67, no        , 06:45        , 06:55        ,            0
+N22DCIT316, Wednesday, 07:00           ,         8.7, sunny  , bus           ,          39.7,                 0.57,        5.49, yes       , 06:46        , 06:57        ,            0
+N22DCIT475, Thursday , 07:00           ,         3.5, rainy  , bike          ,          20.1,                 0.8 ,        8.3 , yes       , 06:49        , 06:57        ,            0
+N22DCVT803, Tuesday  , 07:00           ,         8.4, sunny  , bus           ,          32.9,                 0.56,        6.46, yes       , 06:44        , 06:57        ,            0
+N22DCME205, Sunday   , 07:00           ,         5.5, sunny  , bus           ,          34.5,                 0.92,        5.37, no        , 06:50        , 06:58        ,            0
+N22DCDK441, Wednesday, 07:00           ,         8.7, rainy  , bus           ,          30.7,                 0.72,        7.12, yes       , 06:42        , 06:53        ,            0
+N22DCCN645, Friday   , 07:00           ,         3.6, sunny  , bike          ,          22.5,                 0.87,        7.74, yes       , 06:50        , 06:56        ,            0
+N22DCCN975, Tuesday  , 07:00           ,         6.1, windy  , bus           ,          22.5,                 0.88,        5.2 , yes       , 06:43        , 06:52        ,            0
+N22DCIT497, Saturday , 07:00           ,         2.3, windy  , bike          ,          21.8,                 0.57,        5.34, yes       , 06:53        , 07:04        ,            5
+N22DCVT148, Monday   , 07:00           ,         2.6, sunny  , bike          ,          20.7,                 0.76,        8.82, yes       , 06:52        , 07:05        ,            5
+N22DCME860, Thursday , 07:00           ,         4.2, cloudy , bike          ,          24.7,                 0.64,        6.52, yes       , 06:49        , 06:54        ,            0
+N22DCVT322, Saturday , 07:00           ,         0.9, rainy  , walk          ,           5.0,                 0.82,        5.79, no        , 06:49        , 06:59        ,            0
+N22DCME602, Monday   , 07:00           ,         4.3, sunny  , bike          ,          20.5,                 0.59,        8.45, yes       , 06:47        , 06:52        ,            0
+N22DCCN935, Wednesday, 07:00           ,         9.3, sunny  , bus           ,          21.2,                 0.78,        8.03, yes       , 06:33        , 06:46        ,            0
+N22DCDK566, Saturday , 07:00           ,         7.9, sunny  , bus           ,          34.8,                 0.56,        6.91, yes       , 06:46        , 06:57        ,            0
+N22DCCN631, Thursday , 07:00           ,         6.2, sunny  , bus           ,          30.9,                 0.63,        7.88, no        , 06:47        , 06:50        ,            0
+N22DCDK940, Tuesday  , 07:00           ,         5.3, sunny  , bus           ,          26.6,                 0.77,        5.83, yes       , 06:48        , 06:48        ,            0
+N22DCIT670, Wednesday, 07:00           ,         3.9, sunny  , bike          ,          16.2,                 0.56,        8.63, yes       , 06:45        , 06:46        ,            0
+N22DCVT882, Saturday , 07:00           ,         4.3, cloudy , bike          ,          16.9,                 0.7 ,        6.13, yes       , 06:44        , 06:52        ,            0
+N22DCME688, Friday   , 07:00           ,         2.0, sunny  , bike          ,          16.6,                 0.65,        8.05, yes       , 06:52        , 06:59        ,            0
+N22DCDK803, Saturday , 07:00           ,         4.2, sunny  , bike          ,          15.0,                 0.85,        6.76, yes       , 06:43        , 06:51        ,            0
+N22DCDK235, Tuesday  , 07:00           ,         6.9, sunny  , bus           ,          31.9,                 0.75,        5.69, yes       , 06:47        , 06:50        ,            0
+N22DCME545, Wednesday, 07:00           ,         5.8, sunny  , bus           ,          36.9,                 0.83,        7.06, yes       , 06:50        , 06:55        ,            0
+N22DCDK361, Tuesday  , 07:00           ,         3.2, rainy  , bike          ,          23.3,                 0.93,        7.39, yes       , 06:51        , 06:59        ,            0
+N22DCIT884, Monday   , 07:00           ,         3.4, rainy  , bike          ,          16.8,                 0.85,        5.9 , yes       , 06:47        , 06:53        ,            0
+N22DCME912, Sunday   , 07:00           ,         8.9, rainy  , bus           ,          38.5,                 0.97,        5.16, yes       , 06:46        , 06:57        ,            0
+N22DCVT777, Wednesday, 07:00           ,         7.2, sunny  , bus           ,          37.0,                 0.87,        8.66, yes       , 06:48        , 07:00        ,            1
+N22DCME716, Saturday , 07:00           ,         8.2, rainy  , bus           ,          31.0,                 0.7 ,        7.6 , yes       , 06:44        , 06:46        ,            0
+N22DCCN673, Wednesday, 07:00           ,         4.7, cloudy , bike          ,          17.0,                 0.6 ,        8.85, no        , 06:43        , 06:54        ,            0
+N22DCIT308, Wednesday, 07:00           ,         2.6, sunny  , bike          ,          16.3,                 0.88,        8.77, no        , 06:50        , 06:53        ,            0
+N22DCVT973, Saturday , 07:00           ,         1.8, sunny  , walk          ,           5.2,                 0.66,        8.11, yes       , 06:39        , 06:54        ,            0
+N22DCVT668, Friday   , 07:00           ,         9.3, sunny  , bus           ,          37.1,                 0.82,        7.51, yes       , 06:44        , 06:56        ,            0
+N22DCCN872, Tuesday  , 07:00           ,         5.9, sunny  , bus           ,          22.5,                 0.96,        6.6 , yes       , 06:44        , 06:50        ,            0
+N22DCIT008, Sunday   , 07:00           ,         1.2, sunny  , walk          ,           5.2,                 0.63,        8.23, no        , 06:46        , 06:49        ,            0
+N22DCME797, Tuesday  , 07:00           ,         1.8, rainy  , walk          ,           5.8,                 0.84,        8.36, yes       , 06:41        , 06:47        ,            0
+N22DCME545, Saturday , 07:00           ,         3.3, sunny  , bike          ,          25.0,                 0.78,        5.8 , yes       , 06:52        , 06:59        ,            0
+N22DCME034, Saturday , 07:00           ,         6.6, windy  , bus           ,          33.6,                 0.63,        6.54, yes       , 06:48        , 06:52        ,            0
+N22DCCN350, Saturday , 07:00           ,         5.1, sunny  , bus           ,          37.5,                 0.64,        8.83, yes       , 06:51        , 06:58        ,            0
+N22DCDK087, Tuesday  , 07:00           ,         7.6, sunny  , bus           ,          27.1,                 0.64,        6.82, yes       , 06:43        , 06:44        ,            0
+N22DCCN703, Saturday , 07:00           ,         4.7, sunny  , bike          ,          16.9,                 0.52,        7.29, yes       , 06:43        , 06:45        ,            0
+N22DCIT100, Thursday , 07:00           ,         6.7, sunny  , bus           ,          33.6,                 0.99,        7.89, yes       , 06:48        , 06:51        ,            0
+N22DCIT675, Wednesday, 07:00           ,         3.8, cloudy , bike          ,          20.0,                 0.65,        5.55, yes       , 06:48        , 06:56        ,            0
+N22DCIT580, Friday   , 07:00           ,         9.8, rainy  , bus           ,          38.2,                 0.63,        8.02, yes       , 06:44        , 06:53        ,            0
+N22DCVT600, Wednesday, 07:00           ,         1.0, cloudy , walk          ,           5.6,                 0.6 ,        5.36, yes       , 06:49        , 06:56        ,            0
+N22DCVT254, Monday   , 07:00           ,         8.2, sunny  , bus           ,          33.6,                 0.97,        7.71, yes       , 06:45        , 06:47        ,            0
+N22DCIT468, Saturday , 07:00           ,         0.7, sunny  , walk          ,           4.7,                 0.54,        5.07, no        , 06:51        , 07:00        ,            1
+N22DCME222, Thursday , 07:00           ,         5.3, rainy  , bus           ,          39.1,                 0.88,        5.72, yes       , 06:51        , 07:00        ,            0
+N22DCIT662, Tuesday  , 07:00           ,         4.2, cloudy , bike          ,          18.9,                 0.76,        5.39, yes       , 06:46        , 07:00        ,            0
+N22DCDK498, Thursday , 07:00           ,         9.3, sunny  , bus           ,          38.9,                 0.53,        5.48, yes       , 06:45        , 06:56        ,            0
+N22DCCN926, Saturday , 07:00           ,         9.3, rainy  , bus           ,          26.5,                 0.53,        6.28, yes       , 06:38        , 06:40        ,            0
+N22DCDK093, Thursday , 07:00           ,         6.6, sunny  , bus           ,          39.6,                 0.85,        7.43, yes       , 06:50        , 06:55        ,            0
+N22DCCN412, Saturday , 07:00           ,         5.2, rainy  , bus           ,          33.2,                 0.88,        7.42, no        , 06:50        , 07:03        ,            4
+N22DCVT926, Wednesday, 07:00           ,         2.4, sunny  , bike          ,          20.1,                 0.68,        6.2 , yes       , 06:52        , 06:58        ,            0
+N22DCCN630, Saturday , 07:00           ,         4.0, rainy  , bike          ,          16.8,                 0.94,        6.25, no        , 06:45        , 06:57        ,            0
+N22DCVT591, Wednesday, 07:00           ,         7.1, cloudy , bus           ,          30.5,                 0.92,        7.1 , yes       , 06:46        , 06:51        ,            0
+N22DCIT530, Sunday   , 07:00           ,         9.9, rainy  , bus           ,          26.1,                 0.57,        7.47, yes       , 06:37        , 06:44        ,            0
+N22DCDK296, Saturday , 07:00           ,         1.7, sunny  , walk          ,           5.7,                 0.59,        8.73, yes       , 06:42        , 06:52        ,            0
+N22DCVT933, Saturday , 07:00           ,         5.0, windy  , bike          ,          19.6,                 0.51,        7.92, yes       , 06:44        , 06:45        ,            0
+N22DCCN193, Wednesday, 07:00           ,         3.7, sunny  , bike          ,          22.8,                 0.99,        6.86, yes       , 06:50        , 06:52        ,            0
+N22DCME427, Wednesday, 07:00           ,         5.7, cloudy , bus           ,          31.5,                 0.66,        6.18, yes       , 06:49        , 06:54        ,            0
+N22DCCN303, Tuesday  , 07:00           ,         7.9, sunny  , bus           ,          20.8,                 0.87,        8.67, yes       , 06:37        , 06:50        ,            0
+N22DCVT144, Sunday   , 07:00           ,         6.9, cloudy , bus           ,          33.6,                 0.55,        6.4 , yes       , 06:47        , 06:50        ,            0
+N22DCVT415, Monday   , 07:00           ,         3.5, sunny  , bike          ,          15.1,                 0.86,        6.51, yes       , 06:46        , 06:48        ,            0
+N22DCME120, Saturday , 07:00           ,         1.1, sunny  , walk          ,           4.1,                 0.91,        5.55, yes       , 06:43        , 06:56        ,            0
+N22DCCN077, Monday   , 07:00           ,         3.2, rainy  , bike          ,          22.1,                 0.89,        7.49, yes       , 06:51        , 06:56        ,            0
+N22DCVT589, Saturday , 07:00           ,         3.4, sunny  , bike          ,          19.4,                 0.76,        7.72, yes       , 06:49        , 06:51        ,            0
+N22DCCN229, Friday   , 07:00           ,         8.3, sunny  , bus           ,          20.6,                 0.95,        5.21, yes       , 06:35        , 06:48        ,            0
+N22DCIT625, Tuesday  , 07:00           ,         5.8, sunny  , bus           ,          36.3,                 0.87,        7.65, no        , 06:50        , 06:51        ,            0
+N22DCDK334, Wednesday, 07:00           ,         9.7, cloudy , bus           ,          32.5,                 0.53,        7.87, yes       , 06:42        , 06:46        ,            0
+N22DCIT321, Friday   , 07:00           ,         8.9, cloudy , bus           ,          21.2,                 0.82,        7.47, no        , 06:34        , 06:41        ,            0
+N22DCME343, Saturday , 07:00           ,         9.1, rainy  , bus           ,          36.5,                 0.67,        7.74, no        , 06:45        , 06:47        ,            0
+N22DCVT953, Friday   , 07:00           ,         8.4, sunny  , bus           ,          21.5,                 0.73,        5.69, yes       , 06:36        , 06:44        ,            0
+N22DCME631, Friday   , 07:00           ,         4.8, sunny  , bike          ,          15.9,                 0.74,        6.14, yes       , 06:41        , 06:48        ,            0
+N22DCME934, Saturday , 07:00           ,         8.3, sunny  , bus           ,          30.3,                 0.75,        7.47, no        , 06:43        , 06:48        ,            0
+N22DCME670, Monday   , 07:00           ,         5.7, rainy  , bus           ,          39.7,                 0.7 ,        6.69, yes       , 06:51        , 06:53        ,            0
+N22DCME422, Thursday , 07:00           ,         1.1, sunny  , walk          ,           5.9,                 0.86,        6.65, yes       , 06:48        , 06:52        ,            0
+N22DCME369, Friday   , 07:00           ,         6.4, sunny  , bus           ,          38.4,                 0.9 ,        7.76, yes       , 06:50        , 06:53        ,            0
+N22DCDK850, Sunday   , 07:00           ,         5.6, sunny  , bus           ,          31.0,                 0.62,        7.59, yes       , 06:49        , 06:54        ,            0
+N22DCME132, Friday   , 07:00           ,         9.2, cloudy , bus           ,          30.9,                 0.94,        7.26, yes       , 06:42        , 06:52        ,            0
+N22DCIT900, Saturday , 07:00           ,         2.6, sunny  , bike          ,          16.0,                 0.94,        6.28, yes       , 06:50        , 06:50        ,            0
+N22DCIT027, Thursday , 07:00           ,         7.2, rainy  , bus           ,          25.2,                 1.0 ,        5.95, yes       , 06:42        , 06:47        ,            0
+N22DCDK835, Sunday   , 07:00           ,         1.2, sunny  , walk          ,           5.3,                 0.9 ,        7.94, yes       , 06:46        , 06:50        ,            0
+N22DCIT695, Saturday , 07:00           ,         8.4, sunny  , bus           ,          37.7,                 0.74,        8.38, yes       , 06:46        , 07:00        ,            0
+N22DCCN913, Tuesday  , 07:00           ,         3.5, sunny  , bike          ,          22.0,                 0.91,        5.02, yes       , 06:50        , 06:55        ,            0
+N22DCIT601, Thursday , 07:00           ,         9.0, cloudy , bus           ,          31.1,                 0.94,        6.64, no        , 06:42        , 06:51        ,            0
+N22DCDK081, Saturday , 07:00           ,         0.7, sunny  , walk          ,           4.3,                 0.52,        8.41, yes       , 06:50        , 07:01        ,            1
+N22DCCN106, Wednesday, 07:00           ,         9.0, sunny  , bus           ,          22.9,                 0.95,        8.72, no        , 06:36        , 06:40        ,            0
+N22DCIT358, Tuesday  , 07:00           ,         4.2, rainy  , bike          ,          17.1,                 0.58,        8.46, no        , 06:45        , 06:56        ,            0
+N22DCDK698, Wednesday, 07:00           ,         2.0, rainy  , bike          ,          20.1,                 0.88,        5.82, no        , 06:54        , 07:00        ,            1
+N22DCCN620, Tuesday  , 07:00           ,         9.4, cloudy , bus           ,          35.8,                 0.92,        5.89, yes       , 06:44        , 06:52        ,            0
+N22DCIT526, Thursday , 07:00           ,         9.9, sunny  , bus           ,          24.9,                 0.68,        8.81, no        , 06:36        , 06:47        ,            0
+N22DCIT631, Tuesday  , 07:00           ,         2.1, windy  , bike          ,          21.0,                 0.84,        8.8 , yes       , 06:54        , 07:00        ,            0
+N22DCVT438, Tuesday  , 07:00           ,         5.4, sunny  , bus           ,          34.9,                 1.0 ,        7.08, yes       , 06:50        , 07:02        ,            2
+N22DCDK145, Monday   , 07:00           ,         6.8, sunny  , bus           ,          34.9,                 0.75,        6.79, yes       , 06:48        , 06:56        ,            0
+N22DCDK409, Sunday   , 07:00           ,         8.5, windy  , bus           ,          39.3,                 0.84,        7.75, no        , 06:47        , 06:53        ,            0
+N22DCDK631, Thursday , 07:00           ,         3.3, sunny  , bike          ,          19.5,                 0.98,        6.99, yes       , 06:49        , 07:00        ,            1
+N22DCME506, Saturday , 07:00           ,         3.2, cloudy , bike          ,          18.8,                 0.59,        5.17, yes       , 06:49        , 06:55        ,            0
+N22DCIT261, Monday   , 07:00           ,         3.4, cloudy , bike          ,          21.4,                 0.59,        8.0 , yes       , 06:50        , 06:59        ,            0
+N22DCDK094, Thursday , 07:00           ,         9.3, sunny  , bus           ,          25.6,                 0.85,        8.22, yes       , 06:38        , 06:39        ,            0
+N22DCIT514, Monday   , 07:00           ,         9.4, cloudy , bus           ,          38.3,                 0.58,        5.27, yes       , 06:45        , 06:45        ,            0
+N22DCME196, Monday   , 07:00           ,         8.5, rainy  , bus           ,          23.0,                 0.54,        5.66, yes       , 06:37        , 06:42        ,            0
+N22DCDK510, Saturday , 07:00           ,         1.5, windy  , walk          ,           4.7,                 0.68,        5.59, yes       , 06:40        , 06:44        ,            0
+N22DCDK001, Friday   , 07:00           ,         3.8, sunny  , bike          ,          17.1,                 0.75,        6.81, no        , 06:46        , 06:51        ,            0
+N22DCIT726, Thursday , 07:00           ,         5.6, sunny  , bus           ,          21.8,                 0.89,        7.16, yes       , 06:44        , 06:54        ,            0
+N22DCME627, Wednesday, 07:00           ,         9.6, sunny  , bus           ,          20.5,                 0.95,        8.89, no        , 06:31        , 06:37        ,            0
+N22DCME997, Wednesday, 07:00           ,         8.5, rainy  , bus           ,          25.1,                 0.95,        8.86, no        , 06:39        , 06:39        ,            0
+N22DCIT239, Sunday   , 07:00           ,         6.5, windy  , bus           ,          30.8,                 0.81,        8.79, no        , 06:47        , 07:01        ,            1
+N22DCDK896, Monday   , 07:00           ,         0.7, cloudy , walk          ,           5.1,                 0.92,        6.93, yes       , 06:51        , 06:52        ,            0
+N22DCVT255, Monday   , 07:00           ,         5.9, sunny  , bus           ,          33.2,                 0.54,        8.36, yes       , 06:49        , 06:50        ,            0
+N22DCCN293, Friday   , 07:00           ,         6.1, sunny  , bus           ,          35.1,                 0.94,        6.17, no        , 06:49        , 06:57        ,            0
+N22DCVT450, Monday   , 07:00           ,         4.0, sunny  , bike          ,          18.2,                 0.55,        8.97, yes       , 06:46        , 06:50        ,            0
+N22DCME933, Sunday   , 07:00           ,         8.2, cloudy , bus           ,          22.4,                 0.88,        5.81, yes       , 06:38        , 06:45        ,            0
+N22DCDK098, Tuesday  , 07:00           ,         3.2, cloudy , bike          ,          17.3,                 0.83,        8.63, no        , 06:48        , 06:58        ,            0
+N22DCCN341, Monday   , 07:00           ,         3.9, windy  , bike          ,          23.6,                 0.95,        6.63, yes       , 06:50        , 07:01        ,            2
+N22DCCN942, Friday   , 07:00           ,         5.3, rainy  , bus           ,          26.7,                 0.75,        7.03, yes       , 06:48        , 06:58        ,            0
+N22DCCN464, Wednesday, 07:00           ,         6.6, cloudy , bus           ,          25.5,                 1.0 ,        6.39, yes       , 06:44        , 06:47        ,            0
+N22DCVT464, Friday   , 07:00           ,         6.7, rainy  , bus           ,          30.4,                 0.58,        8.09, no        , 06:46        , 06:50        ,            0
+N22DCME189, Thursday , 07:00           ,         1.3, sunny  , walk          ,           5.5,                 0.65,        8.58, no        , 06:45        , 06:48        ,            0
+N22DCME625, Sunday   , 07:00           ,         9.7, cloudy , bus           ,          35.9,                 0.9 ,        6.51, yes       , 06:43        , 06:58        ,            0
+N22DCVT759, Wednesday, 07:00           ,         7.9, rainy  , bus           ,          22.8,                 0.55,        8.34, yes       , 06:39        , 06:53        ,            0
+N22DCDK174, Saturday , 07:00           ,         8.1, rainy  , bus           ,          35.2,                 0.78,        5.26, yes       , 06:46        , 06:58        ,            0
+N22DCCN698, Sunday   , 07:00           ,         6.2, rainy  , bus           ,          26.7,                 0.96,        7.2 , yes       , 06:46        , 06:51        ,            0
+N22DCME991, Saturday , 07:00           ,         3.7, sunny  , bike          ,          23.7,                 0.87,        5.06, yes       , 06:50        , 07:04        ,            5
+N22DCCN469, Tuesday  , 07:00           ,         8.8, rainy  , bus           ,          31.7,                 0.78,        8.7 , yes       , 06:43        , 06:46        ,            0
+N22DCME869, Wednesday, 07:00           ,         0.5, sunny  , walk          ,           4.6,                 0.96,        7.78, no        , 06:53        , 07:01        ,            2
+N22DCIT965, Thursday , 07:00           ,         6.9, sunny  , bus           ,          36.8,                 0.51,        8.99, yes       , 06:48        , 07:03        ,            4
+N22DCIT570, Wednesday, 07:00           ,         9.8, rainy  , bus           ,          25.5,                 0.74,        6.58, no        , 06:36        , 06:46        ,            0
+N22DCDK703, Monday   , 07:00           ,         4.8, rainy  , bike          ,          20.6,                 0.85,        6.06, yes       , 06:46        , 06:55        ,            0
+N22DCDK943, Wednesday, 07:00           ,         4.9, rainy  , bike          ,          20.7,                 0.93,        8.55, yes       , 06:45        , 06:53        ,            0
+N22DCVT576, Tuesday  , 07:00           ,         1.2, cloudy , walk          ,           5.9,                 0.63,        5.64, no        , 06:47        , 06:59        ,            0
+N22DCDK263, Friday   , 07:00           ,         9.9, rainy  , bus           ,          23.7,                 0.58,        8.72, no        , 06:34        , 06:46        ,            0
+N22DCVT665, Sunday   , 07:00           ,         5.2, sunny  , bus           ,          28.3,                 0.96,        8.19, yes       , 06:48        , 07:01        ,            1
+N22DCME696, Wednesday, 07:00           ,         2.9, windy  , bike          ,          24.4,                 0.58,        6.2 , no        , 06:52        , 06:56        ,            0
+N22DCVT882, Thursday , 07:00           ,         3.4, sunny  , bike          ,          19.3,                 0.99,        5.26, yes       , 06:49        , 06:56        ,            0
+N22DCIT054, Tuesday  , 07:00           ,         0.8, cloudy , walk          ,           4.1,                 0.85,        6.61, no        , 06:48        , 06:53        ,            0
+N22DCME621, Tuesday  , 07:00           ,         1.0, rainy  , walk          ,           5.1,                 0.57,        8.26, yes       , 06:48        , 07:01        ,            1
+N22DCDK402, Thursday , 07:00           ,         9.5, rainy  , bus           ,          38.2,                 0.98,        7.74, yes       , 06:45        , 06:54        ,            0
+N22DCVT564, Thursday , 07:00           ,         5.4, cloudy , bus           ,          37.6,                 0.91,        6.52, yes       , 06:51        , 06:57        ,            0
+N22DCCN546, Wednesday, 07:00           ,         9.6, cloudy , bus           ,          25.9,                 0.88,        5.54, yes       , 06:37        , 06:46        ,            0
+N22DCME385, Tuesday  , 07:00           ,         9.4, windy  , bus           ,          31.9,                 0.71,        8.41, yes       , 06:42        , 06:46        ,            0
+N22DCIT137, Tuesday  , 07:00           ,         9.9, windy  , bus           ,          39.3,                 0.91,        7.95, yes       , 06:44        , 06:48        ,            0
+N22DCVT242, Friday   , 07:00           ,         2.0, sunny  , bike          ,          21.0,                 0.96,        6.78, yes       , 06:54        , 06:57        ,            0
+N22DCVT794, Sunday   , 07:00           ,         3.9, sunny  , bike          ,          19.9,                 0.84,        5.92, no        , 06:48        , 07:00        ,            1
+N22DCCN010, Sunday   , 07:00           ,         2.8, sunny  , bike          ,          19.6,                 0.86,        6.64, no        , 06:51        , 07:02        ,            2
+N22DCVT931, Wednesday, 07:00           ,         5.9, windy  , bus           ,          27.0,                 0.87,        6.4 , yes       , 06:46        , 07:00        ,            0
+N22DCIT145, Friday   , 07:00           ,         2.1, cloudy , bike          ,          17.5,                 0.78,        5.1 , yes       , 06:52        , 07:06        ,            6
+N22DCVT094, Friday   , 07:00           ,         8.2, rainy  , bus           ,          31.9,                 0.7 ,        7.29, no        , 06:44        , 06:49        ,            0
+N22DCIT308, Tuesday  , 07:00           ,         2.5, sunny  , bike          ,          24.1,                 0.52,        8.45, yes       , 06:53        , 07:07        ,            7
+N22DCVT410, Saturday , 07:00           ,         9.6, cloudy , bus           ,          31.9,                 0.61,        8.89, yes       , 06:41        , 06:45        ,            0
+N22DCVT786, Thursday , 07:00           ,         4.0, cloudy , bike          ,          15.0,                 1.0 ,        6.26, yes       , 06:44        , 06:54        ,            0
+N22DCCN424, Thursday , 07:00           ,         1.8, sunny  , walk          ,           4.1,                 0.88,        6.26, yes       , 06:33        , 06:47        ,            0
+N22DCDK917, Wednesday, 07:00           ,         0.9, sunny  , walk          ,           5.9,                 0.67,        6.7 , yes       , 06:50        , 07:00        ,            1
+N22DCIT842, Sunday   , 07:00           ,         3.2, sunny  , bike          ,          19.8,                 0.87,        7.42, yes       , 06:50        , 06:58        ,            0
+N22DCVT026, Tuesday  , 07:00           ,         5.4, cloudy , bus           ,          36.9,                 0.52,        5.33, yes       , 06:51        , 06:52        ,            0
+N22DCIT892, Monday   , 07:00           ,         7.8, sunny  , bus           ,          20.3,                 0.98,        8.05, yes       , 06:36        , 06:48        ,            0
+N22DCME267, Thursday , 07:00           ,         2.5, rainy  , bike          ,          16.9,                 0.84,        6.41, yes       , 06:51        , 07:04        ,            4
+N22DCME349, Wednesday, 07:00           ,         7.0, sunny  , bus           ,          26.2,                 0.52,        7.86, yes       , 06:43        , 06:48        ,            0
+N22DCCN202, Tuesday  , 07:00           ,         2.1, cloudy , bike          ,          22.0,                 0.95,        5.65, yes       , 06:54        , 07:07        ,            7
+N22DCDK409, Tuesday  , 07:00           ,         5.4, rainy  , bus           ,          36.1,                 0.7 ,        8.35, yes       , 06:51        , 07:02        ,            3
+N22DCCN523, Monday   , 07:00           ,         7.2, rainy  , bus           ,          28.2,                 0.83,        6.24, yes       , 06:44        , 06:56        ,            0
+N22DCDK922, Wednesday, 07:00           ,         4.8, sunny  , bike          ,          18.7,                 0.54,        8.65, yes       , 06:44        , 06:56        ,            0
+N22DCDK435, Saturday , 07:00           ,         7.7, windy  , bus           ,          35.9,                 0.89,        5.92, yes       , 06:47        , 06:53        ,            0
+N22DCVT946, Friday   , 07:00           ,         1.2, sunny  , walk          ,           4.6,                 0.62,        8.31, yes       , 06:44        , 06:48        ,            0
+N22DCCN296, Friday   , 07:00           ,         3.9, rainy  , bike          ,          19.0,                 0.67,        5.82, yes       , 06:47        , 07:00        ,            1
+N22DCME665, Saturday , 07:00           ,         0.8, rainy  , walk          ,           4.5,                 0.76,        6.07, yes       , 06:49        , 06:55        ,            0
+N22DCVT249, Monday   , 07:00           ,         8.6, sunny  , bus           ,          24.4,                 0.85,        5.67, no        , 06:38        , 06:45        ,            0
+N22DCDK501, Monday   , 07:00           ,         0.7, sunny  , walk          ,           5.3,                 0.58,        7.98, yes       , 06:52        , 07:04        ,            4
+N22DCME043, Tuesday  , 07:00           ,         3.2, sunny  , bike          ,          23.0,                 0.74,        8.25, yes       , 06:51        , 07:06        ,            6
+N22DCDK345, Wednesday, 07:00           ,         4.4, cloudy , bike          ,          24.0,                 0.98,        5.34, no        , 06:49        , 07:00        ,            1
+N22DCIT583, Wednesday, 07:00           ,         3.6, cloudy , bike          ,          20.0,                 0.96,        8.99, yes       , 06:49        , 06:58        ,            0
+N22DCCN497, Sunday   , 07:00           ,         0.8, cloudy , walk          ,           5.4,                 0.75,        7.54, yes       , 06:51        , 06:51        ,            0
+N22DCIT686, Friday   , 07:00           ,         8.7, sunny  , bus           ,          20.2,                 0.71,        5.7 , yes       , 06:34        , 06:44        ,            0
+N22DCVT144, Thursday , 07:00           ,         7.5, sunny  , bus           ,          39.2,                 0.97,        6.68, yes       , 06:48        , 06:54        ,            0
+N22DCVT857, Monday   , 07:00           ,         3.9, sunny  , bike          ,          23.0,                 0.64,        7.72, yes       , 06:49        , 07:00        ,            1
+N22DCDK929, Thursday , 07:00           ,         4.3, sunny  , bike          ,          24.1,                 0.74,        7.2 , yes       , 06:49        , 06:59        ,            0
+N22DCIT869, Friday   , 07:00           ,         1.3, cloudy , walk          ,           5.2,                 0.85,        8.4 , no        , 06:45        , 06:57        ,            0
+N22DCME473, Tuesday  , 07:00           ,         8.5, sunny  , bus           ,          25.6,                 0.78,        8.17, yes       , 06:40        , 06:42        ,            0
+N22DCVT153, Thursday , 07:00           ,         3.8, rainy  , bike          ,          15.5,                 0.7 ,        6.35, yes       , 06:45        , 06:49        ,            0
+N22DCVT104, Thursday , 07:00           ,         4.7, cloudy , bike          ,          15.9,                 0.59,        5.81, yes       , 06:42        , 06:52        ,            0
+N22DCDK768, Tuesday  , 07:00           ,         6.1, cloudy , bus           ,          25.1,                 0.84,        6.63, yes       , 06:45        , 06:51        ,            0
+N22DCIT680, Sunday   , 07:00           ,         3.9, rainy  , bike          ,          22.5,                 0.78,        8.44, yes       , 06:49        , 07:00        ,            1
+N22DCDK533, Sunday   , 07:00           ,         5.9, rainy  , bus           ,          20.6,                 0.58,        5.85, yes       , 06:42        , 06:51        ,            0
+N22DCDK836, Wednesday, 07:00           ,         7.6, rainy  , bus           ,          34.5,                 0.72,        8.24, yes       , 06:46        , 07:00        ,            0
+N22DCIT519, Wednesday, 07:00           ,         1.4, sunny  , walk          ,           5.2,                 0.58,        8.36, yes       , 06:43        , 06:50        ,            0
+N22DCME005, Tuesday  , 07:00           ,         0.8, cloudy , walk          ,           6.0,                 0.55,        6.96, yes       , 06:52        , 07:00        ,            0
+N22DCME211, Wednesday, 07:00           ,         5.8, cloudy , bus           ,          31.9,                 0.99,        8.74, yes       , 06:49        , 06:54        ,            0
+N22DCME030, Thursday , 07:00           ,         5.2, cloudy , bus           ,          32.6,                 0.57,        6.37, yes       , 06:50        , 06:54        ,            0
+N22DCDK443, Sunday   , 07:00           ,         1.4, sunny  , walk          ,           4.1,                 0.64,        7.54, yes       , 06:39        , 06:48        ,            0
+N22DCME355, Friday   , 07:00           ,         3.9, windy  , bike          ,          16.8,                 0.55,        8.4 , yes       , 06:46        , 06:48        ,            0
+N22DCDK824, Monday   , 07:00           ,         5.0, cloudy , bike          ,          19.6,                 0.73,        7.15, yes       , 06:44        , 06:54        ,            0
+N22DCDK759, Friday   , 07:00           ,         9.1, rainy  , bus           ,          22.8,                 0.6 ,        8.12, no        , 06:36        , 06:43        ,            0
+N22DCDK531, Wednesday, 07:00           ,         3.1, cloudy , bike          ,          23.7,                 0.72,        6.83, yes       , 06:52        , 07:06        ,            6
+N22DCME294, Tuesday  , 07:00           ,         3.1, sunny  , bike          ,          20.2,                 0.93,        5.84, yes       , 06:50        , 07:04        ,            4
+N22DCME246, Tuesday  , 07:00           ,         3.1, cloudy , bike          ,          20.7,                 0.77,        5.71, yes       , 06:51        , 06:58        ,            0
+N22DCME891, Sunday   , 07:00           ,         3.5, sunny  , bike          ,          20.9,                 0.86,        7.1 , yes       , 06:49        , 06:50        ,            0
+N22DCIT196, Saturday , 07:00           ,         4.0, cloudy , bike          ,          16.7,                 0.99,        8.44, no        , 06:45        , 06:51        ,            0
+N22DCME708, Thursday , 07:00           ,         6.7, windy  , bus           ,          38.8,                 0.69,        7.43, yes       , 06:49        , 06:58        ,            0
+N22DCVT420, Thursday , 07:00           ,         2.0, cloudy , bike          ,          22.6,                 0.97,        8.6 , yes       , 06:54        , 07:04        ,            4
+N22DCCN493, Friday   , 07:00           ,         8.8, sunny  , bus           ,          25.7,                 0.9 ,        7.06, yes       , 06:39        , 06:44        ,            0
+N22DCME875, Saturday , 07:00           ,         1.8, windy  , walk          ,           4.2,                 0.51,        8.36, yes       , 06:34        , 06:46        ,            0
+N22DCIT560, Tuesday  , 07:00           ,         4.2, sunny  , bike          ,          20.6,                 0.53,        8.82, yes       , 06:47        , 07:02        ,            2
+N22DCVT122, Monday   , 07:00           ,         5.0, sunny  , bike          ,          20.0,                 0.78,        7.05, no        , 06:45        , 06:56        ,            0
+N22DCIT241, Wednesday, 07:00           ,         5.5, sunny  , bus           ,          26.0,                 0.64,        8.91, no        , 06:47        , 06:51        ,            0
+N22DCCN673, Wednesday, 07:00           ,         1.5, sunny  , walk          ,           4.9,                 0.72,        7.45, yes       , 06:41        , 06:46        ,            0
+N22DCCN063, Friday   , 07:00           ,         5.0, cloudy , bike          ,          17.7,                 0.75,        6.95, yes       , 06:43        , 06:54        ,            0
+N22DCVT870, Wednesday, 07:00           ,         3.3, windy  , bike          ,          24.4,                 0.91,        6.77, yes       , 06:51        , 06:58        ,            0
+N22DCIT246, Sunday   , 07:00           ,         4.1, sunny  , bike          ,          21.3,                 0.88,        6.93, yes       , 06:48        , 07:00        ,            1
+N22DCME346, Tuesday  , 07:00           ,         7.1, sunny  , bus           ,          35.2,                 0.53,        5.26, no        , 06:47        , 06:51        ,            0
+N22DCCN110, Saturday , 07:00           ,         9.6, windy  , bus           ,          38.8,                 0.71,        8.81, no        , 06:45        , 06:54        ,            0
+N22DCIT968, Friday   , 07:00           ,         8.2, windy  , bus           ,          30.9,                 0.91,        5.61, yes       , 06:44        , 06:57        ,            0
+N22DCME934, Friday   , 07:00           ,         3.6, sunny  , bike          ,          15.7,                 0.85,        7.15, yes       , 06:46        , 06:53        ,            0
+N22DCVT601, Monday   , 07:00           ,         2.4, sunny  , bike          ,          23.0,                 0.9 ,        7.12, yes       , 06:53        , 07:00        ,            1
+N22DCCN088, Friday   , 07:00           ,         0.8, sunny  , walk          ,           4.1,                 0.55,        8.68, yes       , 06:48        , 07:00        ,            1
+N22DCCN458, Sunday   , 07:00           ,         9.5, sunny  , bus           ,          28.5,                 0.84,        8.16, no        , 06:40        , 06:48        ,            0
+N22DCCN020, Monday   , 07:00           ,         7.1, rainy  , bus           ,          31.3,                 0.58,        6.56, no        , 06:46        , 06:51        ,            0
+N22DCVT186, Monday   , 07:00           ,         9.8, windy  , bus           ,          27.0,                 0.75,        7.55, no        , 06:38        , 06:51        ,            0
+N22DCIT427, Monday   , 07:00           ,         5.7, sunny  , bus           ,          25.9,                 0.77,        6.1 , yes       , 06:46        , 06:59        ,            0
+N22DCCN954, Sunday   , 07:00           ,         5.3, windy  , bus           ,          36.6,                 0.55,        7.8 , yes       , 06:51        , 06:53        ,            0
+N22DCME486, Sunday   , 07:00           ,         3.7, rainy  , bike          ,          24.8,                 0.95,        8.43, no        , 06:51        , 07:04        ,            4
+N22DCME067, Sunday   , 07:00           ,         6.4, sunny  , bus           ,          22.3,                 0.61,        5.21, no        , 06:42        , 06:48        ,            0
+N22DCCN763, Friday   , 07:00           ,         3.4, windy  , bike          ,          17.5,                 0.98,        5.62, no        , 06:48        , 06:50        ,            0
+N22DCDK691, Wednesday, 07:00           ,         7.2, sunny  , bus           ,          27.6,                 0.85,        5.28, no        , 06:44        , 06:53        ,            0
+N22DCIT779, Sunday   , 07:00           ,         8.4, windy  , bus           ,          22.1,                 0.85,        8.35, yes       , 06:37        , 06:48        ,            0
+N22DCME569, Monday   , 07:00           ,         3.8, cloudy , bike          ,          17.6,                 0.68,        7.77, yes       , 06:47        , 07:00        ,            1
+N22DCDK280, Saturday , 07:00           ,         0.7, cloudy , walk          ,           5.2,                 0.91,        6.22, yes       , 06:51        , 06:56        ,            0
+N22DCVT210, Saturday , 07:00           ,         3.1, rainy  , bike          ,          24.2,                 0.93,        5.13, yes       , 06:52        , 06:54        ,            0
+N22DCME898, Friday   , 07:00           ,         3.3, sunny  , bike          ,          23.6,                 0.6 ,        8.42, yes       , 06:51        , 06:52        ,            0
+N22DCDK707, Sunday   , 07:00           ,         4.2, windy  , bike          ,          22.5,                 0.56,        6.05, no        , 06:48        , 06:50        ,            0
+N22DCME425, Monday   , 07:00           ,         5.3, rainy  , bus           ,          20.0,                 0.52,        6.05, yes       , 06:44        , 06:46        ,            0
+N22DCME255, Friday   , 07:00           ,         7.2, windy  , bus           ,          38.0,                 0.97,        5.96, yes       , 06:48        , 06:53        ,            0
+N22DCIT740, Thursday , 07:00           ,         5.2, sunny  , bus           ,          38.1,                 0.67,        5.36, no        , 06:51        , 06:56        ,            0
+N22DCCN731, Monday   , 07:00           ,         8.0, sunny  , bus           ,          37.7,                 0.53,        7.14, no        , 06:47        , 07:00        ,            0
+N22DCME793, Monday   , 07:00           ,         4.4, cloudy , bike          ,          24.6,                 0.96,        6.21, yes       , 06:49        , 06:54        ,            0
+N22DCDK890, Saturday , 07:00           ,         8.8, windy  , bus           ,          24.3,                 0.82,        6.08, yes       , 06:38        , 06:45        ,            0
+N22DCDK009, Sunday   , 07:00           ,         7.9, sunny  , bus           ,          27.0,                 0.88,        8.75, yes       , 06:42        , 06:46        ,            0
+N22DCCN666, Thursday , 07:00           ,         2.2, sunny  , bike          ,          19.1,                 0.78,        8.86, yes       , 06:53        , 06:53        ,            0
+N22DCME824, Tuesday  , 07:00           ,         9.2, sunny  , bus           ,          39.0,                 0.55,        7.03, no        , 06:45        , 06:51        ,            0
+N22DCVT499, Sunday   , 07:00           ,         7.8, sunny  , bus           ,          34.1,                 0.78,        5.31, no        , 06:46        , 07:00        ,            1
+N22DCCN086, Sunday   , 07:00           ,         0.7, cloudy , walk          ,           5.9,                 0.71,        8.93, no        , 06:52        , 07:02        ,            3
+N22DCDK270, Wednesday, 07:00           ,         7.2, cloudy , bus           ,          22.5,                 0.58,        8.54, yes       , 06:40        , 06:52        ,            0
+N22DCVT074, Tuesday  , 07:00           ,         2.4, windy  , bike          ,          18.5,                 0.96,        5.74, yes       , 06:52        , 06:55        ,            0
+N22DCIT146, Monday   , 07:00           ,         1.1, cloudy , walk          ,           5.7,                 0.79,        8.15, yes       , 06:48        , 06:57        ,            0
+N22DCCN210, Saturday , 07:00           ,         7.1, rainy  , bus           ,          26.2,                 0.84,        8.41, yes       , 06:43        , 06:51        ,            0
+N22DCIT202, Thursday , 07:00           ,         1.1, sunny  , walk          ,           5.3,                 0.65,        5.39, yes       , 06:47        , 06:50        ,            0
+N22DCIT705, Wednesday, 07:00           ,         2.9, cloudy , bike          ,          23.8,                 0.61,        7.57, yes       , 06:52        , 07:01        ,            2
+N22DCIT995, Thursday , 07:00           ,         4.5, cloudy , bike          ,          15.0,                 0.65,        7.78, yes       , 06:42        , 06:48        ,            0
+N22DCDK233, Tuesday  , 07:00           ,         3.0, sunny  , bike          ,          22.1,                 0.7 ,        5.5 , no        , 06:51        , 07:05        ,            5
+N22DCVT004, Saturday , 07:00           ,         8.8, sunny  , bus           ,          38.5,                 0.93,        7.04, yes       , 06:46        , 07:00        ,            0
+N22DCCN679, Friday   , 07:00           ,         2.6, sunny  , bike          ,          17.3,                 0.73,        7.12, yes       , 06:50        , 06:57        ,            0
+N22DCIT986, Monday   , 07:00           ,         9.1, windy  , bus           ,          38.4,                 0.9 ,        5.98, yes       , 06:45        , 07:00        ,            0
+N22DCDK003, Thursday , 07:00           ,         7.4, sunny  , bus           ,          32.7,                 0.58,        8.19, yes       , 06:46        , 06:47        ,            0
+N22DCVT040, Sunday   , 07:00           ,         6.0, cloudy , bus           ,          38.9,                 0.69,        7.23, yes       , 06:50        , 06:59        ,            0
+N22DCIT923, Monday   , 07:00           ,         6.6, windy  , bus           ,          21.3,                 0.68,        6.38, yes       , 06:41        , 06:49        ,            0
+N22DCDK501, Thursday , 07:00           ,         7.0, sunny  , bus           ,          38.3,                 0.5 ,        7.31, no        , 06:49        , 07:03        ,            3
+N22DCDK588, Monday   , 07:00           ,         0.7, rainy  , walk          ,           5.2,                 0.64,        7.27, yes       , 06:51        , 07:04        ,            5
+N22DCME148, Wednesday, 07:00           ,         9.1, rainy  , bus           ,          23.1,                 0.63,        8.23, yes       , 06:36        , 06:41        ,            0
+N22DCIT611, Thursday , 07:00           ,         2.7, rainy  , bike          ,          23.2,                 0.9 ,        8.89, yes       , 06:53        , 06:54        ,            0
+N22DCIT401, Thursday , 07:00           ,         8.7, rainy  , bus           ,          22.9,                 0.83,        5.56, yes       , 06:37        , 06:38        ,            0
+N22DCME173, Monday   , 07:00           ,         6.1, sunny  , bus           ,          28.2,                 0.91,        5.92, yes       , 06:47        , 06:47        ,            0
+N22DCDK994, Saturday , 07:00           ,         6.1, cloudy , bus           ,          25.8,                 0.87,        8.01, yes       , 06:45        , 06:51        ,            0
+N22DCVT496, Saturday , 07:00           ,         8.2, sunny  , bus           ,          32.6,                 0.7 ,        8.22, no        , 06:44        , 06:49        ,            0
+N22DCCN048, Tuesday  , 07:00           ,         0.5, sunny  , walk          ,           4.6,                 0.9 ,        5.61, yes       , 06:53        , 07:01        ,            1
+N22DCDK819, Monday   , 07:00           ,         6.2, sunny  , bus           ,          28.6,                 0.84,        5.53, yes       , 06:46        , 06:47        ,            0
+N22DCVT462, Wednesday, 07:00           ,         4.5, sunny  , bike          ,          19.9,                 0.52,        8.5 , yes       , 06:46        , 06:55        ,            0
+N22DCVT540, Sunday   , 07:00           ,         4.1, sunny  , bike          ,          24.7,                 0.71,        8.1 , yes       , 06:50        , 07:04        ,            4
+N22DCME929, Monday   , 07:00           ,         3.8, cloudy , bike          ,          21.6,                 0.73,        8.7 , yes       , 06:49        , 06:57        ,            0
+N22DCME152, Sunday   , 07:00           ,         7.9, sunny  , bus           ,          38.9,                 0.67,        6.03, yes       , 06:47        , 06:54        ,            0
+N22DCME897, Monday   , 07:00           ,         7.4, sunny  , bus           ,          31.5,                 0.55,        7.92, yes       , 06:45        , 06:51        ,            0
+N22DCDK239, Saturday , 07:00           ,         9.6, rainy  , bus           ,          38.9,                 0.6 ,        7.59, yes       , 06:45        , 06:49        ,            0
+N22DCME606, Sunday   , 07:00           ,         9.5, windy  , bus           ,          26.4,                 0.68,        7.02, no        , 06:38        , 06:45        ,            0
+N22DCIT470, Tuesday  , 07:00           ,         4.2, rainy  , bike          ,          16.9,                 0.67,        7.15, yes       , 06:45        , 06:55        ,            0
+N22DCDK206, Thursday , 07:00           ,         1.6, sunny  , walk          ,           5.3,                 0.68,        5.54, no        , 06:41        , 06:47        ,            0
+N22DCCN920, Friday   , 07:00           ,         0.8, cloudy , walk          ,           5.5,                 0.69,        5.1 , yes       , 06:51        , 06:53        ,            0
+N22DCCN948, Saturday , 07:00           ,         9.2, windy  , bus           ,          23.1,                 0.7 ,        5.23, no        , 06:36        , 06:37        ,            0
+N22DCCN898, Saturday , 07:00           ,         6.5, cloudy , bus           ,          23.4,                 0.87,        5.48, yes       , 06:43        , 06:53        ,            0
+N22DCCN436, Sunday   , 07:00           ,         9.7, cloudy , bus           ,          22.3,                 0.68,        7.81, yes       , 06:33        , 06:44        ,            0
+N22DCDK464, Wednesday, 07:00           ,         3.2, cloudy , bike          ,          23.6,                 0.88,        5.35, no        , 06:51        , 06:55        ,            0
+N22DCME358, Saturday , 07:00           ,         4.8, cloudy , bike          ,          24.0,                 0.69,        5.07, yes       , 06:48        , 06:57        ,            0
+N22DCCN825, Saturday , 07:00           ,         3.4, sunny  , bike          ,          21.3,                 0.88,        8.79, yes       , 06:50        , 06:51        ,            0
+N22DCME446, Tuesday  , 07:00           ,         1.1, sunny  , walk          ,           4.2,                 0.89,        5.6 , yes       , 06:44        , 06:48        ,            0
+N22DCME732, Friday   , 07:00           ,         5.9, sunny  , bus           ,          23.5,                 0.8 ,        8.84, yes       , 06:44        , 06:48        ,            0
+N22DCVT456, Wednesday, 07:00           ,         3.8, windy  , bike          ,          24.4,                 0.72,        7.36, yes       , 06:50        , 06:56        ,            0
+N22DCDK037, Tuesday  , 07:00           ,         5.3, sunny  , bus           ,          28.8,                 0.55,        6.93, no        , 06:48        , 06:49        ,            0
+N22DCVT068, Sunday   , 07:00           ,         4.9, sunny  , bike          ,          22.1,                 0.76,        7.04, yes       , 06:46        , 06:57        ,            0
+N22DCDK318, Wednesday, 07:00           ,         9.9, cloudy , bus           ,          37.1,                 0.7 ,        7.39, yes       , 06:43        , 06:49        ,            0
+N22DCME132, Friday   , 07:00           ,         8.6, sunny  , bus           ,          32.5,                 0.78,        8.73, no        , 06:44        , 06:46        ,            0
+N22DCDK267, Wednesday, 07:00           ,         8.8, sunny  , bus           ,          31.4,                 0.81,        6.84, yes       , 06:43        , 06:54        ,            0
+N22DCIT939, Sunday   , 07:00           ,         1.9, rainy  , walk          ,           5.3,                 0.94,        8.44, yes       , 06:38        , 06:46        ,            0
+N22DCDK226, Thursday , 07:00           ,         1.9, windy  , walk          ,           5.4,                 0.64,        8.91, yes       , 06:38        , 06:38        ,            0
+N22DCME377, Saturday , 07:00           ,         0.6, rainy  , walk          ,           6.0,                 0.89,        8.17, yes       , 06:54        , 06:55        ,            0
+N22DCME064, Saturday , 07:00           ,         2.1, sunny  , bike          ,          24.6,                 0.58,        8.06, yes       , 06:54        , 07:04        ,            4
+N22DCCN092, Tuesday  , 07:00           ,         5.2, sunny  , bus           ,          36.8,                 0.56,        8.1 , yes       , 06:51        , 06:51        ,            0
+N22DCDK021, Wednesday, 07:00           ,         6.2, sunny  , bus           ,          31.9,                 0.88,        8.82, yes       , 06:48        , 06:51        ,            0
+N22DCVT766, Monday   , 07:00           ,         4.3, cloudy , bike          ,          16.8,                 0.93,        6.46, yes       , 06:44        , 06:49        ,            0
+N22DCDK546, Thursday , 07:00           ,         4.8, rainy  , bike          ,          22.7,                 0.91,        7.26, yes       , 06:47        , 07:00        ,            1
+N22DCME795, Wednesday, 07:00           ,         8.3, sunny  , bus           ,          38.8,                 0.51,        6.52, yes       , 06:47        , 06:49        ,            0
+N22DCME127, Saturday , 07:00           ,         9.5, cloudy , bus           ,          39.8,                 0.97,        7.01, no        , 06:45        , 07:00        ,            1
+N22DCVT242, Thursday , 07:00           ,         4.9, sunny  , bike          ,          19.2,                 0.56,        8.86, yes       , 06:44        , 06:45        ,            0
+N22DCCN750, Sunday   , 07:00           ,         4.2, sunny  , bike          ,          19.5,                 0.92,        7.58, no        , 06:47        , 06:55        ,            0
+N22DCDK634, Thursday , 07:00           ,         1.7, sunny  , walk          ,           4.3,                 0.79,        7.89, yes       , 06:36        , 06:38        ,            0
+N22DCDK088, Monday   , 07:00           ,         2.7, cloudy , bike          ,          16.6,                 0.95,        5.82, yes       , 06:50        , 06:50        ,            0
+N22DCDK042, Sunday   , 07:00           ,         6.7, rainy  , bus           ,          36.5,                 0.54,        8.9 , yes       , 06:48        , 06:49        ,            0
+N22DCVT056, Tuesday  , 07:00           ,         7.3, sunny  , bus           ,          33.9,                 0.93,        8.27, yes       , 06:47        , 07:01        ,            1
+N22DCME537, Tuesday  , 07:00           ,         0.8, windy  , walk          ,           5.4,                 0.97,        6.49, no        , 06:51        , 07:04        ,            5
+N22DCCN576, Sunday   , 07:00           ,         3.4, windy  , bike          ,          18.0,                 0.71,        8.19, yes       , 06:48        , 06:57        ,            0
+N22DCIT185, Thursday , 07:00           ,         2.2, sunny  , bike          ,          23.7,                 0.91,        8.95, yes       , 06:54        , 07:00        ,            0
+N22DCIT360, Friday   , 07:00           ,         3.5, sunny  , bike          ,          18.1,                 0.57,        7.93, yes       , 06:48        , 06:52        ,            0
+N22DCME997, Thursday , 07:00           ,         5.2, rainy  , bus           ,          33.7,                 0.63,        6.64, no        , 06:50        , 06:55        ,            0
+N22DCDK675, Wednesday, 07:00           ,         8.2, sunny  , bus           ,          27.6,                 0.99,        5.35, yes       , 06:42        , 06:46        ,            0
+N22DCME320, Friday   , 07:00           ,         6.0, sunny  , bus           ,          25.7,                 0.72,        7.8 , yes       , 06:45        , 06:49        ,            0
+N22DCME980, Friday   , 07:00           ,         3.9, cloudy , bike          ,          23.7,                 0.61,        5.03, yes       , 06:50        , 07:03        ,            3
+N22DCVT123, Thursday , 07:00           ,         1.2, cloudy , walk          ,           4.8,                 0.99,        5.52, yes       , 06:45        , 06:58        ,            0
+N22DCIT014, Sunday   , 07:00           ,         1.3, cloudy , walk          ,           5.7,                 0.82,        8.13, yes       , 06:46        , 06:48        ,            0
+N22DCCN265, Friday   , 07:00           ,         8.5, rainy  , bus           ,          39.4,                 0.7 ,        7.32, no        , 06:47        , 06:54        ,            0
+N22DCME066, Tuesday  , 07:00           ,         6.0, sunny  , bus           ,          20.3,                 0.79,        8.62, yes       , 06:42        , 06:49        ,            0
+N22DCIT825, Saturday , 07:00           ,         9.0, sunny  , bus           ,          25.8,                 0.75,        7.71, yes       , 06:39        , 06:41        ,            0
+N22DCIT797, Tuesday  , 07:00           ,         1.4, rainy  , walk          ,           4.1,                 0.97,        8.74, no        , 06:39        , 06:46        ,            0
+N22DCCN858, Tuesday  , 07:00           ,         3.4, rainy  , bike          ,          21.5,                 0.8 ,        7.55, yes       , 06:50        , 06:57        ,            0
+N22DCDK090, Saturday , 07:00           ,         3.2, sunny  , bike          ,          24.3,                 0.94,        7.0 , yes       , 06:52        , 06:58        ,            0
+N22DCCN015, Thursday , 07:00           ,         2.9, rainy  , bike          ,          22.5,                 0.96,        5.89, yes       , 06:52        , 06:53        ,            0
+N22DCVT314, Tuesday  , 07:00           ,         3.9, cloudy , bike          ,          20.0,                 0.8 ,        6.18, yes       , 06:48        , 06:54        ,            0
+N22DCCN240, Thursday , 07:00           ,         6.3, sunny  , bus           ,          25.1,                 0.63,        5.47, yes       , 06:44        , 06:56        ,            0
+N22DCVT735, Thursday , 07:00           ,         8.0, sunny  , bus           ,          35.8,                 0.55,        8.72, yes       , 06:46        , 06:58        ,            0
+N22DCME430, Monday   , 07:00           ,         0.7, sunny  , walk          ,           4.9,                 0.89,        5.69, yes       , 06:51        , 06:55        ,            0
+N22DCCN418, Tuesday  , 07:00           ,         9.3, cloudy , bus           ,          39.6,                 1.0 ,        7.98, yes       , 06:45        , 06:49        ,            0
+N22DCCN573, Tuesday  , 07:00           ,         0.6, windy  , walk          ,           5.4,                 0.7 ,        5.01, yes       , 06:53        , 07:02        ,            2
+N22DCVT960, Tuesday  , 07:00           ,         6.5, sunny  , bus           ,          22.0,                 0.55,        6.6 , no        , 06:42        , 06:43        ,            0
+N22DCVT190, Sunday   , 07:00           ,         9.7, cloudy , bus           ,          21.4,                 0.56,        6.48, yes       , 06:32        , 06:44        ,            0
+N22DCCN798, Saturday , 07:00           ,         3.7, cloudy , bike          ,          22.0,                 0.66,        5.77, yes       , 06:49        , 06:52        ,            0
+N22DCIT753, Friday   , 07:00           ,         1.1, cloudy , walk          ,           5.9,                 0.67,        8.38, no        , 06:48        , 06:58        ,            0
+N22DCCN265, Friday   , 07:00           ,         9.5, sunny  , bus           ,          39.8,                 0.54,        7.93, no        , 06:45        , 06:53        ,            0
+N22DCIT450, Wednesday, 07:00           ,         8.7, rainy  , bus           ,          37.6,                 0.89,        7.07, yes       , 06:46        , 06:59        ,            0
+N22DCIT496, Tuesday  , 07:00           ,         7.3, rainy  , bus           ,          22.8,                 0.63,        6.24, no        , 06:40        , 06:45        ,            0
+N22DCIT504, Thursday , 07:00           ,         0.7, cloudy , walk          ,           5.6,                 0.88,        8.1 , yes       , 06:52        , 06:55        ,            0
+N22DCCN178, Friday   , 07:00           ,         7.3, sunny  , bus           ,          28.8,                 0.83,        6.62, yes       , 06:44        , 06:56        ,            0
+N22DCIT501, Monday   , 07:00           ,         3.8, sunny  , bike          ,          24.7,                 0.64,        7.31, yes       , 06:50        , 06:52        ,            0
+N22DCCN793, Saturday , 07:00           ,         2.4, sunny  , bike          ,          18.9,                 0.61,        8.47, yes       , 06:52        , 07:01        ,            1
+N22DCVT434, Saturday , 07:00           ,         3.6, sunny  , bike          ,          20.8,                 0.75,        5.47, yes       , 06:49        , 06:53        ,            0
+N22DCCN643, Wednesday, 07:00           ,         6.8, sunny  , bus           ,          30.9,                 0.58,        5.31, yes       , 06:46        , 06:51        ,            0
+N22DCDK331, Sunday   , 07:00           ,         8.3, rainy  , bus           ,          37.3,                 0.51,        6.79, yes       , 06:46        , 06:52        ,            0
+N22DCCN077, Tuesday  , 07:00           ,         3.8, windy  , bike          ,          20.8,                 0.6 ,        8.13, yes       , 06:49        , 07:03        ,            4
+N22DCCN021, Tuesday  , 07:00           ,         6.0, cloudy , bus           ,          24.2,                 0.67,        5.96, no        , 06:45        , 06:59        ,            0
+N22DCCN841, Thursday , 07:00           ,         6.2, sunny  , bus           ,          34.1,                 0.8 ,        5.85, no        , 06:49        , 06:56        ,            0
+N22DCCN737, Thursday , 07:00           ,         7.0, sunny  , bus           ,          32.0,                 0.52,        6.37, yes       , 06:46        , 07:00        ,            0
+N22DCME503, Monday   , 07:00           ,         6.9, rainy  , bus           ,          33.1,                 0.87,        6.49, yes       , 06:47        , 06:59        ,            0
+N22DCDK466, Tuesday  , 07:00           ,         3.5, rainy  , bike          ,          16.3,                 0.96,        8.86, yes       , 06:47        , 06:51        ,            0
+N22DCDK825, Friday   , 07:00           ,         7.9, sunny  , bus           ,          29.1,                 0.88,        5.39, yes       , 06:43        , 06:53        ,            0
+N22DCCN653, Wednesday, 07:00           ,         3.1, sunny  , bike          ,          20.8,                 0.61,        7.17, no        , 06:51        , 06:55        ,            0
+N22DCCN197, Sunday   , 07:00           ,         8.0, sunny  , bus           ,          30.7,                 0.98,        6.74, yes       , 06:44        , 06:51        ,            0
+N22DCCN509, Monday   , 07:00           ,         6.7, windy  , bus           ,          20.3,                 0.8 ,        6.62, yes       , 06:40        , 06:54        ,            0
+N22DCDK897, Tuesday  , 07:00           ,         5.5, sunny  , bus           ,          28.8,                 0.79,        7.24, yes       , 06:48        , 06:51        ,            0
+N22DCME366, Saturday , 07:00           ,         4.6, cloudy , bike          ,          15.4,                 0.94,        6.65, yes       , 06:42        , 06:55        ,            0
+N22DCIT585, Thursday , 07:00           ,         4.2, sunny  , bike          ,          17.6,                 0.84,        7.34, yes       , 06:45        , 06:58        ,            0
+N22DCCN457, Tuesday  , 07:00           ,         4.4, windy  , bike          ,          16.8,                 0.53,        8.27, yes       , 06:44        , 06:49        ,            0
+N22DCCN989, Saturday , 07:00           ,         4.3, sunny  , bike          ,          21.5,                 0.86,        5.59, yes       , 06:48        , 06:59        ,            0
+N22DCIT760, Sunday   , 07:00           ,         3.7, windy  , bike          ,          23.7,                 0.61,        6.41, yes       , 06:50        , 07:01        ,            2
+N22DCME816, Monday   , 07:00           ,         8.4, sunny  , bus           ,          38.2,                 0.56,        8.14, yes       , 06:46        , 07:00        ,            1
+N22DCIT859, Friday   , 07:00           ,         4.6, sunny  , bike          ,          21.2,                 0.62,        7.76, no        , 06:46        , 06:57        ,            0
+N22DCVT143, Monday   , 07:00           ,         4.5, rainy  , bike          ,          19.6,                 0.88,        7.91, yes       , 06:46        , 06:54        ,            0
+N22DCIT430, Thursday , 07:00           ,         3.5, cloudy , bike          ,          22.2,                 0.52,        8.5 , yes       , 06:50        , 07:02        ,            3
+N22DCCN484, Tuesday  , 07:00           ,         3.1, cloudy , bike          ,          24.2,                 0.79,        8.47, yes       , 06:52        , 07:00        ,            1
+N22DCME023, Sunday   , 07:00           ,         9.1, sunny  , bus           ,          30.2,                 0.63,        6.58, yes       , 06:41        , 06:42        ,            0
+N22DCVT779, Wednesday, 07:00           ,         3.7, cloudy , bike          ,          19.1,                 0.61,        7.11, yes       , 06:48        , 06:57        ,            0
+N22DCDK721, Thursday , 07:00           ,         5.0, rainy  , bike          ,          18.3,                 0.82,        8.94, no        , 06:43        , 06:58        ,            0
+N22DCDK983, Tuesday  , 07:00           ,         1.3, sunny  , walk          ,           5.3,                 0.66,        5.95, no        , 06:45        , 06:48        ,            0
+N22DCVT671, Saturday , 07:00           ,         5.6, sunny  , bus           ,          22.1,                 0.54,        7.08, yes       , 06:44        , 06:53        ,            0
+N22DCVT446, Sunday   , 07:00           ,         9.5, sunny  , bus           ,          37.5,                 0.81,        5.04, yes       , 06:44        , 06:57        ,            0
+N22DCVT525, Thursday , 07:00           ,         3.4, rainy  , bike          ,          24.9,                 0.52,        6.76, yes       , 06:51        , 06:59        ,            0
+N22DCVT420, Saturday , 07:00           ,         9.9, sunny  , bus           ,          37.6,                 0.76,        5.33, yes       , 06:44        , 06:45        ,            0
+N22DCIT808, Wednesday, 07:00           ,         3.2, sunny  , bike          ,          15.3,                 0.58,        8.11, yes       , 06:47        , 06:53        ,            0
+N22DCME797, Thursday , 07:00           ,         6.1, sunny  , bus           ,          37.2,                 0.59,        8.88, yes       , 06:50        , 06:56        ,            0
+N22DCCN237, Tuesday  , 07:00           ,         8.1, cloudy , bus           ,          31.6,                 0.71,        8.22, yes       , 06:44        , 06:57        ,            0
+N22DCME717, Sunday   , 07:00           ,         6.1, windy  , bus           ,          33.2,                 0.81,        8.91, yes       , 06:48        , 07:03        ,            3
+N22DCCN028, Monday   , 07:00           ,         4.9, cloudy , bike          ,          20.1,                 0.63,        5.37, yes       , 06:45        , 06:57        ,            0
+N22DCIT545, Wednesday, 07:00           ,         5.9, cloudy , bus           ,          30.6,                 0.75,        7.92, yes       , 06:48        , 07:02        ,            3
+N22DCVT573, Thursday , 07:00           ,         7.9, sunny  , bus           ,          25.2,                 0.98,        7.37, yes       , 06:41        , 06:44        ,            0
+N22DCME581, Thursday , 07:00           ,         5.4, sunny  , bus           ,          25.1,                 0.89,        6.2 , yes       , 06:47        , 06:50        ,            0
+N22DCME204, Wednesday, 07:00           ,         5.3, sunny  , bus           ,          22.2,                 0.92,        6.71, yes       , 06:45        , 07:00        ,            0
+N22DCIT663, Sunday   , 07:00           ,         5.9, sunny  , bus           ,          37.6,                 0.73,        7.9 , yes       , 06:50        , 06:56        ,            0
+N22DCIT268, Wednesday, 07:00           ,         9.7, sunny  , bus           ,          23.1,                 0.75,        5.59, no        , 06:34        , 06:36        ,            0
+N22DCME337, Wednesday, 07:00           ,         9.2, cloudy , bus           ,          25.9,                 0.61,        7.59, yes       , 06:38        , 06:44        ,            0
+N22DCIT485, Wednesday, 07:00           ,         0.5, sunny  , walk          ,           4.6,                 0.6 ,        6.1 , yes       , 06:53        , 06:59        ,            0
+N22DCIT789, Thursday , 07:00           ,         9.2, sunny  , bus           ,          23.0,                 0.96,        7.02, yes       , 06:36        , 06:38        ,            0
+N22DCDK417, Monday   , 07:00           ,         6.7, cloudy , bus           ,          30.2,                 0.51,        6.82, yes       , 06:46        , 06:58        ,            0
+N22DCDK216, Wednesday, 07:00           ,         2.4, sunny  , bike          ,          24.7,                 0.7 ,        5.4 , yes       , 06:54        , 06:59        ,            0
+N22DCVT254, Thursday , 07:00           ,         0.9, windy  , walk          ,           4.9,                 0.54,        7.12, yes       , 06:48        , 07:03        ,            3
+N22DCVT199, Wednesday, 07:00           ,         1.4, windy  , walk          ,           5.4,                 0.76,        7.92, no        , 06:44        , 06:48        ,            0
+N22DCIT988, Thursday , 07:00           ,         5.3, rainy  , bus           ,          32.2,                 0.68,        8.63, no        , 06:50        , 06:53        ,            0
+N22DCDK541, Wednesday, 07:00           ,         8.9, windy  , bus           ,          34.7,                 0.6 ,        6.81, yes       , 06:44        , 06:55        ,            0
+N22DCME292, Sunday   , 07:00           ,         3.4, cloudy , bike          ,          17.7,                 0.97,        8.22, no        , 06:48        , 07:01        ,            2
+N22DCVT474, Sunday   , 07:00           ,         6.9, sunny  , bus           ,          35.7,                 0.66,        5.31, yes       , 06:48        , 06:50        ,            0
+N22DCME682, Monday   , 07:00           ,         4.1, sunny  , bike          ,          21.7,                 0.64,        5.94, yes       , 06:48        , 06:51        ,            0
+N22DCVT366, Sunday   , 07:00           ,         7.8, windy  , bus           ,          28.0,                 0.83,        7.38, yes       , 06:43        , 06:49        ,            0
+N22DCME888, Wednesday, 07:00           ,         4.1, cloudy , bike          ,          17.3,                 0.85,        6.71, yes       , 06:45        , 06:51        ,            0
+N22DCCN748, Monday   , 07:00           ,         8.6, sunny  , bus           ,          28.7,                 0.65,        6.76, yes       , 06:42        , 06:54        ,            0
+N22DCME870, Thursday , 07:00           ,         4.7, rainy  , bike          ,          24.8,                 0.99,        5.42, no        , 06:48        , 06:49        ,            0
+N22DCCN409, Tuesday  , 07:00           ,         4.8, sunny  , bike          ,          20.0,                 0.57,        6.31, yes       , 06:45        , 06:57        ,            0
+N22DCIT708, Tuesday  , 07:00           ,         1.8, rainy  , walk          ,           5.7,                 0.66,        5.12, yes       , 06:41        , 06:42        ,            0
+N22DCME087, Sunday   , 07:00           ,         9.6, sunny  , bus           ,          36.7,                 0.89,        8.0 , yes       , 06:44        , 06:51        ,            0
+N22DCME697, Monday   , 07:00           ,         2.3, sunny  , bike          ,          23.8,                 0.62,        8.68, yes       , 06:54        , 06:59        ,            0
+N22DCME315, Friday   , 07:00           ,         5.6, sunny  , bus           ,          21.1,                 0.98,        7.28, yes       , 06:44        , 06:45        ,            0
+N22DCME689, Friday   , 07:00           ,         2.1, sunny  , bike          ,          15.6,                 0.82,        6.8 , no        , 06:51        , 07:01        ,            1
+N22DCIT221, Monday   , 07:00           ,         6.2, sunny  , bus           ,          28.5,                 0.58,        8.8 , no        , 06:46        , 06:59        ,            0
+N22DCME006, Wednesday, 07:00           ,         1.2, sunny  , walk          ,           4.9,                 0.57,        8.58, yes       , 06:45        , 06:51        ,            0
+N22DCVT486, Monday   , 07:00           ,         8.4, windy  , bus           ,          29.0,                 0.76,        8.57, yes       , 06:42        , 06:43        ,            0
+N22DCME598, Sunday   , 07:00           ,         7.3, cloudy , bus           ,          26.4,                 0.72,        8.18, no        , 06:43        , 06:57        ,            0
+N22DCIT533, Monday   , 07:00           ,         2.3, sunny  , bike          ,          16.7,                 0.99,        5.82, no        , 06:51        , 06:58        ,            0
+N22DCME056, Thursday , 07:00           ,         8.8, rainy  , bus           ,          30.1,                 0.56,        8.38, yes       , 06:42        , 06:48        ,            0
+N22DCME273, Friday   , 07:00           ,         7.0, rainy  , bus           ,          27.2,                 0.53,        6.95, yes       , 06:44        , 06:56        ,            0
+N22DCIT984, Monday   , 07:00           ,         1.3, cloudy , walk          ,           4.7,                 0.76,        8.47, yes       , 06:43        , 06:49        ,            0
+N22DCIT556, Friday   , 07:00           ,         1.0, sunny  , walk          ,           4.2,                 0.61,        8.27, yes       , 06:45        , 06:51        ,            0
+N22DCCN486, Wednesday, 07:00           ,         0.8, sunny  , walk          ,           5.0,                 0.71,        7.17, yes       , 06:50        , 06:53        ,            0
+N22DCME292, Saturday , 07:00           ,         4.9, sunny  , bike          ,          24.2,                 0.75,        8.21, yes       , 06:47        , 06:56        ,            0
+N22DCIT414, Friday   , 07:00           ,         3.1, cloudy , bike          ,          22.5,                 0.56,        7.55, yes       , 06:51        , 07:05        ,            6
+N22DCME288, Monday   , 07:00           ,         3.1, sunny  , bike          ,          17.2,                 0.9 ,        8.62, yes       , 06:49        , 06:49        ,            0
+N22DCME300, Saturday , 07:00           ,         6.0, windy  , bus           ,          36.5,                 0.67,        6.74, yes       , 06:50        , 06:51        ,            0
+N22DCDK116, Sunday   , 07:00           ,         9.4, sunny  , bus           ,          37.3,                 0.57,        8.14, yes       , 06:44        , 06:56        ,            0
+N22DCCN631, Sunday   , 07:00           ,         3.6, sunny  , bike          ,          21.7,                 0.56,        8.72, yes       , 06:50        , 07:03        ,            4
+N22DCME350, Sunday   , 07:00           ,         7.6, sunny  , bus           ,          36.6,                 0.63,        8.79, yes       , 06:47        , 06:59        ,            0
+N22DCDK305, Monday   , 07:00           ,         2.4, sunny  , bike          ,          16.6,                 0.89,        8.37, no        , 06:51        , 06:51        ,            0
+N22DCVT660, Tuesday  , 07:00           ,         4.1, sunny  , bike          ,          17.8,                 0.67,        6.52, yes       , 06:46        , 06:54        ,            0
+N22DCVT176, Sunday   , 07:00           ,         0.7, rainy  , walk          ,           5.3,                 0.79,        7.55, yes       , 06:52        , 06:56        ,            0
+N22DCME921, Thursday , 07:00           ,         8.2, sunny  , bus           ,          23.0,                 0.86,        5.58, no        , 06:38        , 06:47        ,            0
+N22DCIT082, Tuesday  , 07:00           ,         6.1, rainy  , bus           ,          28.3,                 0.87,        7.28, no        , 06:47        , 06:49        ,            0
+N22DCVT727, Wednesday, 07:00           ,         7.5, sunny  , bus           ,          20.4,                 0.87,        5.15, yes       , 06:37        , 06:47        ,            0
+N22DCME129, Friday   , 07:00           ,         1.2, sunny  , walk          ,           4.3,                 0.97,        6.33, yes       , 06:43        , 06:55        ,            0
+N22DCDK314, Wednesday, 07:00           ,         8.8, rainy  , bus           ,          39.5,                 0.59,        5.05, yes       , 06:46        , 06:57        ,            0
+N22DCIT663, Friday   , 07:00           ,         7.2, rainy  , bus           ,          31.9,                 0.65,        6.03, yes       , 06:46        , 07:00        ,            1
+N22DCCN919, Monday   , 07:00           ,         4.4, windy  , bike          ,          20.2,                 0.84,        5.61, yes       , 06:46        , 06:48        ,            0
+N22DCCN697, Saturday , 07:00           ,         7.5, sunny  , bus           ,          30.0,                 0.64,        7.59, yes       , 06:45        , 06:49        ,            0
+N22DCCN139, Saturday , 07:00           ,         7.6, cloudy , bus           ,          23.8,                 0.83,        8.54, yes       , 06:40        , 06:54        ,            0
+N22DCME290, Saturday , 07:00           ,         5.6, sunny  , bus           ,          36.6,                 0.59,        8.84, yes       , 06:50        , 06:57        ,            0
+N22DCDK452, Monday   , 07:00           ,         9.6, sunny  , bus           ,          33.3,                 0.6 ,        7.43, yes       , 06:42        , 06:43        ,            0
+N22DCIT615, Friday   , 07:00           ,         4.1, cloudy , bike          ,          24.8,                 0.6 ,        5.18, yes       , 06:50        , 06:57        ,            0
+N22DCCN018, Friday   , 07:00           ,         7.9, rainy  , bus           ,          30.4,                 0.66,        5.96, yes       , 06:44        , 06:46        ,            0
+N22DCIT298, Sunday   , 07:00           ,         4.9, rainy  , bike          ,          18.5,                 0.85,        7.51, yes       , 06:44        , 06:45        ,            0
+N22DCCN082, Friday   , 07:00           ,         5.7, sunny  , bus           ,          33.4,                 0.62,        7.84, yes       , 06:49        , 07:01        ,            2
+N22DCVT051, Tuesday  , 07:00           ,         3.6, sunny  , bike          ,          20.7,                 0.77,        8.96, yes       , 06:49        , 06:59        ,            0
+N22DCDK113, Wednesday, 07:00           ,         5.1, sunny  , bus           ,          23.2,                 0.74,        6.88, yes       , 06:46        , 06:59        ,            0
+N22DCME410, Saturday , 07:00           ,         7.9, windy  , bus           ,          28.2,                 0.69,        6.19, yes       , 06:43        , 06:45        ,            0
+N22DCIT480, Wednesday, 07:00           ,         9.3, windy  , bus           ,          20.9,                 0.93,        7.05, yes       , 06:33        , 06:39        ,            0
+N22DCDK923, Sunday   , 07:00           ,         0.9, sunny  , walk          ,           5.4,                 0.69,        7.95, yes       , 06:50        , 07:03        ,            4
+N22DCCN264, Sunday   , 07:00           ,         9.9, rainy  , bus           ,          25.4,                 0.94,        6.55, yes       , 06:36        , 06:43        ,            0
+N22DCME883, Tuesday  , 07:00           ,         6.9, sunny  , bus           ,          27.9,                 0.77,        6.71, yes       , 06:45        , 06:57        ,            0
+N22DCVT270, Sunday   , 07:00           ,         3.4, cloudy , bike          ,          21.4,                 0.71,        5.89, no        , 06:50        , 06:55        ,            0
+N22DCVT630, Monday   , 07:00           ,         9.3, sunny  , bus           ,          38.9,                 0.69,        6.09, yes       , 06:45        , 06:51        ,            0
+N22DCVT945, Sunday   , 07:00           ,         5.4, rainy  , bus           ,          31.8,                 0.86,        5.34, yes       , 06:49        , 06:54        ,            0
+N22DCME524, Thursday , 07:00           ,         6.8, sunny  , bus           ,          25.6,                 0.74,        5.97, yes       , 06:44        , 06:52        ,            0
+N22DCDK517, Friday   , 07:00           ,         5.8, sunny  , bus           ,          36.2,                 0.98,        8.82, yes       , 06:50        , 06:53        ,            0
+N22DCVT779, Friday   , 07:00           ,         6.9, cloudy , bus           ,          38.3,                 0.85,        7.12, yes       , 06:49        , 06:56        ,            0
+N22DCDK904, Friday   , 07:00           ,         4.9, windy  , bike          ,          23.3,                 0.64,        7.89, no        , 06:47        , 06:59        ,            0
+N22DCIT100, Tuesday  , 07:00           ,         4.3, windy  , bike          ,          18.1,                 0.83,        7.02, yes       , 06:45        , 06:58        ,            0
+N22DCME841, Wednesday, 07:00           ,         1.0, rainy  , walk          ,           5.7,                 0.92,        6.31, yes       , 06:49        , 06:53        ,            0
+N22DCCN947, Friday   , 07:00           ,         8.1, sunny  , bus           ,          26.7,                 0.99,        7.09, yes       , 06:41        , 06:42        ,            0
+N22DCME989, Friday   , 07:00           ,         8.4, rainy  , bus           ,          38.6,                 0.99,        7.0 , no        , 06:46        , 06:49        ,            0
+N22DCCN611, Friday   , 07:00           ,         1.9, cloudy , walk          ,           4.4,                 0.79,        7.74, yes       , 06:34        , 06:46        ,            0
+N22DCDK915, Tuesday  , 07:00           ,         7.2, sunny  , bus           ,          34.5,                 0.99,        7.06, yes       , 06:47        , 07:02        ,            2
+N22DCME766, Saturday , 07:00           ,         5.4, rainy  , bus           ,          36.7,                 0.88,        5.46, yes       , 06:51        , 07:04        ,            4
+N22DCIT781, Saturday , 07:00           ,         2.8, windy  , bike          ,          24.2,                 0.94,        5.0 , yes       , 06:53        , 07:07        ,            7
+N22DCIT060, Thursday , 07:00           ,         9.8, rainy  , bus           ,          40.0,                 0.93,        8.6 , yes       , 06:45        , 06:57        ,            0
+N22DCIT746, Sunday   , 07:00           ,         1.5, windy  , walk          ,           6.0,                 0.82,        7.41, yes       , 06:45        , 06:50        ,            0
+N22DCCN201, Monday   , 07:00           ,         7.5, rainy  , bus           ,          34.2,                 0.85,        6.9 , yes       , 06:46        , 06:59        ,            0
+N22DCME875, Thursday , 07:00           ,         3.5, sunny  , bike          ,          16.5,                 0.94,        5.42, yes       , 06:47        , 07:00        ,            1
+N22DCIT790, Sunday   , 07:00           ,         8.4, sunny  , bus           ,          31.7,                 0.63,        8.02, yes       , 06:44        , 06:46        ,            0
+N22DCVT181, Saturday , 07:00           ,         4.9, cloudy , bike          ,          21.9,                 0.91,        5.55, no        , 06:46        , 06:52        ,            0
+N22DCCN897, Wednesday, 07:00           ,         4.0, cloudy , bike          ,          18.3,                 0.85,        6.83, yes       , 06:46        , 06:57        ,            0
+N22DCCN051, Thursday , 07:00           ,         8.4, windy  , bus           ,          26.5,                 0.83,        6.78, yes       , 06:40        , 06:42        ,            0
+N22DCCN542, Tuesday  , 07:00           ,         7.8, sunny  , bus           ,          20.0,                 0.58,        5.87, yes       , 06:36        , 06:37        ,            0
+N22DCCN794, Friday   , 07:00           ,         0.9, sunny  , walk          ,           4.3,                 0.9 ,        6.63, yes       , 06:47        , 06:56        ,            0
+N22DCDK016, Thursday , 07:00           ,         2.5, sunny  , bike          ,          19.1,                 0.77,        6.95, yes       , 06:52        , 07:04        ,            5
+N22DCIT689, Tuesday  , 07:00           ,         4.1, rainy  , bike          ,          17.5,                 0.53,        7.18, yes       , 06:45        , 06:46        ,            0
+N22DCCN663, Saturday , 07:00           ,         7.7, cloudy , bus           ,          36.3,                 0.68,        8.2 , no        , 06:47        , 07:00        ,            0
+N22DCDK291, Monday   , 07:00           ,         3.4, windy  , bike          ,          20.9,                 0.71,        6.25, yes       , 06:50        , 06:55        ,            0
+N22DCDK978, Tuesday  , 07:00           ,         2.3, cloudy , bike          ,          19.5,                 0.79,        7.1 , yes       , 06:52        , 07:05        ,            6
+N22DCDK429, Monday   , 07:00           ,         7.1, sunny  , bus           ,          20.2,                 0.69,        5.45, yes       , 06:38        , 06:49        ,            0
+N22DCVT800, Wednesday, 07:00           ,         3.0, cloudy , bike          ,          15.8,                 0.78,        5.46, yes       , 06:48        , 06:52        ,            0
+N22DCIT956, Friday   , 07:00           ,         6.4, sunny  , bus           ,          25.4,                 0.88,        8.04, no        , 06:44        , 06:47        ,            0
+N22DCIT506, Thursday , 07:00           ,         6.3, sunny  , bus           ,          38.4,                 0.72,        5.69, yes       , 06:50        , 06:50        ,            0
+N22DCCN427, Monday   , 07:00           ,         6.4, sunny  , bus           ,          25.7,                 0.91,        8.59, yes       , 06:45        , 06:46        ,            0
+N22DCCN037, Sunday   , 07:00           ,         9.6, rainy  , bus           ,          25.5,                 0.82,        6.16, no        , 06:37        , 06:50        ,            0
+N22DCCN311, Saturday , 07:00           ,         8.7, sunny  , bus           ,          33.7,                 0.65,        8.09, yes       , 06:44        , 06:46        ,            0
+N22DCCN366, Tuesday  , 07:00           ,         2.1, cloudy , bike          ,          21.8,                 0.97,        8.12, yes       , 06:54        , 06:58        ,            0
+N22DCDK541, Saturday , 07:00           ,         7.2, sunny  , bus           ,          36.0,                 0.52,        6.33, yes       , 06:48        , 06:53        ,            0
+N22DCCN160, Thursday , 07:00           ,         5.4, rainy  , bus           ,          20.9,                 0.89,        7.44, yes       , 06:44        , 06:51        ,            0
+N22DCDK705, Monday   , 07:00           ,         8.5, rainy  , bus           ,          20.2,                 0.76,        5.32, yes       , 06:34        , 06:37        ,            0
+N22DCIT055, Tuesday  , 07:00           ,         1.2, cloudy , walk          ,           5.8,                 0.8 ,        5.85, no        , 06:47        , 06:52        ,            0
+N22DCVT555, Monday   , 07:00           ,         6.7, rainy  , bus           ,          32.2,                 0.92,        8.49, no        , 06:47        , 06:55        ,            0
+N22DCCN495, Wednesday, 07:00           ,         2.9, sunny  , bike          ,          17.3,                 0.75,        7.43, yes       , 06:49        , 06:50        ,            0
+N22DCVT412, Sunday   , 07:00           ,         2.4, sunny  , bike          ,          21.6,                 0.52,        8.19, no        , 06:53        , 07:00        ,            1
+N22DCDK465, Friday   , 07:00           ,         4.8, sunny  , bike          ,          17.4,                 0.94,        5.93, yes       , 06:43        , 06:52        ,            0
+N22DCME083, Tuesday  , 07:00           ,         3.9, cloudy , bike          ,          18.1,                 0.93,        5.15, yes       , 06:47        , 06:54        ,            0
+N22DCCN461, Wednesday, 07:00           ,        10.0, rainy  , bus           ,          37.0,                 0.78,        6.43, yes       , 06:43        , 06:44        ,            0
+N22DCCN128, Thursday , 07:00           ,         3.2, sunny  , bike          ,          22.2,                 0.73,        8.0 , yes       , 06:51        , 07:00        ,            0
+N22DCVT028, Tuesday  , 07:00           ,         3.0, rainy  , bike          ,          19.1,                 0.66,        8.16, yes       , 06:50        , 07:03        ,            3
+N22DCIT689, Friday   , 07:00           ,         9.0, rainy  , bus           ,          20.9,                 0.92,        7.36, yes       , 06:34        , 06:44        ,            0
+N22DCVT817, Friday   , 07:00           ,         3.1, windy  , bike          ,          23.7,                 0.8 ,        7.97, yes       , 06:52        , 07:05        ,            6
+N22DCVT143, Tuesday  , 07:00           ,         6.6, rainy  , bus           ,          23.9,                 0.83,        6.27, yes       , 06:43        , 06:43        ,            0
+N22DCCN058, Friday   , 07:00           ,         3.5, sunny  , bike          ,          24.0,                 0.61,        8.59, no        , 06:51        , 06:54        ,            0
+N22DCCN724, Saturday , 07:00           ,         1.9, windy  , walk          ,           4.1,                 0.69,        7.1 , yes       , 06:32        , 06:38        ,            0
+N22DCME230, Tuesday  , 07:00           ,         8.5, cloudy , bus           ,          25.1,                 0.92,        6.78, yes       , 06:39        , 06:47        ,            0
+N22DCME434, Sunday   , 07:00           ,         6.2, cloudy , bus           ,          31.3,                 0.82,        5.6 , no        , 06:48        , 06:57        ,            0
+N22DCVT626, Saturday , 07:00           ,         8.6, sunny  , bus           ,          26.7,                 0.75,        5.53, yes       , 06:40        , 06:50        ,            0
+N22DCIT339, Monday   , 07:00           ,         7.1, sunny  , bus           ,          25.3,                 0.86,        7.58, yes       , 06:43        , 06:43        ,            0
+N22DCME064, Thursday , 07:00           ,         4.0, cloudy , bike          ,          21.1,                 0.74,        7.93, yes       , 06:48        , 07:02        ,            3
+N22DCDK418, Wednesday, 07:00           ,         6.6, cloudy , bus           ,          26.9,                 0.83,        6.63, yes       , 06:45        , 06:56        ,            0
+N22DCME350, Tuesday  , 07:00           ,         7.1, rainy  , bus           ,          28.3,                 0.59,        6.69, no        , 06:44        , 06:45        ,            0
+N22DCIT736, Friday   , 07:00           ,         6.5, rainy  , bus           ,          20.6,                 0.96,        7.43, yes       , 06:41        , 06:49        ,            0
+N22DCDK017, Monday   , 07:00           ,         1.9, sunny  , walk          ,           4.5,                 0.56,        5.96, no        , 06:34        , 06:37        ,            0
+N22DCIT893, Thursday , 07:00           ,         2.0, sunny  , bike          ,          22.0,                 0.52,        8.38, yes       , 06:54        , 07:02        ,            2
+N22DCDK746, Wednesday, 07:00           ,         5.8, sunny  , bus           ,          37.4,                 0.87,        7.82, yes       , 06:50        , 06:50        ,            0
+N22DCVT840, Tuesday  , 07:00           ,         9.7, sunny  , bus           ,          27.3,                 0.78,        7.5 , yes       , 06:38        , 06:48        ,            0
+N22DCDK470, Tuesday  , 07:00           ,         1.5, sunny  , walk          ,           5.8,                 0.82,        8.26, yes       , 06:44        , 06:45        ,            0
+N22DCME143, Sunday   , 07:00           ,         2.7, sunny  , bike          ,          22.8,                 0.59,        8.73, yes       , 06:52        , 07:03        ,            4
+N22DCVT129, Sunday   , 07:00           ,         1.6, rainy  , walk          ,           5.6,                 0.86,        5.51, yes       , 06:42        , 06:55        ,            0
+N22DCME047, Saturday , 07:00           ,         9.0, sunny  , bus           ,          20.5,                 0.79,        7.91, yes       , 06:33        , 06:37        ,            0
+N22DCDK989, Wednesday, 07:00           ,         7.1, sunny  , bus           ,          30.1,                 0.86,        5.39, yes       , 06:45        , 06:58        ,            0
+N22DCDK037, Wednesday, 07:00           ,         9.2, sunny  , bus           ,          23.2,                 0.53,        6.18, yes       , 06:36        , 06:47        ,            0
+N22DCCN119, Tuesday  , 07:00           ,         9.3, sunny  , bus           ,          35.8,                 0.57,        6.91, yes       , 06:44        , 06:57        ,            0
+N22DCME893, Saturday , 07:00           ,         3.4, sunny  , bike          ,          21.6,                 0.72,        6.64, yes       , 06:50        , 07:03        ,            4
+N22DCCN397, Monday   , 07:00           ,         5.4, rainy  , bus           ,          28.0,                 0.58,        5.59, yes       , 06:48        , 06:53        ,            0
+N22DCME106, Friday   , 07:00           ,         9.2, windy  , bus           ,          31.5,                 0.73,        7.59, yes       , 06:42        , 06:52        ,            0
+N22DCVT624, Saturday , 07:00           ,         7.9, sunny  , bus           ,          25.9,                 0.85,        5.97, yes       , 06:41        , 06:50        ,            0
+N22DCCN205, Friday   , 07:00           ,         7.8, cloudy , bus           ,          22.6,                 0.83,        5.96, yes       , 06:39        , 06:52        ,            0
+N22DCIT587, Monday   , 07:00           ,         6.7, sunny  , bus           ,          35.5,                 0.97,        8.82, yes       , 06:48        , 07:03        ,            3
+N22DCIT834, Saturday , 07:00           ,         9.1, sunny  , bus           ,          38.9,                 0.87,        7.48, yes       , 06:45        , 06:46        ,            0
+N22DCVT257, Thursday , 07:00           ,         8.4, sunny  , bus           ,          32.2,                 0.84,        7.88, yes       , 06:44        , 06:46        ,            0
+N22DCIT470, Thursday , 07:00           ,         2.7, sunny  , bike          ,          18.0,                 0.8 ,        5.3 , no        , 06:51        , 06:57        ,            0
+N22DCVT799, Wednesday, 07:00           ,         6.1, cloudy , bus           ,          34.4,                 0.6 ,        5.29, yes       , 06:49        , 06:53        ,            0
+N22DCDK810, Saturday , 07:00           ,         4.3, sunny  , bike          ,          24.0,                 0.84,        7.96, yes       , 06:49        , 06:52        ,            0
+N22DCIT665, Wednesday, 07:00           ,         8.1, windy  , bus           ,          33.8,                 0.87,        6.9 , yes       , 06:45        , 06:59        ,            0
+N22DCIT911, Wednesday, 07:00           ,         4.4, sunny  , bike          ,          20.1,                 0.7 ,        5.1 , yes       , 06:46        , 07:00        ,            0
+N22DCVT478, Wednesday, 07:00           ,         6.9, windy  , bus           ,          22.9,                 0.98,        6.3 , yes       , 06:41        , 06:55        ,            0
+N22DCME347, Thursday , 07:00           ,         4.7, sunny  , bike          ,          24.5,                 0.92,        5.32, yes       , 06:48        , 06:56        ,            0
+N22DCME440, Saturday , 07:00           ,         4.6, cloudy , bike          ,          22.4,                 0.98,        5.01, no        , 06:47        , 06:54        ,            0
+N22DCIT473, Thursday , 07:00           ,         4.5, rainy  , bike          ,          20.5,                 0.67,        5.68, yes       , 06:46        , 06:54        ,            0
+N22DCDK846, Sunday   , 07:00           ,         7.6, cloudy , bus           ,          36.7,                 0.7 ,        5.42, yes       , 06:47        , 06:55        ,            0
+N22DCVT798, Wednesday, 07:00           ,         0.9, windy  , walk          ,           4.3,                 0.64,        5.4 , yes       , 06:47        , 07:00        ,            1
+N22DCCN321, Friday   , 07:00           ,         1.0, cloudy , walk          ,           4.4,                 0.88,        7.25, yes       , 06:46        , 06:55        ,            0
+N22DCVT358, Saturday , 07:00           ,         5.8, windy  , bus           ,          37.7,                 0.97,        8.61, yes       , 06:50        , 06:51        ,            0
+N22DCIT979, Saturday , 07:00           ,         8.4, sunny  , bus           ,          39.1,                 0.55,        6.71, yes       , 06:47        , 06:56        ,            0
+N22DCIT527, Saturday , 07:00           ,         2.2, sunny  , bike          ,          21.2,                 0.54,        8.74, no        , 06:53        , 06:57        ,            0
+N22DCCN488, Sunday   , 07:00           ,         4.1, rainy  , bike          ,          20.4,                 0.87,        8.0 , no        , 06:47        , 06:54        ,            0
+N22DCVT976, Friday   , 07:00           ,         1.8, rainy  , walk          ,           5.8,                 0.92,        5.35, yes       , 06:41        , 06:52        ,            0
+N22DCCN283, Sunday   , 07:00           ,         4.1, cloudy , bike          ,          22.3,                 0.71,        8.81, yes       , 06:48        , 07:00        ,            1
+N22DCME029, Wednesday, 07:00           ,         4.4, rainy  , bike          ,          20.3,                 0.76,        6.23, yes       , 06:46        , 06:56        ,            0
+N22DCVT536, Monday   , 07:00           ,         8.7, sunny  , bus           ,          32.0,                 0.94,        5.16, yes       , 06:43        , 06:50        ,            0
+N22DCDK792, Wednesday, 07:00           ,         2.0, sunny  , bike          ,          18.4,                 0.96,        8.81, yes       , 06:53        , 07:01        ,            1
+N22DCDK882, Sunday   , 07:00           ,         5.9, rainy  , bus           ,          39.7,                 0.64,        6.21, yes       , 06:51        , 06:56        ,            0
+N22DCVT802, Thursday , 07:00           ,         1.1, sunny  , walk          ,           5.3,                 0.86,        6.1 , yes       , 06:47        , 07:00        ,            0
+N22DCME425, Saturday , 07:00           ,         0.8, sunny  , walk          ,           5.0,                 0.65,        5.43, no        , 06:50        , 06:58        ,            0
+N22DCDK649, Saturday , 07:00           ,         8.9, windy  , bus           ,          39.1,                 0.84,        8.54, yes       , 06:46        , 06:46        ,            0
+N22DCIT041, Friday   , 07:00           ,         1.3, cloudy , walk          ,           4.9,                 0.97,        8.79, yes       , 06:44        , 06:47        ,            0
+N22DCIT448, Friday   , 07:00           ,         8.1, sunny  , bus           ,          30.3,                 0.79,        7.51, no        , 06:43        , 06:57        ,            0
+N22DCVT502, Friday   , 07:00           ,         1.4, windy  , walk          ,           4.7,                 0.6 ,        6.41, yes       , 06:42        , 06:45        ,            0
+N22DCCN429, Tuesday  , 07:00           ,         4.2, cloudy , bike          ,          18.0,                 0.57,        5.01, yes       , 06:46        , 06:52        ,            0
+N22DCIT728, Thursday , 07:00           ,         3.4, rainy  , bike          ,          21.9,                 0.64,        7.58, yes       , 06:50        , 06:58        ,            0
+N22DCDK493, Tuesday  , 07:00           ,         5.6, sunny  , bus           ,          23.9,                 0.53,        5.41, yes       , 06:45        , 06:54        ,            0
+N22DCIT295, Tuesday  , 07:00           ,         2.2, rainy  , bike          ,          17.5,                 0.71,        5.15, no        , 06:52        , 06:53        ,            0
+N22DCCN299, Wednesday, 07:00           ,         3.1, sunny  , bike          ,          21.7,                 0.77,        6.97, no        , 06:51        , 06:57        ,            0
+N22DCME706, Wednesday, 07:00           ,         1.1, sunny  , walk          ,           4.3,                 0.5 ,        7.43, yes       , 06:44        , 06:50        ,            0
+N22DCCN499, Friday   , 07:00           ,         0.7, rainy  , walk          ,           5.5,                 0.51,        5.88, yes       , 06:52        , 07:01        ,            2
+N22DCME858, Saturday , 07:00           ,         2.7, sunny  , bike          ,          21.6,                 0.7 ,        6.79, yes       , 06:52        , 06:53        ,            0
+N22DCME486, Thursday , 07:00           ,         1.8, sunny  , walk          ,           4.9,                 0.88,        8.05, yes       , 06:37        , 06:52        ,            0
+N22DCDK384, Thursday , 07:00           ,         8.7, rainy  , bus           ,          31.2,                 1.0 ,        6.13, yes       , 06:43        , 06:54        ,            0
+N22DCIT796, Tuesday  , 07:00           ,         8.6, sunny  , bus           ,          31.8,                 0.56,        5.34, yes       , 06:43        , 06:55        ,            0
+N22DCCN927, Saturday , 07:00           ,         1.7, windy  , walk          ,           4.6,                 0.61,        7.36, no        , 06:37        , 06:42        ,            0
+N22DCVT633, Sunday   , 07:00           ,         0.9, sunny  , walk          ,           5.3,                 0.65,        6.6 , no        , 06:49        , 07:00        ,            1
+N22DCDK933, Wednesday, 07:00           ,         5.7, cloudy , bus           ,          23.3,                 0.64,        7.62, no        , 06:45        , 06:51        ,            0
+N22DCDK940, Monday   , 07:00           ,         5.8, cloudy , bus           ,          24.2,                 0.58,        6.08, yes       , 06:45        , 06:54        ,            0
+N22DCDK039, Thursday , 07:00           ,         8.8, sunny  , bus           ,          33.7,                 0.99,        6.65, yes       , 06:44        , 06:53        ,            0
+N22DCDK411, Friday   , 07:00           ,         0.7, rainy  , walk          ,           4.1,                 0.52,        5.44, no        , 06:49        , 06:52        ,            0
+N22DCDK436, Monday   , 07:00           ,         4.3, rainy  , bike          ,          24.7,                 0.79,        5.82, yes       , 06:49        , 07:00        ,            0
+N22DCDK575, Thursday , 07:00           ,         1.6, sunny  , walk          ,           4.1,                 0.69,        6.74, yes       , 06:36        , 06:46        ,            0
+N22DCME751, Monday   , 07:00           ,         0.8, sunny  , walk          ,           4.3,                 1.0 ,        7.58, yes       , 06:48        , 06:54        ,            0
+N22DCVT012, Sunday   , 07:00           ,         8.0, sunny  , bus           ,          32.3,                 0.91,        8.77, yes       , 06:45        , 06:55        ,            0
+N22DCME656, Tuesday  , 07:00           ,         2.7, sunny  , bike          ,          22.2,                 0.8 ,        8.92, yes       , 06:52        , 06:53        ,            0
+N22DCCN808, Saturday , 07:00           ,         8.7, cloudy , bus           ,          27.0,                 0.61,        5.51, yes       , 06:40        , 06:43        ,            0
+N22DCCN735, Tuesday  , 07:00           ,         7.9, rainy  , bus           ,          28.4,                 0.71,        7.18, yes       , 06:43        , 06:45        ,            0
+N22DCVT629, Thursday , 07:00           ,         4.2, cloudy , bike          ,          19.3,                 0.54,        8.92, yes       , 06:46        , 06:55        ,            0
+N22DCVT310, Wednesday, 07:00           ,         5.5, sunny  , bus           ,          38.5,                 0.98,        6.31, yes       , 06:51        , 07:01        ,            1
+N22DCME759, Tuesday  , 07:00           ,         3.1, windy  , bike          ,          16.5,                 0.65,        8.12, yes       , 06:48        , 06:53        ,            0
+N22DCVT078, Friday   , 07:00           ,         4.1, sunny  , bike          ,          20.1,                 0.58,        5.87, yes       , 06:47        , 06:59        ,            0
+N22DCDK054, Wednesday, 07:00           ,         0.6, sunny  , walk          ,           5.0,                 0.84,        7.98, yes       , 06:52        , 06:59        ,            0
+N22DCCN100, Tuesday  , 07:00           ,         2.1, cloudy , bike          ,          20.1,                 0.8 ,        7.16, yes       , 06:53        , 06:57        ,            0
+N22DCVT433, Friday   , 07:00           ,         4.5, sunny  , bike          ,          22.7,                 0.83,        7.58, yes       , 06:48        , 06:48        ,            0
+N22DCCN174, Friday   , 07:00           ,         5.1, cloudy , bus           ,          39.6,                 0.92,        6.08, yes       , 06:52        , 06:58        ,            0
+N22DCME162, Wednesday, 07:00           ,         2.9, sunny  , bike          ,          15.7,                 0.6 ,        6.67, no        , 06:48        , 06:50        ,            0
+N22DCCN537, Monday   , 07:00           ,         9.3, sunny  , bus           ,          31.2,                 0.7 ,        8.38, yes       , 06:42        , 06:55        ,            0
+N22DCME095, Monday   , 07:00           ,         7.4, sunny  , bus           ,          37.1,                 0.97,        5.83, yes       , 06:48        , 07:02        ,            2
+N22DCIT543, Wednesday, 07:00           ,         8.6, cloudy , bus           ,          20.3,                 0.75,        5.22, no        , 06:34        , 06:40        ,            0
+N22DCCN545, Sunday   , 07:00           ,         8.0, windy  , bus           ,          39.8,                 0.55,        8.18, yes       , 06:47        , 06:59        ,            0
+N22DCDK700, Friday   , 07:00           ,         5.5, rainy  , bus           ,          37.2,                 0.85,        5.06, yes       , 06:51        , 07:04        ,            4
+N22DCVT049, Tuesday  , 07:00           ,         8.0, sunny  , bus           ,          23.8,                 0.64,        7.24, yes       , 06:39        , 06:43        ,            0
+N22DCVT290, Monday   , 07:00           ,         8.6, sunny  , bus           ,          38.5,                 0.66,        8.29, no        , 06:46        , 06:55        ,            0
+N22DCDK591, Thursday , 07:00           ,         1.2, sunny  , walk          ,           5.8,                 0.86,        8.93, yes       , 06:47        , 06:55        ,            0
+N22DCCN144, Monday   , 07:00           ,         5.4, cloudy , bus           ,          27.8,                 0.76,        5.57, no        , 06:48        , 06:56        ,            0
+N22DCIT232, Monday   , 07:00           ,         0.8, sunny  , walk          ,           4.9,                 0.95,        5.07, yes       , 06:50        , 06:52        ,            0
+N22DCDK301, Wednesday, 07:00           ,         5.0, cloudy , bike          ,          19.2,                 0.83,        8.08, no        , 06:44        , 06:48        ,            0
+N22DCDK047, Tuesday  , 07:00           ,         1.2, sunny  , walk          ,           5.7,                 0.57,        6.33, yes       , 06:47        , 07:01        ,            1
+N22DCVT479, Friday   , 07:00           ,         5.8, rainy  , bus           ,          27.2,                 0.86,        6.45, yes       , 06:47        , 06:53        ,            0
+N22DCVT081, Tuesday  , 07:00           ,         6.0, cloudy , bus           ,          23.2,                 0.9 ,        6.02, no        , 06:44        , 06:58        ,            0
+N22DCVT935, Sunday   , 07:00           ,         8.1, sunny  , bus           ,          33.2,                 0.59,        8.75, yes       , 06:45        , 06:49        ,            0
+N22DCDK024, Tuesday  , 07:00           ,         3.6, cloudy , bike          ,          16.7,                 0.72,        8.77, yes       , 06:47        , 06:56        ,            0
+N22DCME022, Friday   , 07:00           ,         3.3, rainy  , bike          ,          15.4,                 0.93,        5.08, yes       , 06:47        , 06:48        ,            0
+N22DCCN413, Sunday   , 07:00           ,         5.0, rainy  , bike          ,          18.2,                 0.54,        5.43, yes       , 06:43        , 06:57        ,            0
+N22DCME257, Tuesday  , 07:00           ,         6.1, sunny  , bus           ,          36.3,                 0.76,        5.25, no        , 06:49        , 06:50        ,            0
+N22DCVT145, Thursday , 07:00           ,         1.5, sunny  , walk          ,           4.7,                 0.58,        8.57, no        , 06:40        , 06:47        ,            0
+N22DCME025, Friday   , 07:00           ,         1.0, rainy  , walk          ,           4.9,                 0.95,        5.45, yes       , 06:47        , 07:00        ,            1
+N22DCIT132, Friday   , 07:00           ,         2.0, sunny  , bike          ,          17.2,                 0.95,        6.34, no        , 06:53        , 07:07        ,            7
+N22DCME087, Monday   , 07:00           ,         7.0, cloudy , bus           ,          26.6,                 0.56,        8.7 , yes       , 06:44        , 06:58        ,            0
+N22DCCN511, Monday   , 07:00           ,         3.5, sunny  , bike          ,          16.3,                 0.81,        8.42, yes       , 06:47        , 06:52        ,            0
+N22DCDK563, Tuesday  , 07:00           ,         1.7, sunny  , walk          ,           4.6,                 0.8 ,        6.16, no        , 06:37        , 06:40        ,            0
+N22DCME285, Thursday , 07:00           ,         9.3, sunny  , bus           ,          21.8,                 0.59,        7.1 , yes       , 06:34        , 06:41        ,            0
+N22DCDK871, Wednesday, 07:00           ,         9.3, cloudy , bus           ,          37.2,                 0.62,        6.52, yes       , 06:45        , 06:45        ,            0
+N22DCVT273, Tuesday  , 07:00           ,         3.6, windy  , bike          ,          22.5,                 0.76,        7.23, yes       , 06:50        , 06:50        ,            0
+N22DCVT081, Friday   , 07:00           ,         6.9, sunny  , bus           ,          28.8,                 0.94,        8.5 , yes       , 06:45        , 06:51        ,            0
+N22DCDK853, Friday   , 07:00           ,         9.0, cloudy , bus           ,          26.3,                 0.65,        5.14, yes       , 06:39        , 06:48        ,            0
+N22DCDK545, Tuesday  , 07:00           ,         7.2, windy  , bus           ,          34.1,                 0.95,        5.47, no        , 06:47        , 07:00        ,            0
+N22DCME430, Monday   , 07:00           ,         8.7, rainy  , bus           ,          29.6,                 0.72,        5.88, no        , 06:42        , 06:45        ,            0
+N22DCVT166, Sunday   , 07:00           ,         9.2, cloudy , bus           ,          36.4,                 0.9 ,        7.22, no        , 06:44        , 06:44        ,            0
+N22DCVT376, Wednesday, 07:00           ,         1.5, cloudy , walk          ,           4.6,                 0.79,        5.65, yes       , 06:40        , 06:49        ,            0
+N22DCIT503, Thursday , 07:00           ,         5.5, sunny  , bus           ,          31.2,                 0.55,        9.0 , yes       , 06:49        , 07:03        ,            4
+N22DCIT147, Friday   , 07:00           ,         4.5, sunny  , bike          ,          15.8,                 0.54,        5.61, yes       , 06:42        , 06:57        ,            0
+N22DCIT979, Monday   , 07:00           ,         2.2, sunny  , bike          ,          19.8,                 0.58,        5.58, no        , 06:53        , 07:02        ,            3
+N22DCDK374, Saturday , 07:00           ,         4.6, cloudy , bike          ,          19.8,                 0.55,        7.9 , yes       , 06:46        , 06:56        ,            0

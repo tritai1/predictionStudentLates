@@ -1,0 +1,18 @@
+extends ../layout/home.pug
+
+block content
+  .result-box(class=level)
+    h2 Chào #{name}!
+    if probability >= 70
+      p.warning Cảnh báo: Xác suất đi trễ rất cao!
+    else if probability >= 40
+      p.caution Có nguy cơ đi trễ, hãy cẩn thận!
+    else
+      p.safe Bạn rất đúng giờ, tiếp tục phát huy!
+
+    .probability
+      .number #{probability}%
+      .bar
+        .fill(style=`width: ${probability}%`)
+
+    a.back(href="/") ← Dự đoán lại cho người khác
