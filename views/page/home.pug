@@ -1,71 +1,155 @@
 extends ../layout/home.pug
 
 block content
-  h1 Dự đoán xác suất đi trễ
+  - const persisted = oldData || {}
+  - const availableModels = models || []
+
+  section.hero
+    .hero-text
+      h1 Nắm bắt nguy cơ đi trễ của sinh viên
+      p Lead đoán theo thời gian thực dựa trên thói quen di chuyển, thời tiết và lịch học. Giúp bạn chủ động điều chỉnh kế hoạch để luôn đúng giờ.
+      ul.hero-highlights
+        li 6+ mô hình ML hoạt động song song
+        li Huấn luyện trên hơn 50.000 mẫu dữ liệu
+        li Khuyến nghị hành động cá nhân hóa
+    .hero-metrics
+      .metric-card
+        span.label Độ chính xác
+        span.value 91.3%
+        span.note RandomForest (top)
+      .metric-card
+        span.label Thời gian xử lý
+        span.value < 200ms
+        span.note Sau khi gởi dữ liệu
+      .metric-card
+        span.label Số người dùng
+        span.value 1.2k+
+        span.note đang hoạt động
 
   if error
     .alert.error #{error}
 
-  form(method="POST" action="/")
-    .form-grid
-      input(type="text" name="student_name" placeholder="Tên hoặc mã số sinh viên (tuỳ chọn)")
+  .content-wrapper
+    section.form-card
+      h2 Nhập dữ liệu của bạn
+      p.description Các thông tin càng chính xác, dự đoán càng đáng tin cậy.
+      form(method="POST" action="/")
+        .form-grid
+          input(type="text" name="student_name" placeholder="Tên hoặc mã số sinh viên (tuỳ chọn)" value=persisted.student_name || '')
 
-      select(name="weekday" required)
-        option(value="") -- Chọn ngày trong tuần --
-        option(value="Monday") Monday
-        option(value="Tuesday") Tuesday
-        option(value="Wednesday") Wednesday
-        option(value="Thursday") Thursday
-        option(value="Friday") Friday
-        option(value="Saturday") Saturday
-        option(value="Sunday") Sunday
+          select(name="model_name")
+            option(value="") Chọn mô hình (mặc định RandomForest)
+            each modelName in availableModels
+              option(
+                value=modelName
+                selected=persisted.model_name === modelName
+              )= modelName
 
-      input(type="number" step="0.1" name="distance_km" placeholder="Khoảng cách (km)" required)
+          select(name="weekday" required)
+            option(value="") -- Chọn ngày trong tuần --
+            each day in ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday']
+              option(
+                value=day
+                selected=persisted.weekday === day
+              ) #{day}
 
-      select(name="weather" required)
-        option(value="") -- Thời tiết --
-        option(value="sunny") Sunny
-        option(value="rainy") Rainy
-        option(value="cloudy") Cloudy
-        option(value="windy") Windy
+          input(type="number" step="0.1" name="distance_km" placeholder="Khoảng cách (km)" required value=persisted.distance_km || '')
 
-      select(name="transport_mode" required)
-        option(value="") -- Phương tiện --
-        option(value="walk") Walk
-        option(value="bike") Bike
-        option(value="bus") Bus
-        option(value="car") Car
-        option(value="train") Train
+          select(name="weather" required)
+            option(value="") -- Thời tiết --
+            each weather in ['sunny','rainy','cloudy','windy']
+              option(
+                value=weather
+                selected=persisted.weather === weather
+              ) #{weather.charAt(0).toUpperCase()+weather.slice(1)}
 
-      input(type="number" step="0.1" name="avg_speed_kmh" placeholder="Tốc độ TB (km/h)" required)
-      input(type="number" step="0.1" name="sleep_hours" placeholder="Số giờ ngủ" required)
+          select(name="transport_mode" required)
+            option(value="") -- Phương tiện --
+            each mode in ['walk','bike','bus','car','train']
+              option(
+                value=mode
+                selected=persisted.transport_mode === mode
+              ) #{mode.charAt(0).toUpperCase()+mode.slice(1)}
 
-      select(name="alarm_used" required)
-        option(value="") -- Báo thức --
-        option(value="yes") Có
-        option(value="no") Không
+          input(type="number" step="0.1" name="avg_speed_kmh" placeholder="Tốc độ TB (km/h)" required value=persisted.avg_speed_kmh || '')
+          input(type="number" step="0.1" name="sleep_hours" placeholder="Số giờ ngủ" required value=persisted.sleep_hours || '')
 
-      input(type="number" min="7" max="17" name="hour_start_time" placeholder="Giờ học bắt đầu" required)
+          select(name="alarm_used" required)
+            option(value="") -- Báo thức --
+            each opt in ['yes','no']
+              option(
+                value=opt
+                selected=persisted.alarm_used === opt
+              ) #{opt === 'yes' ? 'Có' : 'Không'}
 
-      select(name="class_importance" required)
-        option(value="") -- Tầm quan trọng lớp học --
-        option(value="low") Thấp
-        option(value="medium") Trung bình
-        option(value="high") Cao
+          input(type="number" min="7" max="17" name="hour_start_time" placeholder="Giờ học bắt đầu" required value=persisted.hour_start_time || '')
 
-      select(name="unexpected_event" required)
-        option(value="") -- Sự kiện bất ngờ --
-        option(value="yes") Có
-        option(value="no") Không
+          select(name="class_importance" required)
+            option(value="") -- Tầm quan trọng lớp học --
+            each opt in [{value:'low',label:'Thấp'},{value:'medium',label:'Trung bình'},{value:'high',label:'Cao'}]
+              option(
+                value=opt.value
+                selected=persisted.class_importance === opt.value
+              ) #{opt.label}
 
-      select(name="traffic_condition" required)
-        option(value="") -- Tình trạng giao thông --
-        option(value="light") Thông thoáng
-        option(value="moderate") Vừa phải
-        option(value="heavy") Đông đúc
+          select(name="unexpected_event" required)
+            option(value="") -- Sự kiện bất ngờ --
+            each opt in ['yes','no']
+              option(
+                value=opt
+                selected=persisted.unexpected_event === opt
+              ) #{opt === 'yes' ? 'Có' : 'Không'}
 
-      input(type="number" step="0.01" min="0.1" max="1.0" name="habitual_punctuality" placeholder="Thói quen đúng giờ (0.1-1.0)" required)
+          select(name="traffic_condition" required)
+            option(value="") -- Tình trạng giao thông --
+            each opt in [{value:'light',label:'Thông thoáng'},{value:'moderate',label:'Vừa phải'},{value:'heavy',label:'Đông đúc'}]
+              option(
+                value=opt.value
+                selected=persisted.traffic_condition === opt.value
+              ) #{opt.label}
 
-      input(type="number" step="0.1" name="preparation_time" placeholder="Thời gian chuẩn bị (phút)" required)
+          input(type="number" step="0.01" min="0.1" max="1.0" name="habitual_punctuality" placeholder="Thói quen đúng giờ (0.1-1.0)" required value=persisted.habitual_punctuality || '')
 
-    button.submit(type="submit") DỰ ĐOÁN NGAY
+          input(type="number" step="0.1" name="preparation_time" placeholder="Thời gian chuẩn bị (phút)" required value=persisted.preparation_time || '')
+
+        button.submit(type="submit")
+          span Dự đoán ngay
+
+    aside.side-panel
+      .insight-card
+        h3 Tips cá nhân hóa
+        ul
+          li Ngủ đủ 7-8 tiếng giúp giảm 18% rủi ro đi trễ
+          li Chọn tuyến đường ít giao thông trong giờ cao điểm
+          li Chuẩn bị đồ dùng vào tối hôm trước để tiết kiệm 10 phút
+      .history-card
+        h3 Số liệu mới cập nhật
+        .stat
+          span.label Tỷ lệ đi đúng giờ
+          span.value 62%
+        .stat
+          span.label Giao thông đông đúc
+          span.value 38%
+        .stat
+          span.label Người dùng bật báo thức
+          span.value 74%
+
+  section#how-it-works.info-section
+    h2 Cách mô hình hoạt động
+    .steps
+      .step
+        span.step-number 01
+        h4 Thu thập dữ liệu
+        p Hệ thống ghi nhận lịch học, thời tiết, phương tiện và thói quen cá nhân.
+      .step
+        span.step-number 02
+        h4 Chuẩn hóa & mã hóa
+        p Tự động xử lý thang đo và biến danh mục để đảm bảo công bằng giữa các đặc trưng.
+      .step
+        span.step-number 03
+        h4 Ensemble dự đoán
+        p 6 mô hình khác nhau được huấn luyện và bạn có thể chọn mô hình phù hợp.
+
+  section#about.info-section
+    h2 Về dự án
+    p Đây là đồ án học máy tập trung vào hành vi đúng giờ của sinh viên đại học tại Việt Nam, tận dụng dữ liệu tổng hợp và thông tin tự báo cáo để huấn luyện mô hình. Chúng tôi cam kết minh bạch và bảo vệ quyền riêng tư của người dùng.

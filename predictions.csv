@@ -1,0 +1,25 @@
+2025-11-19T08:14:09.894Z | N22DCDK078 | 13%
+2025-11-19T08:14:09.934Z | N22DCDK078 | 13%
+2025-11-19T08:14:09.962Z | N22DCDK078 | 13%
+2025-11-19T08:14:09.984Z | N22DCDK078 | 13%
+2025-11-19T08:15:25.854Z | N22DCDK078 | 30%
+2025-11-19T08:16:50.639Z | N22DCDK078 | 5%
+2025-11-19T08:19:16.282Z | N22DCDK078 | 12%
+2025-11-21T09:25:08.716Z | N22DCDK078 | 7.2%
+2025-11-21T09:25:22.936Z | N22DCDK078 | 7.2%
+2025-11-21T09:25:24.371Z | N22DCDK078 | 7.2%
+2025-11-21T09:25:26.935Z | N22DCDK078 | 7.2%
+2025-11-21T09:26:43.437Z | N22DCDK078 | 100%
+2025-11-21T09:32:15.683Z | N22DCDK078 | GradientBoostingClassifier | 80.24%
+2025-11-21T09:35:56.004Z | N22DCDK078 | LogisticRegression | 0.38%
+2025-11-21T09:36:29.039Z | N22DCDK078 | LogisticRegression | 0.38%
+2025-11-21T09:37:31.165Z | N22DCDK078 | LogisticRegression | 0.38%
+2025-11-21T09:39:42.383Z | N22DCDK078 | LinearSVC | 11.24%
+2025-11-21T09:42:59.638Z | N22DCDK078 | LinearSVC | 11.24% | {"student_name":"N22DCDK078","model_name":"LinearSVC","weekday":"Wednesday","distance_km":"12","weather":"sunny","transport_mode":"bus","avg_speed_kmh":"40","sleep_hours":"7","alarm_used":"yes","hour_start_time":"13","class_importance":"high","unexpected_event":"no","traffic_condition":"moderate","habitual_punctuality":"0.89","preparation_time":"15"}
+2025-11-21T09:43:11.013Z | N22DCDK078 | LinearSVC | 11.24% | {"student_name":"N22DCDK078","model_name":"LinearSVC","weekday":"Wednesday","distance_km":"12","weather":"sunny","transport_mode":"bus","avg_speed_kmh":"40","sleep_hours":"7","alarm_used":"yes","hour_start_time":"13","class_importance":"high","unexpected_event":"no","traffic_condition":"moderate","habitual_punctuality":"0.89","preparation_time":"15"}
+2025-11-21T09:45:28.803Z | N22DCDK078 | LinearSVC | 11.24% | {"student_name":"N22DCDK078","model_name":"LinearSVC","weekday":"Wednesday","distance_km":"12","weather":"sunny","transport_mode":"bus","avg_speed_kmh":"40","sleep_hours":"7","alarm_used":"yes","hour_start_time":"13","class_importance":"high","unexpected_event":"no","traffic_condition":"moderate","habitual_punctuality":"0.89","preparation_time":"15"}
+2025-11-21T09:47:53.933Z | N22DCDK078 | LinearSVC | 11.24% | {"student_name":"N22DCDK078","model_name":"LinearSVC","weekday":"Wednesday","distance_km":"12","weather":"sunny","transport_mode":"bus","avg_speed_kmh":"40","sleep_hours":"7","alarm_used":"yes","hour_start_time":"13","class_importance":"high","unexpected_event":"no","traffic_condition":"moderate","habitual_punctuality":"0.89","preparation_time":"15"}
+2025-11-21T09:56:27.158Z | N22DCDK078 | LinearSVC | 45.64% | {"student_name":"N22DCDK078","model_name":"LinearSVC","weekday":"Tuesday","distance_km":"20","weather":"sunny","transport_mode":"bus","avg_speed_kmh":"40","sleep_hours":"5","alarm_used":"yes","hour_start_time":"12","class_importance":"high","unexpected_event":"no","traffic_condition":"heavy","habitual_punctuality":"0.7","preparation_time":"15"}
+2025-11-21T09:59:25.121Z | N22DCDK078 | LinearSVC | 45.64% | {"student_name":"N22DCDK078","model_name":"LinearSVC","weekday":"Tuesday","distance_km":"20","weather":"sunny","transport_mode":"bus","avg_speed_kmh":"40","sleep_hours":"5","alarm_used":"yes","hour_start_time":"12","class_importance":"high","unexpected_event":"no","traffic_condition":"heavy","habitual_punctuality":"0.7","preparation_time":"15"}
+2025-11-21T10:01:24.635Z | Đinh Trí Tài | GradientBoostingClassifier | 30.31% | {"student_name":"Đinh Trí Tài","model_name":"GradientBoostingClassifier","weekday":"Tuesday","distance_km":"30","weather":"windy","transport_mode":"bus","avg_speed_kmh":"60","sleep_hours":"5","alarm_used":"no","hour_start_time":"7","class_importance":"high","unexpected_event":"no","traffic_condition":"moderate","habitual_punctuality":"0.6","preparation_time":"15"}
+2025-11-21T10:07:37.134Z | Đinh Trí Tài | GradientBoostingClassifier | 30.31% | {"student_name":"Đinh Trí Tài","model_name":"GradientBoostingClassifier","weekday":"Tuesday","distance_km":"30","weather":"windy","transport_mode":"bus","avg_speed_kmh":"60","sleep_hours":"5","alarm_used":"no","hour_start_time":"7","class_importance":"high","unexpected_event":"no","traffic_condition":"moderate","habitual_punctuality":"0.6","preparation_time":"15"}

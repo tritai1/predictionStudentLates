@@ -6,7 +6,18 @@ html(lang="vi")
     title Dự đoán sinh viên đi trễ
     link(rel="stylesheet", href="/style.css")
   body
+    .background-pattern
     .container
       header
-        //- h1 Dự Đoán Xác Suất Đi Trễ Của Sinh Viên
-      block content
+        .brand
+          h1 Dự đoán sinh viên đi trễ
+          p.subtitle Dữ liệu thời gian thực & mô hình học máy
+        nav
+          ul
+            li: a(href="/") Trang chủ
+            li: a(href="/#how-it-works") Cách hoạt động
+            li: a(href="/#about") Về dự án
+      main
+        block content
+      footer
+        p © #{new Date().getFullYear()} PredictLate · Xây dựng bởi đội ngũ Trita

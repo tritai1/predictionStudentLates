@@ -2,6 +2,18 @@ const path = require('path');
 const {PythonShell} = require('python-shell');
 const fs = require('fs');
 
+
+const MODEL_OPTIONS = [
+    'RandomForestClassifier',
+    'DecisionTreeClassifier',
+    'GradientBoostingClassifier',
+    'LogisticRegression',
+    'LinearSVC',
+    'SVC',
+];
+
+const DEFAULT_MODEL = 'RandomForestClassifier';
+
 const runPython = async (userData) => {
     const options = {
         mode: 'text',
@@ -31,14 +43,14 @@ const runPython = async (userData) => {
 
 // GET - Hiển thị form
 module.exports.home = async (req, res) => {
-    res.render('page/home.pug', { error: null }); // hoặc chỉ hiển thị form
+    res.render('page/home.pug', { error: null, models: MODEL_OPTIONS }); // hoặc chỉ hiển thị form
 };
 
 // POST - Xử lý dự đoán
 module.exports.PostHome = async (req, res) => {
     const userData = req.body;
+    const inputSnapshot = { ...req.body };
 
-    // Lấy tên sinh viên (tùy chọn)
     const studentName = userData.student_name?.trim() || 'Bạn';
     delete userData.student_name; // không gửi tên vào model
 
@@ -49,31 +61,41 @@ module.exports.PostHome = async (req, res) => {
         if (output.error) {
             return res.render('page/home.pug', {
                 error: output.error,
-                oldData: req.body
+                oldData: req.body,
+                models: MODEL_OPTIONS,
             });
         }
 
+        const selectedModel = output.model_name || userData.model_name || DEFAULT_MODEL;
+        const probability = output.probability;
+        const comparison = output.probabilities || {};
+
         // Ghi log (điểm cộng đồ án)
-        const logLine = `${new Date().toISOString()} | ${studentName} | ${output.probability}%\n`;
-        fs.appendFileSync('predictions.log', logLine);
+        const sanitizedInputs = JSON.stringify(inputSnapshot).replace(/\s+/g, ' ');
+        const logLine = `${new Date().toISOString()} | ${studentName} | ${selectedModel} | ${probability}% | ${sanitizedInputs}\n`;
+        fs.appendFileSync('predictions.csv', logLine);
 
         // Xác định mức độ nguy cơ
-        const level = output.probability < 30 ? 'low'
-                    : output.probability < 70 ? 'medium'
+        const level = probability < 30 ? 'low'
+                    : probability < 70 ? 'medium'
                     : 'high';
 
         // Render trang kết quả
         res.render('page/result.pug', {
             name: studentName,
-            probability: output.probability,
-            level: level
+            probability: probability,
+            level: level,
+            selectedModel,
+            probabilities: comparison,
+            inputs: inputSnapshot,
         });
 
     } catch (err) {
         console.error('Lỗi khi gọi Python:', err);
         res.render('page/home.pug', {
             error: 'Hệ thống gặp sự cố, vui lòng thử lại sau ít phút!',
-            oldData: req.body
+            oldData: req.body,
+            models: MODEL_OPTIONS,
         });
     }
 };
