@@ -1,0 +1,76 @@
+extends ../layout/home.pug
+
+block content
+  - const formData = persisted || {}
+  - const availableModels = models || []
+
+  section.hero
+    .hero-text
+      h1 Dự đoán theo mã sinh viên
+      p Nhập mã sinh viên có sẵn trong hệ thống, chọn thứ ngày và thời tiết để xem dự đoán xác suất đi trễ.
+      ul.hero-highlights
+        li Dự đoán dựa trên dữ liệu thực tế của sinh viên
+        li Thay đổi thứ ngày và thời tiết để so sánh
+        li Xem lịch sử đi trễ của sinh viên
+
+  if error
+    .alert.error #{error}
+
+  .content-wrapper
+    section.form-card
+      h2 Thông tin dự đoán
+      p.description Nhập mã sinh viên có trong hệ thống và chọn điều kiện thời tiết.
+      
+      form(method="POST" action="/predict-student")
+        .form-grid
+          input(
+            type="text" 
+            name="student_id" 
+            placeholder="Mã sinh viên (vd: N22DCQCN001)" 
+            required
+            value=formData.student_id || ''
+          )
+
+          select(name="weekday" required)
+            option(value="") -- Chọn thứ ngày --
+            each day in ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday']
+              option(
+                value=day
+                selected=formData.weekday === day
+              ) #{day}
+
+          select(name="weather" required)
+            option(value="") -- Chọn thời tiết --
+            option(value="rainy" selected=formData.weather === 'rainy') Mưa (Rainy)
+            option(value="sunny" selected=formData.weather === 'sunny') Nắng (Sunny)
+            option(value="cloudy" selected=formData.weather === 'cloudy') Nhiều mây (Cloudy)
+            option(value="windy" selected=formData.weather === 'windy') Gió (Windy)
+
+          select(name="model_name")
+            option(value="") Chọn mô hình (mặc định RandomForest)
+            each modelName in availableModels
+              option(
+                value=modelName
+                selected=formData.model_name === modelName
+              )= modelName
+
+        button.submit(type="submit") 
+          span DỰ ĐOÁN NGAY
+
+  section.info-section
+    .info-card
+      h3 💡 Lưu ý
+      ul
+        li Mã sinh viên phải có trong hệ thống (dataset)
+        li Hệ thống sẽ tự động lấy thông tin mặc định của sinh viên đó
+        li Chỉ thay đổi thứ ngày và thời tiết để xem sự khác biệt
+        li Có thể so sánh kết quả với dữ liệu thực tế của sinh viên
+
+    .info-card
+      h3 📊 Ví dụ mã sinh viên
+      p Các mã sinh viên trong hệ thống thường có định dạng:
+      code N22DCQCN001, N22DCQCN002, ...
+      p 
+        | Hoặc bạn có thể xem trong file 
+        code student_lateness_dataset.csv
+

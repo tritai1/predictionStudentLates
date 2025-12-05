@@ -99,3 +99,82 @@ module.exports.PostHome = async (req, res) => {
         });
     }
 };
+
+// GET - Hiển thị form dự đoán theo student_id
+module.exports.predictByStudent = async (req, res) => {
+    res.render('page/predict-student.pug', { 
+        error: null, 
+        models: MODEL_OPTIONS,
+        persisted: req.query || {}
+    });
+};
+
+// POST - Xử lý dự đoán theo student_id
+module.exports.PostPredictByStudent = async (req, res) => {
+    const { student_id, weekday, weather, model_name } = req.body;
+
+    // Validation
+    if (!student_id || !weekday || !weather) {
+        return res.render('page/predict-student.pug', {
+            error: 'Vui lòng điền đầy đủ thông tin: Mã sinh viên, Thứ ngày và Thời tiết',
+            models: MODEL_OPTIONS,
+            persisted: req.body,
+        });
+    }
+
+    try {
+        const userData = {
+            student_id: student_id.trim(),
+            weekday: weekday,
+            weather: weather,
+            model_name: model_name || DEFAULT_MODEL
+        };
+
+        const output = await runPython(userData);
+
+        // Nếu Python trả về lỗi
+        if (output.error) {
+            return res.render('page/predict-student.pug', {
+                error: output.error,
+                models: MODEL_OPTIONS,
+                persisted: req.body,
+            });
+        }
+
+        const selectedModel = output.model_name || model_name || DEFAULT_MODEL;
+        const probability = output.probability;
+        const comparison = output.probabilities || {};
+        const studentInfo = output.student_info || {};
+        const inputData = output.input_data || {};
+
+        // Ghi log
+        const logLine = `${new Date().toISOString()} | ${student_id} | ${selectedModel} | ${probability}% | weekday:${weekday}, weather:${weather}\n`;
+        fs.appendFileSync('predictions.csv', logLine);
+
+        // Xác định mức độ nguy cơ
+        const level = probability < 30 ? 'low'
+                    : probability < 70 ? 'medium'
+                    : 'high';
+
+        // Render trang kết quả
+        res.render('page/result-student.pug', {
+            studentId: student_id,
+            weekday: weekday,
+            weather: weather,
+            probability: probability,
+            level: level,
+            selectedModel,
+            probabilities: comparison,
+            studentInfo: studentInfo,
+            inputData: inputData,
+        });
+
+    } catch (err) {
+        console.error('Lỗi khi gọi Python:', err);
+        res.render('page/predict-student.pug', {
+            error: err.message || 'Hệ thống gặp sự cố, vui lòng thử lại sau ít phút!',
+            models: MODEL_OPTIONS,
+            persisted: req.body,
+        });
+    }
+};
