@@ -5,12 +5,12 @@ import pandas as pd
 import numpy as np
 
 MODEL_FILES = {
-    "DecisionTreeClassifier": r"D:\predictingStudentsLate\DecisionTreeClassifier_model.pkl",
-    "RandomForestClassifier": r"D:\predictingStudentsLate\best_model_final.pkl",
-    "GradientBoostingClassifier": r"D:\predictingStudentsLate\GradientBoostingClassifier_model.pkl",
-    "LogisticRegression": r"D:\predictingStudentsLate\LogisticRegression.pkl",
-    "LinearSVC": r"D:\predictingStudentsLate\LinearSVC_model.pkl",
-    "SVC": r"D:\predictingStudentsLate\SVC_model.pkl",
+    "DecisionTreeClassifier": r"D:\predictingStudentsLate\model\DecisionTreeClassifier_model.pkl",
+    "RandomForestClassifier": r"D:\predictingStudentsLate\model\best_model_final.pkl",
+    "GradientBoostingClassifier": r"D:\predictingStudentsLate\model\GradientBoostingClassifier_model.pkl",
+    "LogisticRegression": r"D:\predictingStudentsLate\model\LogisticRegression.pkl",
+    "LinearSVC": r"D:\predictingStudentsLate\model\LinearSVC_model.pkl",
+    "SVC": r"D:\predictingStudentsLate\model\SVC_model.pkl",
 }
 
 DEFAULT_MODEL = "RandomForestClassifier"
