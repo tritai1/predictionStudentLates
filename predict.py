@@ -6,7 +6,7 @@ import numpy as np
 
 MODEL_FILES = {
     "DecisionTreeClassifier": r"D:\predictingStudentsLate\model\DecisionTreeClassifier_model.pkl",
-    "RandomForestClassifier": r"D:\predictingStudentsLate\model\best_model_final.pkl",
+    "RandomForestClassifier": r"D:\predictingStudentsLate\model\RandomForestClassifier.pkl",
     "GradientBoostingClassifier": r"D:\predictingStudentsLate\model\GradientBoostingClassifier_model.pkl",
     "LogisticRegression": r"D:\predictingStudentsLate\model\LogisticRegression.pkl",
     "LinearSVC": r"D:\predictingStudentsLate\model\LinearSVC_model.pkl",
@@ -79,24 +79,6 @@ def predict(data):
 
 
 def predict_by_student_id(student_id, weekday, weather, model_name=None):
-    """
-    Dự đoán xác suất đi trễ cho một sinh viên với weekday và weather cụ thể
-    
-    Parameters:
-    -----------
-    student_id : str
-        Mã sinh viên (phải có trong dataset)
-    weekday : str
-        Thứ ngày (Monday, Tuesday, ...)
-    weather : str
-        Thời tiết (sunny, rainy, cloudy, windy)
-    model_name : str, optional
-        Tên model để sử dụng. Nếu None sẽ dùng DEFAULT_MODEL
-    
-    Returns:
-    --------
-    dict: Kết quả dự đoán và thông tin sinh viên
-    """
     import os
     
     # Load dataset

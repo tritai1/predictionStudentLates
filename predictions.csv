@@ -29,3 +29,4 @@
 2025-12-05T15:31:43.966Z | N22DCQCN026 | SVC | 1.37% | weekday:Tuesday, weather:rainy
 2025-12-06T03:38:42.095Z | N22DCQCN026 | SVC | 0.57% | weekday:Saturday, weather:sunny
 2025-12-07T04:26:59.985Z | N22DCQCN026 | DecisionTreeClassifier | 0% | weekday:Tuesday, weather:windy
+2025-12-23T16:12:09.779Z | N22DCQCN026 | LogisticRegression | 3.07% | weekday:Thursday, weather:rainy
