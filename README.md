@@ -450,7 +450,8 @@ stk.fit(x_train, y_train)
 
 #### 1️⃣ Boxplot - So Sánh 6 Mô Hình (5-Fold Cross Validation)
 
-![Boxplot Baseline Models](Boxplot_Baseline_Models_Metric_accuracy.png)
+<img width="1189" height="790" alt="image" src="https://github.com/user-attachments/assets/fd2157ff-697e-47f4-bed0-e2bc5bfdac92" />
+
 
 **Mô Tả:**
 - Biểu đồ hộp so sánh hiệu suất của 6 mô hình trên 5-fold cross validation
@@ -480,7 +481,8 @@ stk.fit(x_train, y_train)
 
 #### 2️⃣ Histogram - Phân Bố Thời Gian Chuẩn Bị (Preparation Time)
 
-![Histogram Preparation Time](Histogram_Preparation_Time.png)
+<img width="580" height="433" alt="image" src="https://github.com/user-attachments/assets/ed0bb2f1-c9fa-4f31-986a-9a05a621f538" />
+
 
 **Mô Tả:**
 - Biểu đồ thống kê phân bố `preparation_time` (0-60 phút)
@@ -512,7 +514,8 @@ stk.fit(x_train, y_train)
 
 #### 3️⃣ Boxplot - Thời Gian Chuẩn Bị Theo Ngày Trong Tuần
 
-![Boxplot Preparation Time by Weekday](Boxplot_Preparation_Time_Weekday.png)
+<img width="563" height="432" alt="image" src="https://github.com/user-attachments/assets/ded1966b-4ad9-4918-82ad-43fb5cc15020" />
+
 
 **Mô Tả:**
 - So sánh phân bố thời gian chuẩn bị trên 5 ngày trong tuần
@@ -544,7 +547,8 @@ stk.fit(x_train, y_train)
 
 #### 4️⃣ Countplot - Phân Bố Các Loại Thời Tiết
 
-![Countplot Weather Distribution](Countplot_Weather_Distribution.png)
+<img width="589" height="432" alt="image" src="https://github.com/user-attachments/assets/df29b6cc-c04e-44ce-8d77-97fa7b0bdb98" />
+
 
 **Mô Tả:**
 - Biểu đồ đếm số lượng sinh viên theo loại thời tiết
